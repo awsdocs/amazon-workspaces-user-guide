@@ -2,7 +2,7 @@
 
 After your administrator creates your WorkSpace, you'll receive an invitation email\. Complete the following tasks to get started with your WorkSpace\.
 
-
+**Topics**
 + [Complete Your User Profile](#complete-registration)
 + [Choose a Client](#choose-client)
 + [Verify Networking Requirements](#verify-requirements)
@@ -17,14 +17,10 @@ After your administrator creates your WorkSpace, you must complete your user pro
 1. Open the link in the invitation email\.
 
 1. Type your password\. Passwords are case\-sensitive and must be between 8 and 64 characters in length, inclusive\. Passwords must contain at least one character from three of the following categories:
-
    + Lowercase characters \(a\-z\)
-
    + Uppercase characters \(A\-Z\)
-
    + Numbers \(0\-9\)
-
-   + Non\-alphanumeric characters \(\~\!@\#$%^&\*\_\-\+=`|\\\(\)\{\}\[\]:;"'<>,\.?/\)
+   + Non\-alphanumeric characters \(\~\!@\#$%^&\*\_\-\+=`\|\\\(\)\{\}\[\]:;"'<>,\.?/\)
 
 1. Choose **Update User**
 
@@ -35,20 +31,13 @@ Note that you can change your password later on from within your WorkSpace\. Pre
 You can connect to your WorkSpace using the client application for a supported device or a web browser\. To run the Amazon WorkSpaces client application, you must have a PC, Mac, iPad, Kindle, Android tablet, or Chromebook\. To run Amazon WorkSpaces Web Access, you must have a PC or Mac running a Chrome or Firefox web browser\.
 
 For information about connecting to your WorkSpace, see the following client documentation\.
-
-+ Android Client Application
-
-+ Chromebook Client Application
-
-+ iPad Client Application
-
-+ OS X Client Application
-
-+ PCoIP Zero Client
-
-+ Web Access
-
-+ Windows Client Application
++ [Android Client Application](amazon-workspaces-android-client.md)
++ [Chromebook Client Application](amazon-workspaces-chromebook-client.md)
++ [iPad Client Application](amazon-workspaces-ipad-client.md)
++ [OS X Client Application](amazon-workspaces-osx-client.md)
++ [PCoIP Zero Client](amazon-workspaces-pcoip-zero-client.md)
++ [Web Access](amazon-workspaces-web-access.md)
++ [Windows Client Application](amazon-workspaces-windows-client.md)
 
 ## Verify Networking Requirements<a name="verify-requirements"></a>
 

@@ -2,7 +2,7 @@
 
 The following information will help you get started with the Amazon WorkSpaces Android client application\.
 
-
+**Topics**
 + [Requirements](#android-requirements)
 + [Setup and Installation](#android_setup)
 + [Connecting to Your WorkSpace](#android_connecting)
@@ -16,9 +16,7 @@ The following information will help you get started with the Amazon WorkSpaces A
 ## Requirements<a name="android-requirements"></a>
 
 The Amazon WorkSpaces Android client application requires the following:
-
 + Amazon Kindle Fire tablets released after 2012 with Fire OS 4\.0 and later
-
 + Samsung or Nexus tablets with Android OS 4\.4 and later\. The client application works on most tablets with Android version 4\.4 or later, but some devices might not be compatible\. If you have problems with a device, you can report the problem on the [Amazon WorkSpaces forum](https://forums.aws.amazon.com/forum.jspa?forumID=164)\.
 
 ## Setup and Installation<a name="android_setup"></a>
@@ -107,7 +105,7 @@ To toggle the display of the on\-screen keyboard, double\-tap with two fingers a
 
 ## Mouse Modes<a name="android_mouse_modes"></a>
 
-The mouse mode is set using the radial menu\.
+The mouse mode is set using the [radial menu](#android_radial_menu)\.
 
 ### Direct Mode<a name="android_mouse_mode_direct"></a>
 
@@ -134,6 +132,7 @@ The following table describes the changes to each release of the Android client 
 
 | Release | Changes | 
 | --- | --- | 
+|  2\.4\.2  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
 |  2\.4\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
 |  2\.3\.4  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
 |  2\.3\.3  |  Localization enhancements  | 

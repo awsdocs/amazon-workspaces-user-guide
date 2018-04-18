@@ -2,7 +2,7 @@
 
 The following are common issues that you might have with your WorkSpaces client\.
 
-
+**Topics**
 + [My WorkSpaces client gives me a network error, but I am able to use other network enabled apps on my device](#net_error)
 + [It sometimes takes several minutes to log in to my WorkSpace](#login_delay)
 + [Sometimes I am logged off of my WorkSpace, even though I closed the session, but did not log off](#logged_out)
@@ -16,35 +16,57 @@ The following are common issues that you might have with your WorkSpaces client\
 
 The WorkSpaces client applications rely on access to resources in the AWS cloud and require a connection that provides at least 1 Mbps download bandwidth\. If your device has an intermittent connection to the network, the WorkSpaces client application may report an issue with the network\.
 
-If you have a stable internet connection but your client reports an issue with your internet connection, verify that the root certificates for your operating system are up\-to\-date or contact your system administrator for assistance\. Any operating system released or updated after 2007 trusts the certificates used by Amazon WorkSpaces\. If you choose to manually add the required root certificates, use the following instructions\.
+Amazon WorkSpaces enforces the use of digital certificates issued by Amazon Trust Services as of May 2018\. Amazon Trust Services is already a trusted Root CA on the operating systems supported by Amazon WorkSpaces\. If the Root CA list for your operating system is not up\-to\-date, your device cannot connect to WorkSpaces and the client gives a network error\.
 
-WorkSpaces use ATS certificates issued by CAs that chain from one of the following root CAs:
+**To recognize connection issues due to certificate failures**
++ PCoIP zero clients — The following error message is displayed:
 
-+ Amazon Root CA 1
+  ```
+  Failed to connect. The server provided a certificate that is invalid. See below for details:
+  - The supplied certificate is invalid due to timestamp
+  - The supplied certificate is not rooted in the devices local certificate store
+  ```
++ Other clients — The health checks fail with a red warning triangle for **Internet**\.
 
-+ Amazon Root CA 2
+**Topics**
++ [Windows Client Application](#certificate-issues-windows)
++ [Other Client Applications](#certificate-issues-other)
 
-+ Amazon Root CA 3
+### Windows Client Application<a name="certificate-issues-windows"></a>
 
-+ Amazon Root CA 4
+Use one of the following solutions for certificate failures\.
 
-These root certificates are cross\-signed by the following root CAs:
+**Solution 1: Update the client application**  
+Download and install the latest Windows client application from [Amazon WorkSpaces Client Downloads](http://clients.amazonworkspaces.com/)\. During installation, the client application ensures that your operating system trusts certificates issued by Amazon Trust Services\.
 
-+ Starfield Services Root Certificate Authority \- G2
+**Solution 2: Add Amazon Trust Services to the local Root CA list**
 
-+ Starfield Class 2 Certificate Authority
+1. Open [https://www\.amazontrust\.com/repository/](https://www.amazontrust.com/repository/)\.
 
-If your trust store contains either the Amazon or Starfield root certificates, WorkSpaces work with your system\. Otherwise, you must add them from [Amazon Trust Services](https://www.amazontrust.com/repository/)\.
+1. Download the Starfield certificate in DER format \(2b071c59a0a0ae76b0eadb2bad23bad4580b69c3601b630c2eaf0613afa83f92\)\.
 
-To add certificates to your local operating system, see the following documentation:
+1. Open the Microsoft Management Console\. \(From a Command Prompt window, run mmc\.\)
 
+1. Choose **File**, **Add/Remove Snap\-in**, **Certificates**, **Add**\.
+
+1. On the **Certificates snap\-in** page, select **Computer account** and choose **Next**\. Keep the default, **Local computer**\. Choose **Finish**\. Choose **OK**\.
+
+1. Expand **Certificates \(Local Computer\)** and select **Trusted Root Certification Authorities**\. Choose **Action**, **All Tasks**, **Import**\.
+
+1. Follow the wizard to import the certificate that you downloaded\.
+
+1. Exit and restart the WorkSpaces client application\.
+
+**Solution 3: Deploy Amazon Trust Services as a trusted CA using Group Policy**  
+Add the Starfield certificate to the trusted Root CAs for the domain using Group Policy\. For more information, see [Use Policy to Distribute Certificates](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772491(v=ws.11))\.
+
+### Other Client Applications<a name="certificate-issues-other"></a>
+
+Add the Starfield certificate \(2b071c59a0a0ae76b0eadb2bad23bad4580b69c3601b630c2eaf0613afa83f92\) from [Amazon Trust Services](https://www.amazontrust.com/repository/)\. For more information about how to add a Root CA, see the following documentation:
 + Android: [Add & remove certificates](https://support.google.com/nexus/answer/2844832)
-
 + Chrome OS: [Manage client certificates on Chrome devices](https://support.google.com/chrome/a/answer/6080885)
-
-+ Mac OS/iOS: [Installing a CA's Root Certificate on Your Test Device](https://developer.apple.com/library/content/qa/qa1948/_index.html#//apple_ref/doc/uid/DTS40017603-CH1-SECINSTALLING)
-
-+ Windows: [Manage Trusted Root Certificates](https://technet.microsoft.com/en-us/library/cc754841.aspx)
++ macOS and iOS: [Installing a CA's Root Certificate on Your Test Device](https://developer.apple.com/library/content/qa/qa1948/_index.html#//apple_ref/doc/uid/DTS40017603-CH1-SECINSTALLING)
++ PCoIP zero clients: [Amazon certificate change may affect Zero Clients](https://techsupport.teradici.com/ics/support/kbanswer.asp?deptID=15164&task=knowledge&questionID=3247)
 
 ## It sometimes takes several minutes to log in to my WorkSpace<a name="login_delay"></a>
 
@@ -67,9 +89,7 @@ To restore your WorkSpace, ask your administrator to rebuild your WorkSpace\. Yo
 ## I am getting a 'network connection is slow' warning when connected to my WorkSpace<a name="latency_warning"></a>
 
 If the roundtrip time from your client to your WorkSpace is longer than 100ms, you can still use your WorkSpace, but this may result in a poor experience\. A slow roundtrip time can be caused by many factors, but the following are the most common:
-
 + You are too far from the AWS region that your WorkSpace resides in\. For the best WorkSpace experience, you should be within 2000 miles of the AWS region that your WorkSpace is in\.
-
 + Your network connection is inconsistent or slow\. For the best experience, your network connection should provide at least 300 kbps, with capability to provide over 1 Mbps when viewing video or using graphics intensive applications on your WorkSpace\.
 
 ## I got an invalid certificate error on the client application\. What does that mean?<a name="client_cert_error"></a>

@@ -2,7 +2,7 @@
 
 The following information will help you get started with the Amazon WorkSpaces Windows client application\.
 
-
+**Topics**
 + [Requirements](#windows-requirements)
 + [Setup and Installation](#windows_setup)
 + [Connecting to Your WorkSpace](#windows_connecting)
@@ -89,9 +89,7 @@ The Amazon WorkSpaces client applications use the HTTPS port for updates, regist
 ## Command Shortcuts<a name="windows_shortcuts"></a>
 
 The Amazon WorkSpaces Windows client supports the following command shortcuts:
-
 + Ctrl\+Alt\+Enter \- Toggle fullscreen display
-
 + Ctrl\+Alt\+F12 \- Disconnect session
 
 ## Troubleshooting<a name="windows_troubleshooting"></a>
@@ -118,6 +116,9 @@ The following table describes the changes to each release of the Windows client 
 
 | Release | Changes | 
 | --- | --- | 
+|  2\.4\.5  |  Added a check to ensure that certificates issued by Amazon Trust Services are trusted by Windows during installation\. By default, an up\-to\-date Windows local Root CA list includes Starfield Service Root Certificate Authority \- G2, and therefore trusts Amazon Trust Services certificates\. If the local Root CA list is outdated, the client installer installs the Starfield Service Root Certificate Authority \- G2 certificate to the system\. If you do not have administrator access to the client device, you'll be prompted to confirm the installation of the Root CA certificate\.  | 
+|  2\.4\.4  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
+|  2\.4\.2  |  Minor fixes  | 
 |  2\.4\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
 |  2\.3\.7  |  Addressed a grey screen case when displays are of different orientations  | 
 |  2\.3\.6  |  Localization enhancements  | 

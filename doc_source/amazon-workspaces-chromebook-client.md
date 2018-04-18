@@ -2,7 +2,7 @@
 
 The following information will help you get started with the Amazon WorkSpaces Chromebook client application\.
 
-
+**Topics**
 + [Requirements](#chromebook-requirements)
 + [Setup and Installation](#chromebook_setup)
 + [Connecting to Your WorkSpace](#chromebook_connecting)
@@ -70,6 +70,7 @@ The following table describes the changes to each release of the Chromebook clie
 
 | Release | Changes | 
 | --- | --- | 
+|  2\.4\.2  |  Fixed a bug with Caps Lock  | 
 |  2\.4\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-chromebook-client.html)  | 
 |  2\.2\.7  |  Fixed minor issues  | 
 |  2\.2\.4  |  Localization enhancements  | 

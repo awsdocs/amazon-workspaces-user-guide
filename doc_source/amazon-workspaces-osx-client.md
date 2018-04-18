@@ -2,7 +2,7 @@
 
 The following information will help you get started with the Amazon WorkSpaces Mac OS X client application\.
 
-
+**Topics**
 + [Requirements](#osx-requirements)
 + [Setup and Installation](#osx_setup)
 + [Connecting to Your WorkSpace](#osx_connecting)
@@ -88,9 +88,7 @@ The Amazon WorkSpaces client applications use the HTTPS port for updates, regist
 ## Command Shortcuts<a name="osx_shortcuts"></a>
 
 The Amazon WorkSpaces Mac OS X client supports the following command shortcuts:
-
 + Control\+Option\+Return—Toggle fullscreen display
-
 + Control\+Option\+F12—Disconnect session
 
 ## Release Notes<a name="osx-release-notes"></a>
@@ -100,6 +98,9 @@ The following table describes the changes to each release of the client applicat
 
 | Release | Changes | 
 | --- | --- | 
+|  2\.4\.5  |  Added a check to the installer to ensure that certificates issued by Amazon Trust Services are trusted by the operating system\.  | 
+|  2\.4\.4  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
+|  2\.4\.2  |  Minor fixes  | 
 |  2\.4\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
 |  2\.3\.7  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
 |  2\.3\.6  |  Localization enhancements  | 

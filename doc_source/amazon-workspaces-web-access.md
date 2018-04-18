@@ -9,19 +9,13 @@ Open [Amazon WorkSpaces Web Access](https://clients.amazonworkspaces.com/webclie
 ## Requirements<a name="web-access-requirements"></a>
 
 You can access a WorkSpace running the Windows 7 desktop experience and one of the following bundles:
-
 + Value
-
 + Standard
-
 + Performance
-
 + Power
 
 You must run one of the following web browsers on your Windows, Mac, or Linux computer:
-
 + Chrome 53 and later
-
 + Firefox 49 and later
 
 You must have web connectivity\.
@@ -37,7 +31,5 @@ Amazon WorkSpaces Web Access supports multiple screen resolutions\. The minimum 
 If you are required to use a proxy server to access the Internet, you can configure your browser to use the proxy server\. Amazon WorkSpaces Web Access respects the settings for all related traffic\.
 
 **Limits**
-
 + Proxy with authentication is not currently supported\.
-
 + Proxy server support for Web Access can vary by browser\. Chrome \(versions 55 and later\) supports Web Access traffic routed through a web proxy, while the current Firefox does not\.

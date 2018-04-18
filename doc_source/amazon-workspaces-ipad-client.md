@@ -2,7 +2,7 @@
 
 The following information will help you get started with the Amazon WorkSpaces iPad client application\.
 
-
+**Topics**
 + [Requirements](#ipad-requirements)
 + [Setup and Installation](#ipad_setup)
 + [Connecting to Your WorkSpace](#ipad_connecting)
@@ -16,13 +16,9 @@ The following information will help you get started with the Amazon WorkSpaces i
 ## Requirements<a name="ipad-requirements"></a>
 
 The Amazon WorkSpaces iPad client application requires the following:
-
 + iPad 2 or later with iOS 8\.0 or later
-
 + iPad Retina with iOS 8\.0 and later
-
 + iPad Mini with iOS 8\.0 and later
-
 + iPad Pro with iOS 9\.0 and later
 
 ## Setup and Installation<a name="ipad_setup"></a>
@@ -111,7 +107,7 @@ To toggle the display of the on\-screen keyboard, double\-tap with two fingers a
 
 ## Mouse Modes<a name="ipad_mouse_modes"></a>
 
-The mouse mode is set using the radial menu\.
+The mouse mode is set using the [radial menu](#ipad_radial_menu)\.
 
 ### Direct Mode<a name="ipad_mouse_mode_direct"></a>
 
@@ -138,6 +134,7 @@ The following table describes the changes to each release of the iPad client app
 
 | Release | Changes | 
 | --- | --- | 
+|  2\.4\.2  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
 |  2\.4\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
 |  2\.2\.4  |  Localization enhancements  | 
 |  2\.2\.3  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 

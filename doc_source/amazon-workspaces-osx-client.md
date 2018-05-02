@@ -98,7 +98,6 @@ The following table describes the changes to each release of the client applicat
 
 | Release | Changes | 
 | --- | --- | 
-|  2\.4\.5  |  Added a check to the installer to ensure that certificates issued by Amazon Trust Services are trusted by the operating system\.  | 
 |  2\.4\.4  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
 |  2\.4\.2  |  Minor fixes  | 
 |  2\.4\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 

@@ -30,6 +30,7 @@ Amazon WorkSpaces enforces the use of digital certificates issued by Amazon Trus
 
 **Topics**
 + [Windows Client Application](#certificate-issues-windows)
++ [PCoIP Zero Clients](#certificate-issues-zero-clients)
 + [Other Client Applications](#certificate-issues-other)
 
 ### Windows Client Application<a name="certificate-issues-windows"></a>
@@ -60,13 +61,24 @@ Download and install the latest Windows client application from [Amazon WorkSpac
 **Solution 3: Deploy Amazon Trust Services as a trusted CA using Group Policy**  
 Add the Starfield certificate to the trusted Root CAs for the domain using Group Policy\. For more information, see [Use Policy to Distribute Certificates](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772491(v=ws.11))\.
 
+### PCoIP Zero Clients<a name="certificate-issues-zero-clients"></a>
+
+To connect directly to a WorkSpace using firmware version 6\.0 or later, download and install the certificate issued by Amazon Trust Services\.
+
+**To add Amazon Trust Services as a trusted Root CA**
+
+1. Open [https://certs\.secureserver\.net/repository/](https://certs.secureserver.net/repository/)\.
+
+1. Download the certificate under **Starfield Certificate Chain** with the thumpprint 14 65 FA 20 53 97 B8 76 FA A6 F0 A9 95 8E 55 90 E4 0F CC 7F AA 4F B7 C2 C8 67 75 21 FB 5F B6 58\.
+
+1. Upload the certificate to the zero client\. For more information, see [Uploading Certificates](http://www.teradici.com/web-help/TER1504003/6.0/default.htm#05_Managing/04_UploadCertificate.htm) in the Teradici documentation\.
+
 ### Other Client Applications<a name="certificate-issues-other"></a>
 
 Add the Starfield certificate \(2b071c59a0a0ae76b0eadb2bad23bad4580b69c3601b630c2eaf0613afa83f92\) from [Amazon Trust Services](https://www.amazontrust.com/repository/)\. For more information about how to add a Root CA, see the following documentation:
 + Android: [Add & remove certificates](https://support.google.com/nexus/answer/2844832)
 + Chrome OS: [Manage client certificates on Chrome devices](https://support.google.com/chrome/a/answer/6080885)
 + macOS and iOS: [Installing a CA's Root Certificate on Your Test Device](https://developer.apple.com/library/content/qa/qa1948/_index.html#//apple_ref/doc/uid/DTS40017603-CH1-SECINSTALLING)
-+ PCoIP zero clients: [Amazon certificate change may affect Zero Clients](https://techsupport.teradici.com/ics/support/kbanswer.asp?deptID=15164&task=knowledge&questionID=3247)
 
 ## It sometimes takes several minutes to log in to my WorkSpace<a name="login_delay"></a>
 

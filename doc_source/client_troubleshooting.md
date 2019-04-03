@@ -10,6 +10,7 @@ The following are common issues that you might have with your WorkSpaces client\
 + [I installed a third\-party security software package and now I can't connect to my WorkSpace](#security_software)
 + [I am getting a 'network connection is slow' warning when connected to my WorkSpace](#latency_warning)
 + [I got an invalid certificate error on the client application\. What does that mean?](#client_cert_error)
++ [I'm having trouble when I try to connect to my WorkSpace using Web Access](#webaccess_connection_issues)
 + [I see the following error message: "Your device is not able to connect to the WorkSpaces Registration service\."](#registration_failure)
 
 ## My WorkSpaces client gives me a network error, but I am able to use other network enabled apps on my device<a name="net_error"></a>
@@ -94,7 +95,7 @@ WorkSpaces cannot communicate with the Internet by default\. Your administrator 
 
 ## I installed a third\-party security software package and now I can't connect to my WorkSpace<a name="security_software"></a>
 
-You can install any type of security or firewall software on your WorkSpace, but Amazon WorkSpaces requires that certain inbound and outbound ports are open on the WorkSpace\. If the security or firewall software that you install blocks these ports, the WorkSpace might not function correctly or might become unreachable\. For more information, see [Port Requirements for Amazon WorkSpaces](http://docs.aws.amazon.com/workspaces/latest/adminguide/workspaces-port-requirements.html) in the *Amazon WorkSpaces Administration Guide*\.
+You can install any type of security or firewall software on your WorkSpace, but Amazon WorkSpaces requires that certain inbound and outbound ports are open on the WorkSpace\. If the security or firewall software that you install blocks these ports, the WorkSpace might not function correctly or might become unreachable\. For more information, see [Port Requirements for Amazon WorkSpaces](https://docs.aws.amazon.com/workspaces/latest/adminguide/workspaces-port-requirements.html) in the *Amazon WorkSpaces Administration Guide*\.
 
 To restore your WorkSpace, ask your administrator to rebuild your WorkSpace\. You will have to re\-install the software and properly configure port access for your WorkSpace\.
 
@@ -107,6 +108,10 @@ If the roundtrip time from your client to your WorkSpace is longer than 100ms, y
 ## I got an invalid certificate error on the client application\. What does that mean?<a name="client_cert_error"></a>
 
 The WorkSpaces client application validates the identity of the WorkSpaces service through an SSL certificate\. If the root certificate authority of the Amazon WorkSpaces service cannot be verified, the client application displays an error and prevents any connection to the service\. The most common cause is a proxy server that is removing the root certificate authority and returning an incomplete certificate to the client application\. Contact your network administrator for additional help\.
+
+## I'm having trouble when I try to connect to my WorkSpace using Web Access<a name="webaccess_connection_issues"></a>
+
+Some WorkSpaces rely on a specific logon screen configuration to enable you to log on from your Web Access client\. For example, depending on the type of WorkSpace, your network administrator may need to configure a Group Policy setting and a Local Security Policy setting to enable you to log on to your WorkSpace from your Web Access client\. If these two settings are not correctly configured, you may experience long logon times or black screens when you try to log on to your WorkSpace\. Contact your network administrator for additional help\. 
 
 ## I see the following error message: "Your device is not able to connect to the WorkSpaces Registration service\."<a name="registration_failure"></a>
 

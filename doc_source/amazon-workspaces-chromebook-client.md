@@ -70,9 +70,17 @@ The following table describes the changes to each release of the Chromebook clie
 
 | Release | Changes | 
 | --- | --- | 
-|  2\.4\.2  |  Fixed a bug with Caps Lock  | 
+|  2\.4\.12  |  Minor bug fixes  | 
+|  2\.4\.11  |  Minor bug fixes  | 
+|  2\.4\.10  |  Improves support for Japanese keyboard layouts  | 
+|  2\.4\.8  |  Improves support for UK keyboards  | 
+|  2\.4\.7  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-chromebook-client.html)  | 
+|  2\.4\.6  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-chromebook-client.html)  | 
+|  2\.4\.5  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-chromebook-client.html)  | 
+|  2\.4\.4  |  Minor improvements to session provision handling  | 
+|  2\.4\.2  |  Resolves a bug with Caps Lock  | 
 |  2\.4\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-chromebook-client.html)  | 
-|  2\.2\.7  |  Fixed minor issues  | 
+|  2\.2\.7  |  Resolves minor issues  | 
 |  2\.2\.4  |  Localization enhancements  | 
 |  2\.2\.1  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-chromebook-client.html)  | 
 |  2\.1\.3  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-chromebook-client.html)  | 

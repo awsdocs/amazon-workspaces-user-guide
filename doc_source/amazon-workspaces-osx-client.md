@@ -98,6 +98,15 @@ The following table describes the changes to each release of the client applicat
 
 | Release | Changes | 
 | --- | --- | 
+|  2\.5\.5  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
+|  2\.5\.2  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
+|  2\.5\.1  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
+|  2\.5\.0  |  Adds support for user self\-service WorkSpace management capabilities  | 
+|  2\.4\.10  |  Minor fixes  | 
+|  2\.4\.9  |  Minor fixes  | 
+|  2\.4\.8  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
+|  2\.4\.7  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
+|  2\.4\.6  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
 |  2\.4\.4  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
 |  2\.4\.2  |  Minor fixes  | 
 |  2\.4\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
@@ -107,9 +116,9 @@ The following table describes the changes to each release of the client applicat
 |  2\.3\.3  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
 |  2\.3\.1  |  Minor fixes  | 
 |  2\.3\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
-|  2\.2\.3  |  Fixed minor bugs and improved stability  | 
+|  2\.2\.3  |  Resolves minor bugs and improves stability  | 
 |  2\.2\.1  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
-|  2\.1\.4  |  Fixed a crash issue on macOS Sierra  | 
+|  2\.1\.4  |  Resolves a crash issue on macOS Sierra  | 
 |  2\.1\.3  |  Closing the client expires the reconnect token\. You can easily reconnect to your WorkSpace as long as the client is running\.  | 
 |  2\.1\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
 |  2\.0\.8  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 

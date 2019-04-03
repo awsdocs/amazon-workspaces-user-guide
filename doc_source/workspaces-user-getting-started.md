@@ -53,6 +53,6 @@ To ensure a good experience with your WorkSpace, verify that your client device 
 
 ## \(Optional\) Integrate with WorkDocs<a name="workdocs-integration"></a>
 
-Amazon WorkDocs Drive enables you to stream your Amazon WorkDocs files to your WorkSpace on demand\. You can easily access any file on Amazon WorkDocs without needing to keep a local copy\. For more information, see [Amazon WorkDocs Drive for Amazon WorkSpaces](url-workdocs-ug;workdocs_drive_help.html)\.
+Amazon WorkDocs Drive enables you to stream your Amazon WorkDocs files to your WorkSpace on demand\. You can easily access any file on Amazon WorkDocs without needing to keep a local copy\. For more information, see [Amazon WorkDocs Drive for Amazon WorkSpaces](https://docs.aws.amazon.com/workdocs/latest/userguide/workdocs_drive_help.html)\.
 
-Alternatively, Amazon WorkDocs provides a synchronization client application that you can install to continuously, automatically, and securely back up documents from your WorkSpace to Amazon WorkDocs\. For more information, see [Amazon WorkDocs Sync Client](http://docs.aws.amazon.com/workdocs/latest/userguide/sync_client_help.html) in the *Amazon WorkDocs Administration Guide*\.
+Alternatively, Amazon WorkDocs provides a synchronization client application that you can install to continuously, automatically, and securely back up documents from your WorkSpace to Amazon WorkDocs\. For more information, see [Amazon WorkDocs Sync Client](https://docs.aws.amazon.com/workdocs/latest/userguide/sync_client_help.html) in the *Amazon WorkDocs Administration Guide*\.

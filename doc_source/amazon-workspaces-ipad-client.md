@@ -10,6 +10,7 @@ The following information will help you get started with the Amazon WorkSpaces i
 + [Radial Menu](#ipad_radial_menu)
 + [Keyboard](#ipad_keyboard)
 + [Mouse Modes](#ipad_mouse_modes)
++ [Swiftpoint GT Mouse](#ipad_gt_mouse)
 + [Disconnect](#ipad_disconnect)
 + [Release Notes](#ipad-release-notes)
 
@@ -87,7 +88,7 @@ The radial menu is displayed by swiping from the left side of the screen\.
 
 The radial menu provides quick access to the following features:
 
-![\[Image NOT FOUND\]](http://docs.aws.amazon.com/workspaces/latest/userguide/images/ipad-radial-connection-status.png) **Connection Status** – Displays the connection status\. 
+![\[Image NOT FOUND\]](http://docs.aws.amazon.com/workspaces/latest/userguide/images/ipad-radial-connection-status.png) **Connection Status** – Displays the connection status of the WorkSpace and peripheral devices\. 
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/workspaces/latest/userguide/images/ipad-radial-power.png) **Disconnect** – Disconnects the client application without logging off\. 
 
@@ -123,6 +124,10 @@ Simulate a right mouse button click by tapping the right mouse button icon\.
 
 ![\[Right mouse button icon\]](http://docs.aws.amazon.com/workspaces/latest/userguide/images/mouse-icon-right.png)
 
+## Swiftpoint GT Mouse<a name="ipad_gt_mouse"></a>
+
+You can use the [Swiftpoint GT mouse](https://www.swiftpoint.com/product/swiftpoint-gt-mouse-2/) on an iPad WorkSpace\. To do so, before you launch the Amazon WorkSpaces iPad client application, enable Bluetooth on your iPad and pair the GT mouse with your iPad \(the GT mouse should pair automatically\)\. To check the connection status of the GT mouse and your iPad client, display the radial menu, and tap **Connection Status**\. 
+
 ## Disconnect<a name="ipad_disconnect"></a>
 
 To disconnect the iPad client, display the radial menu, tap the disconnect icon, and tap **Disconnect**\. You can also log off the WorkSpace, which disconnects the client\.
@@ -134,6 +139,12 @@ The following table describes the changes to each release of the iPad client app
 
 | Release | Changes | 
 | --- | --- | 
+|  2\.4\.9  |  Minor bug fixes\.  | 
+|  2\.4\.7  |  Closing the WorkSpaces client app now expires the reconnect token\. You can only reconnect to your WorkSpace when the client app is running\.   | 
+|  2\.4\.6  |  Minor fixes to the on\-screen keyboard  | 
+|  2\.4\.5  |  Adds support for uniform resource identifiers \(URIs\), which enable login orchestration  | 
+|  2\.4\.4  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
+|  2\.4\.3  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
 |  2\.4\.2  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
 |  2\.4\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
 |  2\.2\.4  |  Localization enhancements  | 
@@ -142,15 +153,15 @@ The following table describes the changes to each release of the iPad client app
 |  2\.1\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
 |  2\.0\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
 |  1\.1  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
-|  1\.0\.11  |  Improved stability on iOS 8  | 
-|  1\.0\.10  |  Improved stability  | 
+|  1\.0\.11  |  Improves stability on iOS 8  | 
+|  1\.0\.10  |  Improves stability  | 
 |  1\.0\.9  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
 |  1\.0\.8  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
-|  1\.0\.7  |  Improved the login experience  | 
-|  1\.0\.6  |  Improved the login experience  | 
+|  1\.0\.7  |  Improves the login experience  | 
+|  1\.0\.6  |  Improves the login experience  | 
 |  1\.0\.5  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
-|  1\.0\.4  |  Improved the login experience  | 
-|  1\.0\.3  |  Improved the login experience  | 
+|  1\.0\.4  |  Improves the login experience  | 
+|  1\.0\.3  |  Improves the login experience  | 
 |  1\.0\.2  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
-|  1\.01  |  Improved radial functionality  | 
+|  1\.01  |  Improves radial functionality  | 
 |  1\.0  |  Initial release  | 

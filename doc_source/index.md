@@ -1,7 +1,7 @@
 # Amazon WorkSpaces User Guide
 
 -----
-*****Copyright &copy; 2018 Amazon Web Services, Inc. and/or its affiliates. All rights reserved.*****
+*****Copyright &copy; 2019 Amazon Web Services, Inc. and/or its affiliates. All rights reserved.*****
 
 -----
 Amazon's trademarks and trade dress may not be used in 
@@ -15,6 +15,7 @@ Amazon's trademarks and trade dress may not be used in
 -----
 ## Contents
 + [Getting Started with Your WorkSpace](workspaces-user-getting-started.md)
++ [Manage Your WorkSpace from Your Client](manage_workspace_client.md)
 + [Amazon WorkSpaces Clients](amazon-workspaces-clients.md)
    + [Amazon WorkSpaces Android Client Application](amazon-workspaces-android-client.md)
    + [Amazon WorkSpaces Chromebook Client Application](amazon-workspaces-chromebook-client.md)

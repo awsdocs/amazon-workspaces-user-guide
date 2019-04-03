@@ -132,6 +132,14 @@ The following table describes the changes to each release of the Android client 
 
 | Release | Changes | 
 | --- | --- | 
+|  2\.4\.12  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
+|  2\.4\.11  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
+|  2\.4\.10  |  Improves support for Japanese keyboard layouts  | 
+|  2\.4\.9  |  Adds support for Samsung Galaxy Note 9  | 
+|  2\.4\.7  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
+|  2\.4\.6  |  Adds support for uniform resource identifiers \(URIs\), which enable login orchestration  | 
+|  2\.4\.5  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
+|  2\.4\.4  | Minor improvements to session provision handling | 
 |  2\.4\.2  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
 |  2\.4\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
 |  2\.3\.4  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
@@ -142,5 +150,5 @@ The following table describes the changes to each release of the Android client 
 |  1\.0\.15  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
 |  1\.0\.11  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
 |  1\.0\.10  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
-|  1\.0\.9  |  Improved the login experience  | 
+|  1\.0\.9  |  Improves the login experience  | 
 |  1\.0  |  Initial release  | 

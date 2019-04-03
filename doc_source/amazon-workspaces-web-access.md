@@ -8,7 +8,7 @@ Open [Amazon WorkSpaces Web Access](https://clients.amazonworkspaces.com/webclie
 
 ## Requirements<a name="web-access-requirements"></a>
 
-You can access a WorkSpace running the Windows 7 desktop experience and one of the following bundles:
+You can access a WorkSpace running the Windows 7 or Windows 10 desktop experience and one of the following bundles:
 + Value
 + Standard
 + Performance
@@ -20,7 +20,7 @@ You must run one of the following web browsers on your Windows, Mac, or Linux co
 
 You must have web connectivity\.
 
-Your administrator must enable Amazon WorkSpaces Web Access\.
+Your administrator must enable Amazon WorkSpaces Web Access\. For more information, see [Control Device Access](https://docs.aws.amazon.com/workspaces/latest/adminguide/update-directory-details.html#control-device-access) in the *Amazon WorkSpaces Administration Guide*\.
 
 ## Client Views<a name="web-access-views"></a>
 

@@ -132,6 +132,9 @@ The following table describes the changes to each release of the Android client 
 
 | Release | Changes | 
 | --- | --- | 
+|  2\.4\.15  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
+|  2\.4\.14  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
+|  2\.4\.13  |  Minor fixes  | 
 |  2\.4\.12  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
 |  2\.4\.11  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
 |  2\.4\.10  |  Improves support for Japanese keyboard layouts  | 

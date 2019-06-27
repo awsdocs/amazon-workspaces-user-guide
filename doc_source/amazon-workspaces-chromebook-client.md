@@ -70,6 +70,7 @@ The following table describes the changes to each release of the Chromebook clie
 
 | Release | Changes | 
 | --- | --- | 
+|  2\.4\.13  |  Fixed an issue that causes the app not to restore to full\-screen mode after a screen unlock  | 
 |  2\.4\.12  |  Minor bug fixes  | 
 |  2\.4\.11  |  Minor bug fixes  | 
 |  2\.4\.10  |  Improves support for Japanese keyboard layouts  | 

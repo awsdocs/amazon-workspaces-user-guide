@@ -3,21 +3,32 @@
 The following are common issues that you might have with your WorkSpaces client\.
 
 **Topics**
-+ [My WorkSpaces client gives me a network error, but I am able to use other network enabled apps on my device](#net_error)
++ [The Amazon WorkSpaces Application Manager client application isn't appearing on my WorkSpace desktop](#no-wam-client)
++ [I don't see any applications listed in the Amazon WorkSpaces Application Manager client application](#no-wam-apps)
++ [My WorkSpaces client gives me a network error, but I am able to use other network\-enabled apps on my device](#net_error)
 + [It sometimes takes several minutes to log in to my WorkSpace](#login_delay)
 + [Sometimes I am logged off of my WorkSpace, even though I closed the session, but did not log off](#logged_out)
-+ [I can't connect to the Internet from my WorkSpace](#internet_access)
++ [I forgot my password and tried to reset it, but I didn’t receive an email with a reset link](#reset_password)
++ [I can't connect to the internet from my WorkSpace](#internet_access)
 + [I installed a third\-party security software package and now I can't connect to my WorkSpace](#security_software)
 + [I am getting a 'network connection is slow' warning when connected to my WorkSpace](#latency_warning)
 + [I got an invalid certificate error on the client application\. What does that mean?](#client_cert_error)
 + [I'm having trouble when I try to connect to my WorkSpace using Web Access](#webaccess_connection_issues)
 + [I see the following error message: "Your device is not able to connect to the WorkSpaces Registration service\."](#registration_failure)
 
-## My WorkSpaces client gives me a network error, but I am able to use other network enabled apps on my device<a name="net_error"></a>
+## The Amazon WorkSpaces Application Manager client application isn't appearing on my WorkSpace desktop<a name="no-wam-client"></a>
 
-The WorkSpaces client applications rely on access to resources in the AWS cloud and require a connection that provides at least 1 Mbps download bandwidth\. If your device has an intermittent connection to the network, the WorkSpaces client application may report an issue with the network\.
+The **Amazon WAM** shortcut should be installed on the WorkSpaces client desktop\. If the shortcut isn't on the client desktop, see [Troubleshooting Amazon WAM Issues](https://docs.aws.amazon.com/wam/latest/userguide/troubleshooting.html) in the *Amazon WAM User Guide*\.
 
-Amazon WorkSpaces enforces the use of digital certificates issued by Amazon Trust Services as of May 2018\. Amazon Trust Services is already a trusted Root CA on the operating systems supported by Amazon WorkSpaces\. If the Root CA list for your operating system is not up\-to\-date, your device cannot connect to WorkSpaces and the client gives a network error\.
+## I don't see any applications listed in the Amazon WorkSpaces Application Manager client application<a name="no-wam-apps"></a>
+
+Choose **MY APPS** to see the applications that your admin has specified to install by default on your WorkSpace\. Choose **DISCOVER** to see the applications that your admin has made available for you to install\.
+
+## My WorkSpaces client gives me a network error, but I am able to use other network\-enabled apps on my device<a name="net_error"></a>
+
+The WorkSpaces client applications rely on access to resources in the AWS Cloud, and require a connection that provides at least 1 Mbps download bandwidth\. If your device has an intermittent connection to the network, the WorkSpaces client application might report an issue with the network\.
+
+Amazon WorkSpaces enforces the use of digital certificates issued by Amazon Trust Services, as of May 2018\. Amazon Trust Services is already a trusted Root CA on the operating systems that are supported by Amazon WorkSpaces\. If the Root CA list for your operating system is not up\-to\-date, your device cannot connect to WorkSpaces and the client gives a network error\.
 
 **To recognize connection issues due to certificate failures**
 + PCoIP zero clients — The following error message is displayed:
@@ -70,7 +81,7 @@ To connect directly to a WorkSpace using firmware version 6\.0 or later, downloa
 
 1. Open [https://certs\.secureserver\.net/repository/](https://certs.secureserver.net/repository/)\.
 
-1. Download the certificate under **Starfield Certificate Chain** with the thumpprint 14 65 FA 20 53 97 B8 76 FA A6 F0 A9 95 8E 55 90 E4 0F CC 7F AA 4F B7 C2 C8 67 75 21 FB 5F B6 58\.
+1. Download the certificate under **Starfield Certificate Chain** with the thumbprint 14 65 FA 20 53 97 B8 76 FA A6 F0 A9 95 8E 55 90 E4 0F CC 7F AA 4F B7 C2 C8 67 75 21 FB 5F B6 58\.
 
 1. Upload the certificate to the zero client\. For more information, see [Uploading Certificates](http://www.teradici.com/web-help/TER1504003/6.0/default.htm#05_Managing/04_UploadCertificate.htm) in the Teradici documentation\.
 
@@ -83,26 +94,30 @@ Add the Starfield certificate \(2b071c59a0a0ae76b0eadb2bad23bad4580b69c3601b630c
 
 ## It sometimes takes several minutes to log in to my WorkSpace<a name="login_delay"></a>
 
-Group Policy settings set by your system administrator can cause a delay on login after your WorkSpace has been launched or rebooted\. This delay occurs while the Group Policy settings are being applied to the WorkSpace and is normal\.
+Group Policy settings set by your system administrator can cause a delay on login after your WorkSpace has been launched or rebooted\. This delay occurs while the Group Policy settings are being applied to the WorkSpace, and is normal\.
 
 ## Sometimes I am logged off of my WorkSpace, even though I closed the session, but did not log off<a name="logged_out"></a>
 
 Your system administrator applied a new or updated Group Policy setting to your WorkSpace that requires a logoff of a disconnected session\.
 
-## I can't connect to the Internet from my WorkSpace<a name="internet_access"></a>
+## I forgot my password and tried to reset it, but I didn’t receive an email with a reset link<a name="reset_password"></a>
 
-WorkSpaces cannot communicate with the Internet by default\. Your administrator must explicitly provide Internet access\.
+Contact your Amazon WorkSpaces administrator for assistance\.
+
+## I can't connect to the internet from my WorkSpace<a name="internet_access"></a>
+
+WorkSpaces cannot communicate with the internet by default\. Your administrator must explicitly provide internet access\.
 
 ## I installed a third\-party security software package and now I can't connect to my WorkSpace<a name="security_software"></a>
 
 You can install any type of security or firewall software on your WorkSpace, but Amazon WorkSpaces requires that certain inbound and outbound ports are open on the WorkSpace\. If the security or firewall software that you install blocks these ports, the WorkSpace might not function correctly or might become unreachable\. For more information, see [Port Requirements for Amazon WorkSpaces](https://docs.aws.amazon.com/workspaces/latest/adminguide/workspaces-port-requirements.html) in the *Amazon WorkSpaces Administration Guide*\.
 
-To restore your WorkSpace, ask your administrator to rebuild your WorkSpace\. You will have to re\-install the software and properly configure port access for your WorkSpace\.
+To restore your WorkSpace, ask your administrator to rebuild your WorkSpace\. You then have to re\-install the software and properly configure port access for your WorkSpace\.
 
 ## I am getting a 'network connection is slow' warning when connected to my WorkSpace<a name="latency_warning"></a>
 
-If the roundtrip time from your client to your WorkSpace is longer than 100ms, you can still use your WorkSpace, but this may result in a poor experience\. A slow roundtrip time can be caused by many factors, but the following are the most common:
-+ You are too far from the AWS region that your WorkSpace resides in\. For the best WorkSpace experience, you should be within 2000 miles of the AWS region that your WorkSpace is in\.
+If the round\-trip time from your client to your WorkSpace is longer than 100ms, you can still use your WorkSpace, but this might result in a poor experience\. A slow round\-trip time can be caused by many factors, but the following are the most common:
++ You are too far from the AWS Region that your WorkSpace resides in\. For the best WorkSpace experience, you should be within 2000 miles of the AWS Region that your WorkSpace is in\.
 + Your network connection is inconsistent or slow\. For the best experience, your network connection should provide at least 300 kbps, with capability to provide over 1 Mbps when viewing video or using graphics intensive applications on your WorkSpace\.
 
 ## I got an invalid certificate error on the client application\. What does that mean?<a name="client_cert_error"></a>
@@ -111,10 +126,10 @@ The WorkSpaces client application validates the identity of the WorkSpaces servi
 
 ## I'm having trouble when I try to connect to my WorkSpace using Web Access<a name="webaccess_connection_issues"></a>
 
-Some WorkSpaces rely on a specific logon screen configuration to enable you to log on from your Web Access client\. For example, depending on the type of WorkSpace, your network administrator may need to configure a Group Policy setting and a Local Security Policy setting to enable you to log on to your WorkSpace from your Web Access client\. If these two settings are not correctly configured, you may experience long logon times or black screens when you try to log on to your WorkSpace\. Contact your network administrator for additional help\. 
+Some WorkSpaces rely on a specific login screen configuration to enable you to log in from your Web Access client\. For example, depending on the type of WorkSpace, your network administrator might need to configure a Group Policy setting and a Local Security Policy setting to enable you to log in to your WorkSpace from your Web Access client\. If these two settings are not correctly configured, you might experience long login times or black screens when you try to log in to your WorkSpace\. Contact your network administrator for additional help\. 
 
 ## I see the following error message: "Your device is not able to connect to the WorkSpaces Registration service\."<a name="registration_failure"></a>
 
 When registration service failure occurs, you might see the following error message on the **Connection Health Check** page: "Your device is not able to connect to the WorkSpaces Registration service\. You will not be able to register your device with WorkSpaces\. Please check your network settings\."
 
-This error occurs when the WorkSpaces client application can't reach the registration service\. Typically, this happens when the WorkSpaces directory has been deleted\. To resolve this error, make sure that the registration code is valid and corresponds to a running directory in the AWS cloud\.
+This error occurs when the WorkSpaces client application can't reach the registration service\. Typically, this happens when the WorkSpaces directory has been deleted\. To resolve this error, make sure that the registration code is valid and corresponds to a running directory in the AWS Cloud\.

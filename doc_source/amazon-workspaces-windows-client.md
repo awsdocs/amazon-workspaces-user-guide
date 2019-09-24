@@ -116,7 +116,9 @@ The following table describes the changes to each release of the Windows client 
 
 | Release | Changes | 
 | --- | --- | 
-|  2\.5\.8  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
+|  2\.5\.10  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
+|  2\.5\.9  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
+|  2\.5\.8  |  Resolves an intermittent crashing issue related to computer waking up when opening a laptop lid\.  | 
 |  2\.5\.7  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
 |  2\.5\.6  |  Minor fixes  | 
 |  2\.5\.5  |  Minor fixes  | 
@@ -132,7 +134,7 @@ The following table describes the changes to each release of the Windows client 
 |  2\.4\.4  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
 |  2\.4\.2  |  Minor fixes  | 
 |  2\.4\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
-|  2\.3\.7  |  Addresses a grey screen issue that occurs when displays are in different orientations  | 
+|  2\.3\.7  |  Addresses a gray screen issue that occurs when displays are in different orientations  | 
 |  2\.3\.6  |  Localization enhancements  | 
 |  2\.3\.5  |  Minor improvements  | 
 |  2\.3\.3  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 

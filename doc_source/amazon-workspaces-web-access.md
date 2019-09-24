@@ -26,6 +26,8 @@ Your administrator must enable Amazon WorkSpaces Web Access\. For more informati
 
 Amazon WorkSpaces Web Access supports multiple screen resolutions\. The minimum supported resolution is 960x720 pixels, and the maximum supported resolution is 2560x1600 pixels\.
 
+Web Access does not support multiple monitors\.
+
 ## Proxy Servers<a name="web-access-proxy"></a>
 
 If you are required to use a proxy server to access the Internet, you can configure your browser to use the proxy server\. Amazon WorkSpaces Web Access respects the settings for all related traffic\.

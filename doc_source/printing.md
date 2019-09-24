@@ -2,6 +2,10 @@
 
 The following printing methods are supported by Amazon WorkSpaces\.
 
+**Note**  
+The Amazon WorkSpaces clients for tablets and Chromebook support cloud printing services\. Local and network printing are not currently supported for the tablet and Chromebook clients\.  
+Amazon Linux WorkSpaces support network printers and cloud printing services\. Local printer redirection is not available for Linux WorkSpaces\. 
+
 **Topics**
 + [Local Printers](#local_printers)
 + [Other Printing Methods](#other_printing)
@@ -12,8 +16,8 @@ Amazon WorkSpaces supports local printer redirection\. When you print from an ap
 
 In some cases, you need to download and install the driver for your local printer manually on the WorkSpace\. When you install a printer driver on your WorkSpace, there are different types of drivers that you may encounter:
 + Add Printer wizard driver\. This driver includes only the printer drivers, and are for users who are familiar with installation using the Add Printer wizard in Windows\.
-+ Printer model\-specific drivers which do not require communication with the printer\. In these cases, you can install the printer driver directly\.
-+ Printer model\-specific drivers which require communication with the printer\. In these cases, you can use the printer driver files to add a local printer using an existing port \(LPT1:\)\. After selecting the port, you can choose **Have Disk** and select the `.INF` file for the printer driver\.
++ Printer model\-specific drivers that do not require communication with the printer\. In these cases, you can install the printer driver directly\.
++ Printer model\-specific drivers that require communication with the printer\. In these cases, you can use the printer driver files to add a local printer using an existing port \(LPT1:\)\. After selecting the port, you can choose **Have Disk** and select the `.INF` file for the printer driver\.
 
 After installing the printer driver, you must restart the WorkSpace for the new printer to be recognized\.
 

@@ -71,7 +71,7 @@ Download and install the latest Windows client application from [Amazon WorkSpac
 1. Exit and restart the WorkSpaces client application\.
 
 **Solution 3: Deploy Amazon Trust Services as a trusted CA using Group Policy**  
-Add the Starfield certificate to the trusted Root CAs for the domain using Group Policy\. For more information, see [Use Policy to Distribute Certificates](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772491(v=ws.11))\.
+Add the Starfield certificate to the trusted Root CAs for the domain using Group Policy\. For more information, see [Use Policy to Distribute Certificates](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772491(v=ws.11))\.
 
 ### PCoIP Zero Clients<a name="certificate-issues-zero-clients"></a>
 
@@ -83,7 +83,7 @@ To connect directly to a WorkSpace using firmware version 6\.0 or later, downloa
 
 1. Download the certificate under **Starfield Certificate Chain** with the thumbprint 14 65 FA 20 53 97 B8 76 FA A6 F0 A9 95 8E 55 90 E4 0F CC 7F AA 4F B7 C2 C8 67 75 21 FB 5F B6 58\.
 
-1. Upload the certificate to the zero client\. For more information, see [Uploading Certificates](http://www.teradici.com/web-help/TER1504003/6.0/default.htm#05_Managing/04_UploadCertificate.htm) in the Teradici documentation\.
+1. Upload the certificate to the zero client\. For more information, see [Uploading Certificates](https://www.teradici.com/web-help/TER1504003/6.0/default.htm#05_Managing/04_UploadCertificate.htm) in the Teradici documentation\.
 
 ### Other Client Applications<a name="certificate-issues-other"></a>
 

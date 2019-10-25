@@ -50,7 +50,7 @@ To connect to your WorkSpace, complete the following procedure\.
 
    After the client application connects to your WorkSpace, your WorkSpace desktop is displayed\.
 
-   \(Optional\) If your WorkSpace uses an AD Connector directory, you can update the maximum lifetime of the Kerberos ticket by following the steps in [Configuring Kerberos Policies](http://technet.microsoft.com/en-us/library/dd277401.aspx) in the Microsoft TechNet Library\. If you need to disable the "Remember Me" feature, search for help in the [Amazon WorkSpaces forum](https://forums.aws.amazon.com/forum.jspa?forumID=164)\.
+   \(Optional\) If your WorkSpace uses an AD Connector directory, you can update the maximum lifetime of the Kerberos ticket by following the steps in [Configuring Kerberos Policies](https://technet.microsoft.com/en-us/library/dd277401.aspx) in the Microsoft TechNet Library\. If you need to disable the "Remember Me" feature, search for help in the [Amazon WorkSpaces forum](https://forums.aws.amazon.com/forum.jspa?forumID=164)\.
 
 ## Gestures<a name="ipad_gestures"></a>
 

@@ -11,11 +11,15 @@ The following information will help you get started with the Amazon WorkSpaces M
 + [Display Support](#osx-display-support)
 + [Proxy Server](#osx_proxy_server)
 + [Command Shortcuts](#osx_shortcuts)
++ [Troubleshooting](#osx_troubleshooting)
 + [Release Notes](#osx-release-notes)
 
 ## Requirements<a name="osx-requirements"></a>
 
 The client application requires Mac OS X 10\.8\.1 or later\.
+
+**Note**  
+We do not recommend that users update to Mac OS X 10\.15 \(Catalina\) because of a keyboard input issue with the WorkSpaces macOS client application version 2\.5\.9\. If you are currently experiencing this issue, see the [Troubleshooting](#osx_troubleshooting) section later in this topic\.
 
 ## Setup and Installation<a name="osx_setup"></a>
 
@@ -27,15 +31,15 @@ To connect to your WorkSpace, complete the following procedure\.
 
 **To connect to your WorkSpace**
 
-1. The first time that you run the client application, you are prompted for your registration code, which is contained in your welcome email\. The Amazon WorkSpaces client application uses the registration code and username to identify which WorkSpace to connect to\. When you launch the client application later, the same registration code is used\. You can enter a different registration code by launching the client application and choosing **Options**, **Register** in the upper\-left corner on the login screen menu\.
+1. The first time that you run the client application, you are prompted for your registration code, which is contained in your welcome email\. The Amazon WorkSpaces client application uses the registration code and user name to identify which WorkSpace to connect to\. When you launch the client application later, the same registration code is used\. To enter a different registration code, launch the client application, and then on the menu bar, choose **Options**, **Manage Registrations**\.
 
-1. Enter your username and password in the login screen and choose **Sign In**\. If your Amazon WorkSpaces administrator has enabled multi\-factor authentication for your organization's WorkSpaces, you are prompted for a passcode to complete your login\. Your Amazon WorkSpaces administrator will provide more information about how to obtain your passcode\.
+1. Enter your user name and password in the login screen and choose **Sign In**\. If your Amazon WorkSpaces administrator has enabled multi\-factor authentication for your organization's WorkSpaces, you are prompted for a passcode to complete your login\. Your Amazon WorkSpaces administrator will provide more information about how to obtain your passcode\.
 
 1. If your Amazon WorkSpaces administrator has not disabled the "Remember Me" feature, you are prompted to save your credentials securely so that you can connect to your WorkSpace easily while the client application remains running\. Your credentials are securely cached up to the maximum lifetime of your Kerberos ticket\.
 
    After the client application connects to your WorkSpace, your WorkSpace desktop is displayed\.
 
-1. \(Optional\) If your WorkSpace uses an AD Connector directory, you can update the maximum lifetime of the Kerberos ticket by following the steps in [Configuring Kerberos Policies](http://technet.microsoft.com/en-us/library/dd277401.aspx) in the Microsoft TechNet Library\. If you need to disable the "Remember Me" feature, search for help in the [Amazon WorkSpaces forum](https://forums.aws.amazon.com/forum.jspa?forumID=164)\.
+1. \(Optional\) If your WorkSpace uses an AD Connector directory, you can update the maximum lifetime of the Kerberos ticket by following the steps in [Configuring Kerberos Policies](https://technet.microsoft.com/en-us/library/dd277401.aspx) in the Microsoft TechNet Library\. If you need to disable the "Remember Me" feature, search for help in the [Amazon WorkSpaces forum](https://forums.aws.amazon.com/forum.jspa?forumID=164)\.
 
 An interruption of network connectivity causes an active session to be disconnected\. This can be caused by events such as closing the laptop lid, or the loss of your wireless network connection\. The Amazon WorkSpaces client application for Mac OS X attempts to reconnect the session automatically if network connectivity is regained within a certain amount of time\. The default session resume timeout is 20 minutes, but this timeout may be modified by your network administrator through your domain's Group Policy settings\.
 
@@ -90,6 +94,59 @@ The Amazon WorkSpaces client applications use the HTTPS port for updates, regist
 The Amazon WorkSpaces Mac OS X client supports the following command shortcuts:
 + Control\+Option\+Return—Toggle fullscreen display
 + Control\+Option\+F12—Disconnect session
+
+## Troubleshooting<a name="osx_troubleshooting"></a>
+
+**I am experiencing keyboard input issues with Mac OS X 10\.15**  
+If you are using Mac OS X 10\.15, you might be unable to type with your keyboard\. To resolve this issue, follow the appropriate procedure below\.
+
+If you've already opened the Amazon WorkSpaces client application and have chosen **Deny** \(the default selection\) in the **Keystrokes Receiving** dialog box that appears after you first log in to your WorkSpace, follow the procedure [to reenable your keyboard](#reenable_keyboard)\.
+
+If you haven't yet opened the Amazon WorkSpaces client application after installing Mac OS X 10\.15, follow the procedure [to enable your keyboard](#enable_keyboard)\.
+
+**To reenable your keyboard**
+
+1. Log out of your WorkSpace\. On the **WorkSpaces** menu, choose **Quit WorkSpaces ** to quit the Amazon WorkSpaces client\.
+
+1. Click the Apple icon on the menu bar\.
+
+1. Choose **System Preferences**\.
+
+1. Choose **Security & Privacy**, and then choose the **Privacy **tab\.
+
+1. In the lower\-left corner, verify that the security lock is unlocked\. If it is locked, click it and enter your administrative user credentials \(user name and password\)\.
+
+1. In the pane on the left, choose **Accessibility\.**
+
+1. On the **Privacy** tab, select the **Amazon WorkSpaces** check box\.
+
+1. In the pane on the left, choose **Input Monitoring\.**
+
+1. On the **Privacy** tab, select the **Amazon WorkSpaces** check box\.
+
+1. Launch the Amazon WorkSpaces client and log in\.
+
+1. If the keyboard still doesn't work, reboot your Mac\.
+
+**To enable your keyboard**
+
+1. Log in to your WorkSpace\.
+
+1. When the **Keystroke Receiving** dialog box appears, choose **Open System Preferences**\.
+
+1. In the **Security & Privacy** dialog box, go to the pane on the left and choose **Input Monitoring**\.
+
+1. In the lower\-left corner, verify that the security lock is unlocked\. If it is locked, click it and enter your administrative user credentials \(user name and password\)\.
+
+1. On the **Privacy** tab, select the **Amazon WorkSpaces** check box\.
+
+1. In the **"WorkSpaces" will not be able to monitor input from your keyboard until it is quit** dialog box, choose **Quit Now**\.
+
+1. Switch back to the WorkSpaces client application\.
+
+1. On the **WorkSpaces** menu, choose **Quit WorkSpaces ** to quit the Amazon WorkSpaces client\.
+
+1. Launch the Amazon WorkSpaces client and log in\.
 
 ## Release Notes<a name="osx-release-notes"></a>
 

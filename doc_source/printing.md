@@ -27,5 +27,5 @@ If you cannot print to your local printer from your WorkSpace, make sure you can
 
 You can also use one of the following methods to print from a WorkSpace:
 + In a connected directory, you can attach your WorkSpace to network printers that are exposed through Active Directory\.
-+ Use a cloud printing service, such as [Google Cloud Print](http://www.google.com/cloudprint) or [HP Mobile Printing](https://www8.hp.com/us/en/printers/mobility/overview.html)\.
++ Use a cloud printing service, such as [Google Cloud Print](https://www.google.com/cloudprint) or [HP Mobile Printing](https://www8.hp.com/us/en/printers/mobility/overview.html)\.
 + Print to a file, transfer the file to your local desktop, and print the file locally to an attached printer\.

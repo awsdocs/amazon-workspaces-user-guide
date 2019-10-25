@@ -29,7 +29,7 @@ You can change your password anytime from within your WorkSpace\. Press Ctrl\+Al
 
 ## Choose a Client<a name="choose-client"></a>
 
-You can connect to your WorkSpace using the client application for a supported device or a web browser\. To run the Amazon WorkSpaces client application, you must have a PC, Mac, iPad, Kindle, Android tablet, or Chromebook\. To run Amazon WorkSpaces Web Access, you must have a PC or Mac running a Chrome or Firefox web browser\.
+You can connect to your WorkSpace using the client application for a supported device or a web browser\. To run the Amazon WorkSpaces client application, you must have a PC, Mac, iPad, Kindle, Chromebook, or Android tablet\. To run Amazon WorkSpaces Web Access, you must have a PC or Mac running a Chrome or Firefox web browser\.
 
 For information about connecting to your WorkSpace, see the following client documentation\.
 + [Android Client Application](amazon-workspaces-android-client.md)

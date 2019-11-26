@@ -14,7 +14,7 @@ You can access a WorkSpace running the Windows 7 or Windows 10 desktop experienc
 + Performance
 + Power
 
-You must run one of the following web browsers on your Windows, Mac, or Linux computer:
+You must run one of the following web browsers on your Windows, macOS, or Linux computer:
 + Chrome 53 and later
 + Firefox 49 and later
 
@@ -30,7 +30,7 @@ Web Access does not support multiple monitors\.
 
 ## Proxy Servers<a name="web-access-proxy"></a>
 
-If you are required to use a proxy server to access the Internet, you can configure your browser to use the proxy server\. Amazon WorkSpaces Web Access respects the settings for all related traffic\.
+If you are required to use a proxy server to access the internet, you can configure your browser to use the proxy server\. Amazon WorkSpaces Web Access respects the settings for all related traffic\.
 
 **Limits**
 + Proxy with authentication is not currently supported\.

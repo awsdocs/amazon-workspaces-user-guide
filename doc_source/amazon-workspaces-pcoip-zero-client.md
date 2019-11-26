@@ -1,6 +1,6 @@
 # PCoIP Zero Client<a name="amazon-workspaces-pcoip-zero-client"></a>
 
-You can set up and use a PCoIP zero client device with Amazon WorkSpaces\. For more information, see *Connecting to Amazon WorkSpaces Desktops* in the [PCoIP Connection Manager User Guide](http://www.teradici.com/web-help/Connecting_ZC_AWS_HTML5/TER1408002_Connecting_ZC_AWS.htm)\.
+You can set up and use a PCoIP zero client device with Amazon WorkSpaces\. For more information, see *Connecting to Amazon WorkSpaces Desktops* in the [PCoIP Connection Manager User Guide](https://www.teradici.com/web-help/Connecting_ZC_AWS_HTML5/TER1408002_Connecting_ZC_AWS.htm)\.
 
 ## Requirements<a name="zero_client_reqs"></a>
 
@@ -49,4 +49,4 @@ If your zero client device has firmware version 6\.0\.0 or later, you can connec
 
 ## Disconnect from the Zero Client<a name="zero_client_disconnect"></a>
 
-To disconnect the zero client from your WorkSpace, you can press Ctrl\+Alt\+F12\. Alternatively, you can log off the WorkSpace, which disconnects the client\.
+To disconnect the zero client from your WorkSpace, you can press Ctrl\+Alt\+F12\. Alternatively, you can log off of the WorkSpace, which disconnects the client\.

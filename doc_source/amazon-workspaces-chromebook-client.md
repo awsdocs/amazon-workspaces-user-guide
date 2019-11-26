@@ -23,7 +23,7 @@ To download and install the client application, complete the following procedure
 
 **To download and install the client application**
 
-1. On your Chromebook, open [http://clients\.amazonworkspaces\.com/](http://clients.amazonworkspaces.com/) and choose the link for your Chromebook\.
+1. On your Chromebook, open [https://clients\.amazonworkspaces\.com/](https://clients.amazonworkspaces.com/) and choose the link for your Chromebook\.
 
 1. Download and install the application\.
 
@@ -44,8 +44,6 @@ To connect to your WorkSpace, complete the following procedure\.
 1. If your Amazon WorkSpaces administrator has not disabled the "Remember Me" feature, you are prompted to save your credentials securely so that you can connect to your WorkSpace easily in the future\. Your credentials are securely cached while the application is running\.
 
    After the client application connects to your WorkSpace, your WorkSpace desktop is displayed\.
-
-   \(Optional\) If your WorkSpace uses an AD Connector directory, you can update the maximum lifetime of the Kerberos ticket by following the steps in [Configuring Kerberos Policies](https://technet.microsoft.com/en-us/library/dd277401.aspx) in the Microsoft TechNet Library\. If you need to disable the "Remember Me" feature, search for help in the [Amazon WorkSpaces forum](https://forums.aws.amazon.com/forum.jspa?forumID=164)\.
 
 ## Gestures<a name="chromebook_gestures"></a>
 

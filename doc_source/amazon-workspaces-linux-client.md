@@ -85,13 +85,16 @@ In the client, Japanese is available in all Regions\. However, Japanese is only 
 
 ## Display Support<a name="linux-display-support"></a>
 
-Amazon WorkSpaces supports a maximum of four displays and a maximum resolution of 3840x2160 \(ultra\-high definition, or UHD\)\. The maximum supported resolution depends on the number of displays, as shown in the following table\.
+Amazon WorkSpaces Value, Standard, Performance, Power, PowerPro, and GraphicsPro bundles support a maximum of four displays and a maximum resolution of 3840x2160 \(ultra\-high definition, or UHD\)\. The maximum supported resolution depends on the number of displays, as shown in the following table\.
 
 
 | Displays | Resolution | 
 | --- | --- | 
 |  2  |  3840x2160  | 
 |  4  |  1920x1200  | 
+
+**Note**  
+Graphics bundles support only a single monitor configuration with a maximum resolution of 2560x1600\.
 
 The Amazon WorkSpaces client application extracts the Extended Display Information Data \(EDID\) of all attached displays and determines the best compatibility match before starting the session\. If you have a High DPI display, the client application automatically scales the streaming window according to your local DPI settings\.
 

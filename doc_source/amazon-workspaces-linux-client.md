@@ -124,4 +124,4 @@ The following table describes the changes to each release of the Linux client ap
 
 | Release | Changes | 
 | --- | --- | 
-|  3\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-linux-client.html)  | 
+|  3\.0\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-linux-client.html)  | 

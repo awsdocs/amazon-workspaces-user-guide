@@ -99,7 +99,7 @@ The WorkSpaces client application validates the identity of the WorkSpaces servi
 
 ## I'm having trouble when I try to connect to my Windows WorkSpace using Web Access<a name="webaccess_connection_issues"></a>
 
-Some Windows WorkSpaces rely on a specific login screen configuration to enable you to log in from your Web Access client\. For example, depending on the type of Windows WorkSpace, your network administrator might need to configure a Group Policy setting and a Local Security Policy setting to enable you to log in to your WorkSpace from your Web Access client\. If these two settings are not correctly configured, you might experience long login times or black screens when you try to log in to your WorkSpace\. Contact your Amazon WorkSpaces administrator for assistance\. 
+Windows WorkSpaces rely on a specific login screen configuration to enable you to log in from your Web Access client\. Your Amazon WorkSpaces administrator might need to configure Group Policy and Security Policy settings to enable you to log in to your WorkSpace from your Web Access client\. If these settings are not correctly configured, you might experience long login times or black screens when you try to log in to your WorkSpace\. Contact your Amazon WorkSpaces administrator for assistance\.
 
 ## I see the following error message: "Device can't connect to the registration service\. Check your network settings\."<a name="registration_failure"></a>
 

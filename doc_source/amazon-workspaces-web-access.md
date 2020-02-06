@@ -20,7 +20,7 @@ You must run one of the following web browsers on your Windows, macOS, or Linux 
 
 You must have web connectivity\.
 
-Your administrator must enable Amazon WorkSpaces Web Access\. For more information, see [Control Device Access](https://docs.aws.amazon.com/workspaces/latest/adminguide/update-directory-details.html#control-device-access) in the *Amazon WorkSpaces Administration Guide*\.
+Your administrator must enable Amazon WorkSpaces Web Access\. For more information, see [Enable and Configure Amazon WorkSpaces Web Access](https://docs.aws.amazon.com/workspaces/latest/adminguide/web-access.html) in the *Amazon WorkSpaces Administration Guide*\.
 
 ## Client Views<a name="web-access-views"></a>
 

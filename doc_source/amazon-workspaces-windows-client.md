@@ -79,6 +79,8 @@ You can switch to full screen mode by choosing **View**, **Enter Full Screen** \
 
 While in full screen mode, you can switch back to window mode by moving the pointer to the top of the screen\. The client application menu is displayed, and you can choose **View**, **Leave Full Screen** \(3\.0\+ clients\) or **View**, **Exit Fullscreen** \(1\.0\+ and 2\.0\+ clients\) in the client application menu\.
 
+You can also toggle full screen mode by pressing Ctrl\+Alt\+Enter\.
+
 ## Client Language<a name="windows_client_lang"></a>
 
 You can select the language displayed by the client by performing the following steps\.
@@ -131,13 +133,9 @@ The Amazon WorkSpaces client applications use the HTTPS port for updates, regist
 
 ## Command Shortcuts<a name="windows_shortcuts"></a>
 
-The Amazon WorkSpaces Windows client supports the following command shortcuts\.
-
-
-| If you're using\.\.\. | Use these shortcuts | 
-| --- | --- | 
-|  3\.0\+ client  |  Ctrl\+Alt\+F12—Disconnect session  | 
-|  1\.0\+ or 2\.0\+ client  |  Ctrl\+Alt\+Enter—Toggle full screen display Ctrl\+Alt\+F12—Disconnect session  | 
+The Amazon WorkSpaces Windows client supports the following command shortcuts:
++ Ctrl\+Alt\+Enter—Toggle full screen display
++ Ctrl\+Alt\+F12—Disconnect session
 
 ## Release Notes<a name="windows-release-notes"></a>
 
@@ -146,11 +144,12 @@ The following table describes the changes to each release of the Windows client 
 
 | Release | Changes | 
 | --- | --- | 
+|  3\.0\.2  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
 |  3\.0\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
-|  2\.5\.11  |  Minor bug fixes\.  | 
+|  2\.5\.11  |  Minor bug fixes  | 
 |  2\.5\.10  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
 |  2\.5\.9  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
-|  2\.5\.8  |  Resolves an intermittent crashing issue related to computer waking up when opening a laptop lid\.  | 
+|  2\.5\.8  |  Resolves an intermittent crashing issue related to computer waking up when opening a laptop lid  | 
 |  2\.5\.7  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
 |  2\.5\.6  |  Minor fixes  | 
 |  2\.5\.5  |  Minor fixes  | 

@@ -2,6 +2,11 @@
 
 The following information will help you get started with the Amazon WorkSpaces Chromebook client application\.
 
+**Note**  
+Version 2\.4\.13 is the final release of the Amazon WorkSpaces Chromebook client application\. For [ Chromebooks that support installing Android applications](https://sites.google.com/a/chromium.org/dev/chromium-os/chrome-os-systems-supporting-android-apps), we recommend using the [Amazon WorkSpaces Android Client Application](amazon-workspaces-android-client.md) instead\.  
+If you are using a Chromebook launched before 2019, see [ Install Android apps on your Chromebook](https://support.google.com/chromebook/answer/7021273) before attempting to install the Amazon WorkSpaces Android client application\.  
+In some cases, your WorkSpaces administrator might need to enable your Chromebook to install Android applications\. If you are unable to install the Android client application on your Chromebook, contact your WorkSpaces administrator for assistance\.
+
 **Topics**
 + [Requirements](#chromebook-requirements)
 + [Setup and Installation](#chromebook_setup)
@@ -47,7 +52,7 @@ To connect to your WorkSpace, complete the following procedure\.
 
 ## Gestures<a name="chromebook_gestures"></a>
 
-The following are the gestures that are supported for the Amazon WorkSpaces Chromebook client application\.
+The following gestures are supported for the Amazon WorkSpaces Chromebook client application\.
 
 Single tap  
 Equivalent to a single click in Windows\.

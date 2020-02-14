@@ -68,6 +68,8 @@ You can switch to full screen mode by choosing **View**, **Enter Full Screen** i
 
 While in full screen mode, you can switch back to window mode by moving the pointer to the top of the screen\. The client application menu is displayed, and you can choose **View**, **Leave Full Screen** in the client application menu\.
 
+You can also toggle full screen mode by pressing Ctrl\+Alt\+Enter\.
+
 ## Client Language<a name="linux_client_lang"></a>
 
 You can select the language displayed by the client by performing the following steps\.
@@ -113,7 +115,7 @@ The Amazon WorkSpaces client applications use the HTTPS port for updates, regist
 
 ## Command Shortcuts<a name="linux_shortcuts"></a>
 
-The Amazon WorkSpaces Linux client supports the following command shortcuts\.
+The Amazon WorkSpaces Linux client supports the following command shortcuts:
 + Ctrl\+Alt\+Enter—Toggle full screen display
 
 ## Clipboard Redirection<a name="linux_clipboard"></a>
@@ -127,4 +129,5 @@ The following table describes the changes to each release of the Linux client ap
 
 | Release | Changes | 
 | --- | --- | 
+|  3\.0\.2  |  Minor bug fixes  | 
 |  3\.0\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-linux-client.html)  | 

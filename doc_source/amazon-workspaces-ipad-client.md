@@ -12,6 +12,7 @@ The following information will help you get started with the Amazon WorkSpaces i
 + [Mouse Modes](#ipad_mouse_modes)
 + [Swiftpoint GT Mouse](#ipad_gt_mouse)
 + [Disconnect](#ipad_disconnect)
++ [Clipboard Redirection](#ipad_clipboard_redirection)
 + [Release Notes](#ipad-release-notes)
 
 ## Requirements<a name="ipad-requirements"></a>
@@ -52,7 +53,7 @@ To connect to your WorkSpace, complete the following procedure\.
 
 ## Gestures<a name="ipad_gestures"></a>
 
-The following are the gestures that are supported for the Amazon WorkSpaces iPad client application\.
+The following gestures are supported for the Amazon WorkSpaces iPad client application\.
 
 Single tap  
 Equivalent to a single click in Windows\.
@@ -67,7 +68,7 @@ Two finger double tap
 Toggles the on\-screen keyboard display\.
 
 Swipe from left  
-Displays the radial menu\. For more information, see [Radial Menu](#ipad_radial_menu)
+Displays the radial menu\. For more information, see [Radial Menu](#ipad_radial_menu)\.
 
 Two finger scroll  
 Scrolls vertically\.
@@ -86,7 +87,9 @@ The radial menu is displayed by swiping from the left side of the screen\.
 
 The radial menu provides quick access to the following features:
 
-![\[Image NOT FOUND\]](http://docs.aws.amazon.com/workspaces/latest/userguide/images/ipad-radial-connection-status.png) **Connection Status** – Displays the connection status of the WorkSpace and peripheral devices\. 
+![\[Image NOT FOUND\]](http://docs.aws.amazon.com/workspaces/latest/userguide/images/ipad-radial-settings.png) **Settings** – Displays controls to change the screen resolution, change the scroll direction, or connect or disconnect the [Swiftpoint GT Mouse](#ipad_gt_mouse)\.
+
+![\[Image NOT FOUND\]](http://docs.aws.amazon.com/workspaces/latest/userguide/images/ipad-radial-connection-status.png) **Connection Status** – Displays the connection status of the WorkSpace\. 
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/workspaces/latest/userguide/images/ipad-radial-power.png) **Disconnect** – Disconnects the client application without logging off\. 
 
@@ -124,11 +127,15 @@ Simulate a right mouse button click by tapping the right mouse button icon\.
 
 ## Swiftpoint GT Mouse<a name="ipad_gt_mouse"></a>
 
-You can use the [Swiftpoint GT mouse](https://www.swiftpoint.com/product/swiftpoint-gt-mouse-2/) on an iPad WorkSpace\. To do so, before you launch the Amazon WorkSpaces iPad client application, enable Bluetooth on your iPad and pair the GT mouse with your iPad \(the GT mouse should pair automatically\)\. To check the connection status of the GT mouse and your iPad client, display the radial menu, and tap **Connection Status**\. 
+You can use the [Swiftpoint GT mouse](https://www.swiftpoint.com/product/swiftpoint-gt-mouse-2/) on an iPad to interact with your WorkSpace\. To do so, before you launch the Amazon WorkSpaces iPad client application, enable Bluetooth on your iPad and pair the GT mouse with your iPad \(the GT mouse should pair automatically\)\. To connect the GT mouse and your iPad client, display the radial menu, and tap **Settings**\. For **SwiftPoint GT Mouse**, choose **Connect**\.
 
 ## Disconnect<a name="ipad_disconnect"></a>
 
 To disconnect the iPad client, display the radial menu, tap the disconnect icon, and tap **Disconnect**\. You can also log off of the WorkSpace, which disconnects the client\.
+
+## Clipboard Redirection<a name="ipad_clipboard_redirection"></a>
+
+The clipboard supports copy and paste of text and HTML content only\.
 
 ## Release Notes<a name="ipad-release-notes"></a>
 
@@ -138,7 +145,7 @@ The following table describes the changes to each release of the iPad client app
 | Release | Changes | 
 | --- | --- | 
 |  2\.4\.11  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
-|  2\.4\.9  |  Minor bug fixes\.  | 
+|  2\.4\.9  |  Minor bug fixes  | 
 |  2\.4\.7  |  Closing the WorkSpaces client app now expires the reconnect token\. You can only reconnect to your WorkSpace when the client app is running\.   | 
 |  2\.4\.6  |  Minor fixes to the on\-screen keyboard  | 
 |  2\.4\.5  |  Adds support for uniform resource identifiers \(URIs\), which enable login orchestration  | 

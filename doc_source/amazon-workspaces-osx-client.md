@@ -84,6 +84,8 @@ You can switch to full screen mode by choosing **View**, **Enter Full Screen** \
 
 While in full screen mode, you can switch back to window mode by moving the pointer to the top of the screen\. The client application menu is displayed, and you can choose **View**, **Leave Full Screen** \(3\.0\+ clients\) or **View**, **Exit Fullscreen** \(1\.0\+ and 2\.0\+ clients\) in the client application menu\.
 
+You can also toggle full screen mode by pressing Control\+Option\+Return\.
+
 ## Client Language<a name="osx_client_lang"></a>
 
 You can select the language displayed by the client by performing the following steps\.
@@ -136,12 +138,12 @@ The Amazon WorkSpaces client applications use the HTTPS port for updates, regist
 
 ## Command Shortcuts<a name="osx_shortcuts"></a>
 
-The Amazon WorkSpaces macOS client supports the following command shortcuts\.
+The Amazon WorkSpaces macOS client supports the following command shortcuts:
 
 
 | If you're using\.\.\. | Use these shortcuts | 
 | --- | --- | 
-|  3\.0\+ client  |  Command\+Q—Quit Amazon WorkSpaces Control\+Option\+F12—Disconnect session  | 
+|  3\.0\+ client  |  Command\+Q—Quit Amazon WorkSpaces Control\+Option\+Return—Toggle full screen display Control\+Option\+F12—Disconnect session  | 
 |  1\.0\+ or 2\.0\+ client  |  Control\+Option\+Return—Toggle full screen display Control\+Option\+F12—Disconnect session  | 
 
 ## Release Notes<a name="osx-release-notes"></a>
@@ -151,9 +153,10 @@ The following table describes the changes to each release of the client applicat
 
 | Release | Changes | 
 | --- | --- | 
+|  3\.0\.2  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
 |  3\.0\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
 |  2\.5\.11  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
-|  2\.5\.9  |  Minor bug fixes\.  | 
+|  2\.5\.9  |  Minor bug fixes  | 
 |  2\.5\.8  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
 |  2\.5\.7  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
 |  2\.5\.6  |  Minor fixes  | 

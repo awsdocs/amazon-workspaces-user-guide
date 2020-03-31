@@ -144,6 +144,7 @@ The following table describes the changes to each release of the iPad client app
 
 | Release | Changes | 
 | --- | --- | 
+|  2\.4\.13  |  Minor bug fixes  | 
 |  2\.4\.11  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
 |  2\.4\.9  |  Minor bug fixes  | 
 |  2\.4\.7  |  Closing the WorkSpaces client app now expires the reconnect token\. You can only reconnect to your WorkSpace when the client app is running\.   | 

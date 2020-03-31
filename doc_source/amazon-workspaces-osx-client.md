@@ -13,6 +13,7 @@ The following information will help you get started with the Amazon WorkSpaces m
 + [Display Support](#osx-display-support)
 + [Proxy Server](#osx_proxy_server)
 + [Command Shortcuts](#osx_shortcuts)
++ [Remapping the Windows Logo Key or the Command Key](#osx_remap_command_key)
 + [Release Notes](#osx-release-notes)
 
 ## Requirements<a name="osx-requirements"></a>
@@ -22,7 +23,8 @@ The 3\.0\+ versions of the client application require macOS 10\.12 or later\.
 The 1\.0\+ or 2\.0\+ versions of the client application require OS X 10\.8\.1 or later\.
 
 **Important**  
-If you use macOS 10\.15 \(Catalina\), you must use version 2\.5\.11 or later of the macOS client application\. Earlier versions of the client application have issues with keyboard input on Catalina\.
+If you use macOS 10\.15 \(Catalina\), you must use version 2\.5\.11 or later of the macOS client application\. Earlier versions of the client application have issues with keyboard input on Catalina\.  
+If you are using Catalina and are working with Linux WorkSpaces, we recommend using version 3\.0\.2 or later of the macOS client to avoid potential keyboard issues with some applications\.
 
 ## Setup and Installation<a name="osx_setup"></a>
 
@@ -146,6 +148,28 @@ The Amazon WorkSpaces macOS client supports the following command shortcuts:
 |  3\.0\+ client  |  Command\+Q—Quit Amazon WorkSpaces Control\+Option\+Return—Toggle full screen display Control\+Option\+F12—Disconnect session  | 
 |  1\.0\+ or 2\.0\+ client  |  Control\+Option\+Return—Toggle full screen display Control\+Option\+F12—Disconnect session  | 
 
+## Remapping the Windows Logo Key or the Command Key<a name="osx_remap_command_key"></a>
+
+By default, the Windows logo key on a Windows keyboard and the Command key on an Apple keyboard are both mapped to the Ctrl key when you're using the Amazon WorkSpaces macOS client application\. If you want to change this behavior so that these two keys are mapped to the Windows logo key for use with Windows WorkSpaces, use the following procedure\.
+
+**To map the Windows logo key or the Command key to the Windows logo key**
+
+1. If you haven't already done so, install or update to version 3\.0\.5 or later of the Amazon WorkSpaces macOS client application\. You can install the client from [Amazon WorkSpaces Client Downloads](https://clients.amazonworkspaces.com/)\.
+
+1. In the **Finder**, open your **Applications** folder, then open **Utilities**, and choose **Terminal**\.
+
+1. In the Terminal window, enter the following command, and then press the Return key\.
+
+   ```
+   defaults write "com.amazon.Amazon WorkSpaces Client" remap_cmd_to_ctrl 0
+   ```
+
+1. In the Terminal app, choose **Terminal**, **Quit Terminal**\.
+
+1. If your WorkSpaces macOS client application is running, choose **Amazon WorkSpaces**, **Quit Amazon WorkSpaces** in the client to close the client application\.
+
+1. Restart the WorkSpaces macOS client application and log in to your WorkSpace\. The Windows logo key or the Command key should now be mapped to the Windows logo key\.
+
 ## Release Notes<a name="osx-release-notes"></a>
 
 The following table describes the changes to each release of the client application\.
@@ -153,6 +177,9 @@ The following table describes the changes to each release of the client applicat
 
 | Release | Changes | 
 | --- | --- | 
+|  3\.0\.5  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
+|  3\.0\.4  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
+|  3\.0\.3  |  Improves readability on high\-DPI devices  | 
 |  3\.0\.2  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
 |  3\.0\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
 |  2\.5\.11  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 

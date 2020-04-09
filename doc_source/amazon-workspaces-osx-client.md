@@ -30,6 +30,24 @@ If you are using Catalina and are working with Linux WorkSpaces, we recommend us
 
 Download and install the Amazon WorkSpaces macOS client from [Amazon WorkSpaces Client Downloads](https://clients.amazonworkspaces.com/)\.
 
+If you're having trouble updating your Amazon WorkSpaces macOS client application to a newer version, use the following procedure to update your client application\.
+
+**To update the WorkSpaces macOS client application to a newer version**
+
+1. In the **Finder**, open your **Applications** folder, then open **Utilities**, and choose **Terminal**\.
+
+1. In the Terminal window, enter the following command, and then press the Return key\.
+
+   ```
+   defaults delete com.amazon.workspaces
+   ```
+
+1. In the Terminal app, choose **Terminal**, **Quit Terminal**\.
+
+1. If you have not already entered a registration code in the WorkSpaces macOS client application, do so, and then choose **Amazon WorkSpaces**, **Quit Amazon WorkSpaces** to close the client application\.
+
+1. Restart the WorkSpaces macOS client application\. You should be prompted to update the client\. Accept the update\.
+
 ## Determining Your Client Version<a name="determine-version-osx"></a>
 
 To see which version of the WorkSpaces client you have, choose **Amazon WorkSpaces**, **About Amazon WorkSpaces**, or click the gear icon in the upper\-right corner and choose **About Amazon WorkSpaces**\.
@@ -154,7 +172,7 @@ By default, the Windows logo key on a Windows keyboard and the Command key on an
 
 **To map the Windows logo key or the Command key to the Windows logo key**
 
-1. If you haven't already done so, install or update to version 3\.0\.5 or later of the Amazon WorkSpaces macOS client application\. You can install the client from [Amazon WorkSpaces Client Downloads](https://clients.amazonworkspaces.com/)\.
+1. If you haven't already done so, [install or update](#osx_setup) to version 3\.0\.5 or later of the Amazon WorkSpaces macOS client application\.
 
 1. In the **Finder**, open your **Applications** folder, then open **Utilities**, and choose **Terminal**\.
 

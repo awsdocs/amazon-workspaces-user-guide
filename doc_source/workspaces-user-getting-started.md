@@ -34,7 +34,6 @@ You can connect to your WorkSpace using the client application for a supported d
 
 For information about connecting to your WorkSpace, see the following client documentation\.
 + [Android Client Application](amazon-workspaces-android-client.md)
-+ [Chromebook Client Application](amazon-workspaces-chromebook-client.md)
 + [iPad Client Application](amazon-workspaces-ipad-client.md)
 + [Linux Client Application](amazon-workspaces-linux-client.md)
 + [macOS Client Application](amazon-workspaces-osx-client.md)

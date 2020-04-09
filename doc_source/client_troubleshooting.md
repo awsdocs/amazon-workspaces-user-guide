@@ -8,6 +8,8 @@ The following are common issues that you might have with your WorkSpaces client\
 + [After logging in, the Windows client application displays only a white page and I cannot connect to my WorkSpace](#windows_white-page)
 + [My WorkSpaces client gives me a network error, but I am able to use other network\-enabled apps on my device](#net_error)
 + [It sometimes takes several minutes to log in to my Windows WorkSpace](#login_delay)
++ [When I try to log in, the Amazon WorkSpaces Windows client gets stuck on the "Preparing your login page" screen](#login_stuck_preparing_page)
++ [The Amazon WorkSpaces Windows client application login page is very tiny](#login_tiny_page)
 + [Sometimes I am logged off of my Windows WorkSpace, even though I closed the session, but did not log off](#logged_out)
 + [I forgot my password and tried to reset it, but I didn’t receive an email with a reset link](#reset_password)
 + [I can't connect to the internet from my WorkSpace](#internet_access)
@@ -72,6 +74,14 @@ Use one of the following solutions for certificate failures\.
 
 Group Policy settings that are set by your system administrator can cause a delay on login after your Windows WorkSpace has been launched or rebooted\. This delay occurs while the Group Policy settings are being applied to the WorkSpace, and is normal\.
 
+## When I try to log in, the Amazon WorkSpaces Windows client gets stuck on the "Preparing your login page" screen<a name="login_stuck_preparing_page"></a>
+
+When starting versions 3\.0\.4 and 3\.0\.5 of the WorkSpaces Windows client application on a Windows 10 machine, the client might get stuck on the "Preparing your login page" screen\. To avoid this issue, do not run the Windows client application with administrator \(elevated\) privileges\.
+
+## The Amazon WorkSpaces Windows client application login page is very tiny<a name="login_tiny_page"></a>
+
+Running the WorkSpaces Windows client with administrator \(elevated\) privileges might result in viewing issues in high DPI environments\. To avoid these issues, run the client in user mode instead\.
+
 ## Sometimes I am logged off of my Windows WorkSpace, even though I closed the session, but did not log off<a name="logged_out"></a>
 
 Your system administrator applied a new or updated Group Policy setting to your Windows WorkSpace that requires a logoff of a disconnected session\.
@@ -112,9 +122,11 @@ This error occurs when the WorkSpaces client application can't reach the registr
 
 ## I am unable to install the Android client application on my Chromebook<a name="chromebook_android_app"></a>
 
-Version 2\.4\.13 is the final release of the Amazon WorkSpaces Chromebook client application\. For [ Chromebooks that support installing Android applications](https://sites.google.com/a/chromium.org/dev/chromium-os/chrome-os-systems-supporting-android-apps), we recommend using the [Amazon WorkSpaces Android Client Application](amazon-workspaces-android-client.md) instead\.
+Version 2\.4\.13 is the final release of the Amazon WorkSpaces Chromebook client application\. Because [ Google is phasing out support for Chrome Apps](https://blog.chromium.org/2020/01/moving-forward-from-chrome-apps.html), there will be no further updates to the WorkSpaces Chromebook client application, and its use is unsupported\.
 
-If you are using a Chromebook launched before 2019, see [ Install Android apps on your Chromebook](https://support.google.com/chromebook/answer/7021273) before attempting to install the Amazon WorkSpaces Android client application\.
+For [ Chromebooks that support installing Android applications](https://sites.google.com/a/chromium.org/dev/chromium-os/chrome-os-systems-supporting-android-apps), we recommend using the [Amazon WorkSpaces Android Client Application](amazon-workspaces-android-client.md) instead\.
+
+If you are using a Chromebook launched before 2019, see the [ installation steps for Chromebooks launched before 2019](amazon-workspaces-android-client.md#chromebook_install_before_2019) before attempting to install the Amazon WorkSpaces Android client application\.
 
 In some cases, your WorkSpaces administrator might need to enable your Chromebook to install Android applications\. If you are unable to install the Android client application on your Chromebook, contact your WorkSpaces administrator for assistance\.
 

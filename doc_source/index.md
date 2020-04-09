@@ -16,9 +16,9 @@ Amazon's trademarks and trade dress may not be used in
 ## Contents
 + [Getting Started with Your WorkSpace](workspaces-user-getting-started.md)
 + [Manage Your WorkSpace from Your Client](manage_workspace_client.md)
++ [WorkSpaces Client Peripheral Device Support](peripheral_devices.md)
 + [Amazon WorkSpaces Clients](amazon-workspaces-clients.md)
    + [Amazon WorkSpaces Android Client Application](amazon-workspaces-android-client.md)
-   + [Amazon WorkSpaces Chromebook Client Application](amazon-workspaces-chromebook-client.md)
    + [Amazon WorkSpaces iPad Client Application](amazon-workspaces-ipad-client.md)
    + [Amazon WorkSpaces Linux Client Application](amazon-workspaces-linux-client.md)
    + [Amazon WorkSpaces macOS Client Application](amazon-workspaces-osx-client.md)

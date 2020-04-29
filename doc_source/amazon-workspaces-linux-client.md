@@ -17,7 +17,7 @@ The following information will help you get started with the Amazon WorkSpaces L
 
 ## Requirements<a name="linux-requirements"></a>
 
-The Amazon WorkSpaces Linux client application requires Ubuntu 18\.04\.
+The Amazon WorkSpaces Linux client application requires 64\-bit Ubuntu 18\.04 \(AMD64\)\.
 
 **Note**  
 By default, Linux client access is disabled\. To use this client with your WorkSpace, your Amazon WorkSpaces administrator must enable Linux client access for your WorkSpaces directory\.
@@ -98,7 +98,7 @@ Amazon WorkSpaces Value, Standard, Performance, Power, PowerPro, and GraphicsPro
 **Note**  
 Graphics bundles support only a single monitor configuration with a maximum resolution of 2560x1600\.
 
-The Amazon WorkSpaces client application extracts the Extended Display Information Data \(EDID\) of all attached displays and determines the best compatibility match before starting the session\. If you have a High DPI display, the client application automatically scales the streaming window according to your local DPI settings\.
+The Amazon WorkSpaces client application extracts the Extended Display Information Data \(EDID\) of all attached displays and determines the best compatibility match before starting the session\. If you have a high pixel density \(high DPI\) display, the client application automatically scales the streaming window according to your local DPI settings\. For better maximum resolution with high DPI displays, see [WorkSpaces High DPI Display Support](high_dpi_support.md)\.
 
 ## Proxy Server<a name="linux_proxy_server"></a>
 
@@ -127,9 +127,10 @@ Clipboard redirection is not currently supported for the Linux client applicatio
 The following table describes the changes to each release of the Linux client application\.
 
 
-| Release | Changes | 
-| --- | --- | 
-|  3\.0\.5  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-linux-client.html)  | 
-|  3\.0\.4  |  Minor bug fixes and enhancements  | 
-|  3\.0\.1  |  Bug fixes and UI enhancements  | 
-|  3\.0\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-linux-client.html)  | 
+| Release | Date | Changes | 
+| --- | --- | --- | 
+|  3\.0\.6  | April 28, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-linux-client.html)  | 
+|  3\.0\.5  | March 30, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-linux-client.html)  | 
+|  3\.0\.4  | March 3, 2020 |  Minor bug fixes and enhancements  | 
+|  3\.0\.1  | December 19, 2019 |  Bug fixes and UI enhancements  | 
+|  3\.0\.0  | November 25, 2019 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-linux-client.html)  | 

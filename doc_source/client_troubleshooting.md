@@ -76,7 +76,7 @@ Group Policy settings that are set by your system administrator can cause a dela
 
 ## When I try to log in, the Amazon WorkSpaces Windows client gets stuck on the "Preparing your login page" screen<a name="login_stuck_preparing_page"></a>
 
-When starting versions 3\.0\.4 and 3\.0\.5 of the WorkSpaces Windows client application on a Windows 10 machine, the client might get stuck on the "Preparing your login page" screen\. To avoid this issue, do not run the Windows client application with administrator \(elevated\) privileges\.
+When starting versions 3\.0\.4 and 3\.0\.5 of the WorkSpaces Windows client application on a Windows 10 machine, the client might get stuck on the "Preparing your login page" screen\. To avoid this issue, either upgrade to version 3\.0\.6 of the Windows client application or do not run the Windows client application with administrator \(elevated\) privileges\.
 
 ## The Amazon WorkSpaces Windows client application login page is very tiny<a name="login_tiny_page"></a>
 

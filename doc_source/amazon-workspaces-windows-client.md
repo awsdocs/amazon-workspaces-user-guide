@@ -110,7 +110,7 @@ Amazon WorkSpaces Value, Standard, Performance, Power, PowerPro, and GraphicsPro
 **Note**  
 Graphics bundles support only a single monitor configuration with a maximum resolution of 2560x1600\.
 
-The Amazon WorkSpaces client application extracts the Extended Display Information Data \(EDID\) of all attached displays and determines the best compatibility match before starting the session\. If you have a High DPI display, the client application automatically scales the streaming window according to your local DPI settings\.
+The Amazon WorkSpaces client application extracts the Extended Display Information Data \(EDID\) of all attached displays and determines the best compatibility match before starting the session\. If you have a high pixel density \(high DPI\) display, the client application automatically scales the streaming window according to your local DPI settings\. For better maximum resolution with high DPI displays, see [WorkSpaces High DPI Display Support](high_dpi_support.md)\. 
 
 ## Proxy Server<a name="windows_proxy_server"></a>
 
@@ -142,48 +142,49 @@ The Amazon WorkSpaces Windows client supports the following command shortcuts:
 The following table describes the changes to each release of the Windows client application\.
 
 
-| Release | Changes | 
-| --- | --- | 
-|  3\.0\.5  |  Resolves an issue with the user interface displaying a login prompt if single sign\-on \(SSO\) is enabled for Amazon WorkDocs  | 
-|  3\.0\.4  |  Minor bug fixes and enhancements  | 
-|  3\.0\.2  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
-|  3\.0\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
-|  2\.5\.11  |  Minor bug fixes  | 
-|  2\.5\.10  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
-|  2\.5\.9  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
-|  2\.5\.8  |  Resolves an intermittent crashing issue related to computer waking up when opening a laptop lid  | 
-|  2\.5\.7  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
-|  2\.5\.6  |  Minor fixes  | 
-|  2\.5\.5  |  Minor fixes  | 
-|  2\.5\.2  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
-|  2\.5\.1  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
-|  2\.5\.0  |  Adds support for user self\-service WorkSpace management capabilities  | 
-|  2\.4\.10  |  Minor fixes  | 
-|  2\.4\.9  |  Minor fixes  | 
-|  2\.4\.8  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
-|  2\.4\.7  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
-|  2\.4\.6  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
-|  2\.4\.5  |  Adds a check to ensure that certificates issued by Amazon Trust Services are trusted by Windows during installation\. By default, an up\-to\-date Windows local Root CA list includes Starfield Service Root Certificate Authority \- G2, and therefore trusts Amazon Trust Services certificates\. If the local Root CA list is outdated, the client installer installs the Starfield Service Root Certificate Authority \- G2 certificate to the system\. If you do not have administrator access to the client device, you'll be prompted to confirm the installation of the Root CA certificate\.  | 
-|  2\.4\.4  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
-|  2\.4\.2  |  Minor fixes  | 
-|  2\.4\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
-|  2\.3\.7  |  Addresses a gray screen issue that occurs when displays are in different orientations  | 
-|  2\.3\.6  |  Localization enhancements  | 
-|  2\.3\.5  |  Minor improvements  | 
-|  2\.3\.3  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
-|  2\.3\.2  |  Installer fixes  | 
-|  2\.3\.1  |  Minor fixes  | 
-|  2\.3\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
-|  2\.2\.3  |  Resolves minor bugs and improves stability  | 
-|  2\.2\.1  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
-|  2\.1\.3  |  Closing the client expires the reconnect token\. You can easily reconnect to your WorkSpace as long as the client is running\.  | 
-|  2\.1\.1  |  Minor improvement to protocol handling  | 
-|  2\.1\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
-|  2\.0\.8  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
-|  2\.0\.6  |  Resolves bugs and includes other improvements  | 
-|  2\.0\.4  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
-|  1\.1\.80  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
-|  1\.1\.6  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
-|  1\.1\.4  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
-|  1\.0\.8  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
-|  1\.0  |  Initial release  | 
+| Release | Date | Changes | 
+| --- | --- | --- | 
+|  3\.0\.6  | April 28, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
+|  3\.0\.5  | March 30, 2020 |  Resolves an issue with the user interface displaying a login prompt if single sign\-on \(SSO\) is enabled for Amazon WorkDocs  | 
+|  3\.0\.4  | March 3, 2020 |  Minor bug fixes and enhancements  | 
+|  3\.0\.2  | February 14, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
+|  3\.0\.0  | November 25, 2019 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
+|  2\.5\.11  | November 4, 2019 |  Minor bug fixes  | 
+|  2\.5\.10  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
+|  2\.5\.9  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
+|  2\.5\.8  |  |  Resolves an intermittent crashing issue related to computer waking up when opening a laptop lid  | 
+|  2\.5\.7  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
+|  2\.5\.6  |  |  Minor fixes  | 
+|  2\.5\.5  |  |  Minor fixes  | 
+|  2\.5\.2  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
+|  2\.5\.1  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
+|  2\.5\.0  |  |  Adds support for user self\-service WorkSpace management capabilities  | 
+|  2\.4\.10  |  |  Minor fixes  | 
+|  2\.4\.9  |  |  Minor fixes  | 
+|  2\.4\.8  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
+|  2\.4\.7  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
+|  2\.4\.6  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
+|  2\.4\.5  |  |  Adds a check to ensure that certificates issued by Amazon Trust Services are trusted by Windows during installation\. By default, an up\-to\-date Windows local Root CA list includes Starfield Service Root Certificate Authority \- G2, and therefore trusts Amazon Trust Services certificates\. If the local Root CA list is outdated, the client installer installs the Starfield Service Root Certificate Authority \- G2 certificate to the system\. If you do not have administrator access to the client device, you'll be prompted to confirm the installation of the Root CA certificate\.  | 
+|  2\.4\.4  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
+|  2\.4\.2  |  |  Minor fixes  | 
+|  2\.4\.0  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
+|  2\.3\.7  |  |  Addresses a gray screen issue that occurs when displays are in different orientations  | 
+|  2\.3\.6  |  |  Localization enhancements  | 
+|  2\.3\.5  |  |  Minor improvements  | 
+|  2\.3\.3  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
+|  2\.3\.2  |  |  Installer fixes  | 
+|  2\.3\.1  |  |  Minor fixes  | 
+|  2\.3\.0  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
+|  2\.2\.3  |  |  Resolves minor bugs and improves stability  | 
+|  2\.2\.1  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
+|  2\.1\.3  |  |  Closing the client expires the reconnect token\. You can easily reconnect to your WorkSpace as long as the client is running\.  | 
+|  2\.1\.1  |  |  Minor improvement to protocol handling  | 
+|  2\.1\.0  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
+|  2\.0\.8  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
+|  2\.0\.6  |  |  Resolves bugs and includes other improvements  | 
+|  2\.0\.4  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
+|  1\.1\.80  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
+|  1\.1\.6  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
+|  1\.1\.4  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
+|  1\.0\.8  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
+|  1\.0  |  |  Initial release  | 

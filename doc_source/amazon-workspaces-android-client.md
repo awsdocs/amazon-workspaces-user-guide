@@ -31,7 +31,7 @@ To download and install the client application, complete the following procedure
 
 **\(For devices other than Chromebooks launched before 2019\) To download and install the client application**
 
-1. On your device, open [https://clients\.amazonworkspaces\.com/](https://clients.amazonworkspaces.com/) and choose the link for your device \(either **Android** or **Fire Tablet**\)\.
+1. On your device, open [https://clients\.amazonworkspaces\.com/](https://clients.amazonworkspaces.com/) and choose the link for your device \(either **Android/Chromebook** or **Fire Tablet**\)\.
 
 1. Download and install the application\.
 
@@ -48,7 +48,7 @@ To download and install the client application, complete the following procedure
 **Note**  
 In some cases, your WorkSpaces administrator might need to enable your Chromebook to install Android applications\. If you are unable to install the Android client application on your Chromebook, contact your WorkSpaces administrator for assistance\.
 
-     1. On your Chromebook, open [https://clients\.amazonworkspaces\.com/](https://clients.amazonworkspaces.com/) and choose **Android**\.
+     1. On your Chromebook, open [https://clients\.amazonworkspaces\.com/](https://clients.amazonworkspaces.com/) and choose **Android/Chromebook**\.
 
      1. Download and install the application\.
 
@@ -166,32 +166,32 @@ The clipboard supports copy and paste of text and HTML content only\.
 The following table describes the changes to each release of the Android client application\.
 
 
-| Release | Changes | 
-| --- | --- | 
-|  2\.4\.16  |  Adds 64\-bit support for Android 9 and 10  | 
-|  2\.4\.15  |  Adds support for mouse cursor contextual shape changes  | 
-|  2\.4\.14  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
-|  2\.4\.13  |  Minor fixes  | 
-|  2\.4\.12  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
-|  2\.4\.11  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
-|  2\.4\.10  |  Improves support for Japanese keyboard layouts  | 
-|  2\.4\.9  |  Adds support for Samsung Galaxy Note 9  | 
-|  2\.4\.7  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
-|  2\.4\.6  |  Adds support for uniform resource identifiers \(URIs\), which enable login orchestration  | 
-|  2\.4\.5  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
-|  2\.4\.4  | Minor improvements to session provision handling | 
-|  2\.4\.2  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
-|  2\.4\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
-|  2\.3\.4  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
-|  2\.3\.3  |  Localization enhancements  | 
-|  2\.2\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
-|  2\.1\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
-|  2\.0\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
-|  1\.0\.15  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
-|  1\.0\.11  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
-|  1\.0\.10  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
-|  1\.0\.9  |  Improves the login experience  | 
-|  1\.0  |  Initial release  | 
+| Release | Date | Changes | 
+| --- | --- | --- | 
+|  2\.4\.16  | January 30, 2020 |  Adds 64\-bit support for Android 9 and 10  | 
+|  2\.4\.15  | June 24, 2019 |  Adds support for mouse cursor contextual shape changes  | 
+|  2\.4\.14  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
+|  2\.4\.13  |  |  Minor fixes  | 
+|  2\.4\.12  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
+|  2\.4\.11  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
+|  2\.4\.10  |  |  Improves support for Japanese keyboard layouts  | 
+|  2\.4\.9  |  |  Adds support for Samsung Galaxy Note 9  | 
+|  2\.4\.7  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
+|  2\.4\.6  |  |  Adds support for uniform resource identifiers \(URIs\), which enable login orchestration  | 
+|  2\.4\.5  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
+|  2\.4\.4  |  | Minor improvements to session provision handling | 
+|  2\.4\.2  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
+|  2\.4\.0  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
+|  2\.3\.4  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
+|  2\.3\.3  |  |  Localization enhancements  | 
+|  2\.2\.0  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
+|  2\.1\.0  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
+|  2\.0\.0  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
+|  1\.0\.15  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
+|  1\.0\.11  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
+|  1\.0\.10  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
+|  1\.0\.9  |  |  Improves the login experience  | 
+|  1\.0  |  |  Initial release  | 
 
 ### Chromebook Client Application Release Notes<a name="android-chromebook-release-notes"></a>
 
@@ -201,22 +201,22 @@ The following table describes the changes to each release of the Chromebook clie
 Version 2\.4\.13 is the final release of the Amazon WorkSpaces Chromebook client application\. Because [ Google is phasing out support for Chrome Apps](https://blog.chromium.org/2020/01/moving-forward-from-chrome-apps.html), there will be no further updates to the WorkSpaces Chromebook client application, and its use is unsupported\.
 
 
-| Release | Changes | 
-| --- | --- | 
-|  2\.4\.13  |  Fixed an issue that causes the app not to restore to full\-screen mode after a screen unlock  | 
-|  2\.4\.12  |  Minor bug fixes  | 
-|  2\.4\.11  |  Minor bug fixes  | 
-|  2\.4\.10  |  Improves support for Japanese keyboard layouts  | 
-|  2\.4\.8  |  Improves support for UK keyboards  | 
-|  2\.4\.7  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
-|  2\.4\.6  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
-|  2\.4\.5  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
-|  2\.4\.4  |  Minor improvements to session provision handling  | 
-|  2\.4\.2  |  Resolves a bug with Caps Lock  | 
-|  2\.4\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
-|  2\.2\.7  |  Resolves minor issues  | 
-|  2\.2\.4  |  Localization enhancements  | 
-|  2\.2\.1  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
-|  2\.1\.3  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
-|  2\.0\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
-|  1\.0  |  Initial release  | 
+| Release | Date | Changes | 
+| --- | --- | --- | 
+|  2\.4\.13  | April 24, 2019 |  Fixed an issue that causes the app not to restore to full\-screen mode after a screen unlock  | 
+|  2\.4\.12  |  |  Minor bug fixes  | 
+|  2\.4\.11  |  |  Minor bug fixes  | 
+|  2\.4\.10  |  |  Improves support for Japanese keyboard layouts  | 
+|  2\.4\.8  |  |  Improves support for UK keyboards  | 
+|  2\.4\.7  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
+|  2\.4\.6  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
+|  2\.4\.5  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
+|  2\.4\.4  |  |  Minor improvements to session provision handling  | 
+|  2\.4\.2  |  |  Resolves a bug with Caps Lock  | 
+|  2\.4\.0  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
+|  2\.2\.7  |  |  Resolves minor issues  | 
+|  2\.2\.4  |  |  Localization enhancements  | 
+|  2\.2\.1  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
+|  2\.1\.3  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
+|  2\.0\.0  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
+|  1\.0  |  |  Initial release  | 

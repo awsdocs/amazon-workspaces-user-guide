@@ -142,33 +142,34 @@ The clipboard supports copy and paste of text and HTML content only\.
 The following table describes the changes to each release of the iPad client application\.
 
 
-| Release | Changes | 
-| --- | --- | 
-|  2\.4\.13  |  Minor bug fixes  | 
-|  2\.4\.11  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
-|  2\.4\.9  |  Minor bug fixes  | 
-|  2\.4\.7  |  Closing the WorkSpaces client app now expires the reconnect token\. You can only reconnect to your WorkSpace when the client app is running\.   | 
-|  2\.4\.6  |  Minor fixes to the on\-screen keyboard  | 
-|  2\.4\.5  |  Adds support for uniform resource identifiers \(URIs\), which enable login orchestration  | 
-|  2\.4\.4  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
-|  2\.4\.3  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
-|  2\.4\.2  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
-|  2\.4\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
-|  2\.2\.4  |  Localization enhancements  | 
-|  2\.2\.3  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
-|  2\.2\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
-|  2\.1\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
-|  2\.0\.0  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
-|  1\.1  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
-|  1\.0\.11  |  Improves stability on iOS 8  | 
-|  1\.0\.10  |  Improves stability  | 
-|  1\.0\.9  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
-|  1\.0\.8  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
-|  1\.0\.7  |  Improves the login experience  | 
-|  1\.0\.6  |  Improves the login experience  | 
-|  1\.0\.5  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
-|  1\.0\.4  |  Improves the login experience  | 
-|  1\.0\.3  |  Improves the login experience  | 
-|  1\.0\.2  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
-|  1\.01  |  Improves radial functionality  | 
-|  1\.0  |  Initial release  | 
+| Release | Date | Changes | 
+| --- | --- | --- | 
+|  2\.4\.14  | April 17, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
+|  2\.4\.13  | February 28, 2020 |  Minor bug fixes  | 
+|  2\.4\.11  | October 28, 2019 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
+|  2\.4\.9  |  |  Minor bug fixes  | 
+|  2\.4\.7  |  |  Closing the WorkSpaces client app now expires the reconnect token\. You can only reconnect to your WorkSpace when the client app is running\.   | 
+|  2\.4\.6  |  |  Minor fixes to the on\-screen keyboard  | 
+|  2\.4\.5  |  |  Adds support for uniform resource identifiers \(URIs\), which enable login orchestration  | 
+|  2\.4\.4  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
+|  2\.4\.3  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
+|  2\.4\.2  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
+|  2\.4\.0  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
+|  2\.2\.4  |  |  Localization enhancements  | 
+|  2\.2\.3  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
+|  2\.2\.0  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
+|  2\.1\.0  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
+|  2\.0\.0  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
+|  1\.1  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
+|  1\.0\.11  |  |  Improves stability on iOS 8  | 
+|  1\.0\.10  |  |  Improves stability  | 
+|  1\.0\.9  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
+|  1\.0\.8  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
+|  1\.0\.7  |  |  Improves the login experience  | 
+|  1\.0\.6  |  |  Improves the login experience  | 
+|  1\.0\.5  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
+|  1\.0\.4  |  |  Improves the login experience  | 
+|  1\.0\.3  |  |  Improves the login experience  | 
+|  1\.0\.2  |  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
+|  1\.01  |  |  Improves radial functionality  | 
+|  1\.0  |  |  Initial release  | 

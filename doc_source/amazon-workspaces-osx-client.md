@@ -28,7 +28,13 @@ If you are using Catalina and are working with Linux WorkSpaces, we recommend us
 
 ## Setup and Installation<a name="osx_setup"></a>
 
-Download and install the Amazon WorkSpaces macOS client from [Amazon WorkSpaces Client Downloads](https://clients.amazonworkspaces.com/)\.
+Depending on which version of the client you want, do one of the following:
+
+
+| If you want to install\.\.\. | Do this | 
+| --- | --- | 
+| 3\.0\+ client | Download and install the [Amazon WorkSpaces macOS client](https://workspaces-client-updates.s3.amazonaws.com/prod/iad/osx/WorkSpaces.pkg)\. | 
+| 2\.0\+ client | Download and install the Amazon WorkSpaces macOS client from [Amazon WorkSpaces Client Downloads](https://clients.amazonworkspaces.com/)\. | 
 
 If you're having trouble updating your Amazon WorkSpaces macOS client application to a newer version, use the following procedure to update your client application\.
 
@@ -136,6 +142,23 @@ Amazon WorkSpaces Value, Standard, Performance, Power, PowerPro, and GraphicsPro
 Graphics bundles support only a single monitor configuration with a maximum resolution of 2560x1600\.
 
 The Amazon WorkSpaces client application extracts the Extended Display Information Data \(EDID\) of all attached displays and determines the best compatibility match before starting the session\. If you have a high pixel density \(high DPI\) display, the client application automatically scales the streaming window according to your local DPI settings\. For better maximum resolution with high DPI displays, see [WorkSpaces High DPI Display Support](high_dpi_support.md)\.
+
+**Note**  
+If your screen resolution in WorkSpaces is low and objects look blurry, you need to turn on high DPI mode and adjust the display scaling settings on your Mac\. For more information, see [WorkSpaces High DPI Display Support](high_dpi_support.md)\.
+
+**To use multiple monitors with WorkSpaces**
+
+1. Configure your local machine to use multiple monitors\. 
+
+1. Start the WorkSpaces client application and log in to your WorkSpace\.
+
+1. Depending on which client you're using, do one of the following:    
+[\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)
+
+Your WorkSpace should now be extended across your displays\. Whichever display you have designated as your primary display is also the primary display in WorkSpaces when you enter full screen mode\.
+
+**Note**  
+To use full screen mode on only some of the displays in a multiple monitor setup, press and hold the Option key and then click the green maximize button ![\[Maximize button\]](http://docs.aws.amazon.com/workspaces/latest/userguide/images/mac-maximize-button.png) in the top\-left corner of the WorkSpaces window\. This button expands the WorkSpaces client window to full size on a screen without extending the WorkSpace to the other displays\. To return to the previous window size, press and hold the Option key and click the maximize button again\.
 
 ## Proxy Server<a name="osx_proxy_server"></a>
 

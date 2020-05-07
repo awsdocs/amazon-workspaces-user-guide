@@ -21,6 +21,7 @@ The following are common issues that you might have with your WorkSpaces client\
 + [I am unable to install the Android client application on my Chromebook](#chromebook_android_app)
 + [I'm getting the wrong characters when I type; for example, I get \\ and \| when I try to type quotation marks \(' and "\)](#lang_keyboard_mismatch)
 + [I'm having trouble using the Windows logo key in Windows WorkSpaces when working on a Mac](#windows_key_osx)
++ [My WorkSpace looks blurry on my Mac](#screen_blurry_osx)
 
 ## The Amazon WorkSpaces Application Manager client application isn't appearing on my Windows WorkSpace desktop<a name="no-wam-client"></a>
 
@@ -154,3 +155,7 @@ There are several ways to solve this issue:
 ## I'm having trouble using the Windows logo key in Windows WorkSpaces when working on a Mac<a name="windows_key_osx"></a>
 
 By default, the Windows logo key on a Windows keyboard and the Command key on an Apple keyboard are both mapped to the Ctrl key when you're using the Amazon WorkSpaces macOS client application\. If you want to change this behavior so that these two keys are mapped to the Windows logo key, see [Remapping the Windows Logo Key or the Command Key](amazon-workspaces-osx-client.md#osx_remap_command_key) for instructions on how to remap these keys\.
+
+## My WorkSpace looks blurry on my Mac<a name="screen_blurry_osx"></a>
+
+If your screen resolution in WorkSpaces is low and objects look blurry, you need to turn on high DPI mode and adjust the display scaling settings on your Mac\. For more information, see [WorkSpaces High DPI Display Support](high_dpi_support.md)\.

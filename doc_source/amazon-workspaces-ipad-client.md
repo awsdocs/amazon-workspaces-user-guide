@@ -29,7 +29,7 @@ To download and install the client application, complete the following procedure
 
 **To download and install the client application**
 
-1. On your iPad, search the App Store for the Amazon WorkSpaces client application\.
+1. On your iPad, open [Amazon WorkSpaces Client Downloads](https://clients.amazonworkspaces.com/) and choose the **iPad** link\.
 
 1. Download and install the application\.
 

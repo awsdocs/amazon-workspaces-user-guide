@@ -27,6 +27,13 @@ The maximum display size supported for high DPI mode in the Amazon WorkSpaces cl
 
    The screen resolution of your WorkSpace will change to match the high DPI resolution of your monitor\.
 
+**Note**  
+If you're using a Mac and your screen resolution in WorkSpaces is low and objects look blurry, do the following:  
+Open **System Preferences**\.
+Choose **Displays**\.
+Do one of the following to adjust the display scaling, depending on your display type:      
+[\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/high_dpi_support.html)
+
 If the images and text in your WorkSpace are smaller than you prefer, you will also need to adjust the display scale settings on your Windows or Linux WorkSpace\.
 
 **Important**  

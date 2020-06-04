@@ -127,7 +127,7 @@ Simulate a right mouse button click by tapping the right mouse button icon\.
 
 ## Swiftpoint GT Mouse<a name="ipad_gt_mouse"></a>
 
-You can use the [Swiftpoint GT mouse](https://www.swiftpoint.com/product/swiftpoint-gt-mouse-2/) on an iPad to interact with your WorkSpace\. To do so, before you launch the Amazon WorkSpaces iPad client application, enable Bluetooth on your iPad and pair the GT mouse with your iPad \(the GT mouse should pair automatically\)\. To connect the GT mouse and your iPad client, display the radial menu, and tap **Settings**\. For **SwiftPoint GT Mouse**, choose **Connect**\.
+You can use the Swiftpoint GT mouse on an iPad to interact with your WorkSpace\. To do so, before you launch the Amazon WorkSpaces iPad client application, enable Bluetooth on your iPad and pair the GT mouse with your iPad \(the GT mouse should pair automatically\)\. To connect the GT mouse and your iPad client, display the radial menu, and tap **Settings**\. For **SwiftPoint GT Mouse**, choose **Connect**\.
 
 ## Disconnect<a name="ipad_disconnect"></a>
 

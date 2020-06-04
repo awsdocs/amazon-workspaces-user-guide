@@ -13,6 +13,7 @@ The following information will help you get started with the Amazon WorkSpaces L
 + [Proxy Server](#linux_proxy_server)
 + [Command Shortcuts](#linux_shortcuts)
 + [Clipboard Redirection](#linux_clipboard)
++ [Disconnect](#linux_disconnect)
 + [Release Notes](#linux-release-notes)
 
 ## Requirements<a name="linux-requirements"></a>
@@ -20,11 +21,15 @@ The following information will help you get started with the Amazon WorkSpaces L
 The Amazon WorkSpaces Linux client application requires 64\-bit Ubuntu 18\.04 \(AMD64\)\.
 
 **Note**  
-By default, Linux client access is disabled\. To use this client with your WorkSpace, your Amazon WorkSpaces administrator must enable Linux client access for your WorkSpaces directory\.
+By default, Linux client access is disabled\. To use this client with your WorkSpace, your Amazon WorkSpaces administrator must enable Linux client access for your WorkSpaces directory\. For more information, see [ Control Device Access](https://docs.aws.amazon.com/workspaces/latest/adminguide/update-directory-details.html#control-device-access) in the *Amazon WorkSpaces Administration Guide*\.
 
 ## Setup and Installation<a name="linux_setup"></a>
 
-Download and install the Amazon WorkSpaces Linux client application from [Amazon WorkSpaces Client Downloads](https://clients.amazonworkspaces.com/)\.
+Download and install the Amazon WorkSpaces Linux client application from [Amazon WorkSpaces Client Downloads](https://clients.amazonworkspaces.com/)\. Detailed installation instructions are included on the Linux client page on the Client Downloads site\.
+
+To launch the Linux client from the command line, use:
+
+`/opt/workspacesclient/workspacesclient`
 
 ## Connecting to Your WorkSpace<a name="linux_connecting"></a>
 
@@ -136,6 +141,13 @@ The Amazon WorkSpaces Linux client supports the following command shortcuts:
 
 Clipboard redirection is not currently supported for the Linux client application\.
 
+## Disconnect<a name="linux_disconnect"></a>
+
+To disconnect the Linux client application, you have several options: 
++ In the Amazon WorkSpaces client application, go to **Amazon WorkSpaces**, and then choose **Disconnect WorkSpace**\. Your WorkSpace session ends, but the client application continues running in case you want to log in again\.
++ In the Amazon WorkSpaces client application, go to **Amazon WorkSpaces**, and then choose **Quit Amazon WorkSpaces**\. Your WorkSpace session ends, and the client application closes\.
++ In the Amazon WorkSpaces client application, close the WorkSpaces client window by clicking the close \(X\) button in the upper\-right corner\. In the **End Session** dialog box, choose **Yes**\. Your WorkSpace session ends, but the client application continues running in case you want to log in again\.
+
 ## Release Notes<a name="linux-release-notes"></a>
 
 The following table describes the changes to each release of the Linux client application\.
@@ -143,6 +155,7 @@ The following table describes the changes to each release of the Linux client ap
 
 | Release | Date | Changes | 
 | --- | --- | --- | 
+|  3\.0\.7  | June 3, 2020 |  Minor bug fixes and enhancements  | 
 |  3\.0\.6  | April 29, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-linux-client.html)  | 
 |  3\.0\.4  | March 3, 2020 |  Minor bug fixes and enhancements  | 
 |  3\.0\.1  | December 19, 2019 |  Bug fixes and UI enhancements  | 

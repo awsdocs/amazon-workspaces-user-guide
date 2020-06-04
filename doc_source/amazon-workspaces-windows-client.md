@@ -13,6 +13,7 @@ The following information will help you get started with the Amazon WorkSpaces W
 + [Display Support](#windows-display-support)
 + [Proxy Server](#windows_proxy_server)
 + [Command Shortcuts](#windows_shortcuts)
++ [Disconnect](#windows_disconnect)
 + [Release Notes](#windows-release-notes)
 
 ## Requirements<a name="windows-requirements"></a>
@@ -157,6 +158,14 @@ The Amazon WorkSpaces Windows client supports the following command shortcuts:
 + Ctrl\+Alt\+Enter—Toggle full screen display
 + Ctrl\+Alt\+F12—Disconnect session
 
+## Disconnect<a name="windows_disconnect"></a>
+
+To disconnect the Windows client application, you have several options: 
++ In the Amazon WorkSpaces client application, go to **Amazon WorkSpaces**, and then choose **Disconnect WorkSpace**\. Your WorkSpace session ends, but the client application continues running in case you want to log in again\.
++ In the Amazon WorkSpaces client application, go to **Amazon WorkSpaces**, and then choose **Quit Amazon WorkSpaces**\. Your WorkSpace session ends, and the client application closes\.
++ In the Amazon WorkSpaces client application, close the WorkSpaces client window by clicking the close \(X\) button in the upper\-right corner\. In the **End Session** dialog box, choose **Yes**\. Your WorkSpace session ends, but the client application continues running in case you want to log in again\.
++ You can also log off of the WorkSpace\. In the Amazon WorkSpaces client application, go to **View**, and then choose **Send Ctrl\+Alt\+Delete**\. Choose **Sign Out**\. Your WorkSpace session ends, but the client application continues running in case you want to log in again\.
+
 ## Release Notes<a name="windows-release-notes"></a>
 
 The following table describes the changes to each release of the Windows client application\.
@@ -164,6 +173,7 @@ The following table describes the changes to each release of the Windows client 
 
 | Release | Date | Changes | 
 | --- | --- | --- | 
+|  3\.0\.7  | June 3, 2020 |  Minor bug fixes and enhancements  | 
 |  3\.0\.6  | April 28, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
 |  3\.0\.5  | March 30, 2020 |  Resolves an issue with the user interface displaying a login prompt if single sign\-on \(SSO\) is enabled for Amazon WorkDocs  | 
 |  3\.0\.4  | March 3, 2020 |  Minor bug fixes and enhancements  | 

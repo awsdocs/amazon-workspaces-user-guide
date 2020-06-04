@@ -41,6 +41,8 @@ You can change your WorkSpaces login password at any time\.
 1. Open your Amazon WorkSpaces client\.
 
 1. On the client login screen, choose **Forgot Password?** under the **Sign In** button\.
+**Note**  
+If **Forgot password? **isn't available on your login screen, contact your WorkSpaces administrator for assistance with resetting your password\.
 
 1. Enter your user name, and then enter the characters you see in the image\.
 
@@ -50,7 +52,10 @@ You can change your WorkSpaces login password at any time\.
 
 ## Restart Your WorkSpace<a name="client-restart-workspace"></a>
 
-If you are experiencing issues with your WorkSpace, you can restart it\. Restarting a WorkSpace disconnects you from your WorkSpace, so that it can be shut down and restarted\. To avoid losing changes, save any open documents and other application files before you restart your WorkSpace\. Your user data, operating system, and system settings are not affected\.
+If you are experiencing issues with your WorkSpace, you can restart it\. Restarting a WorkSpace disconnects you from your WorkSpace, so that it can be shut down and restarted\. Your user data, operating system, and system settings are not affected\. This process takes several minutes to finish\.
+
+**Important**  
+To avoid losing changes, save any open documents and other application files before you restart your WorkSpace\. 
 
 **To restart your WorkSpace**
 
@@ -72,8 +77,9 @@ You cannot increase the size of the C: and D: drives at the same time\. \(The sa
 
 While your WorkSpace disk size increase is in progress, you can perform most tasks on your WorkSpace\. However, you can't change your WorkSpace compute type, switch the WorkSpace running mode, rebuild your WorkSpace, or restart your WorkSpace\. The disk size increase process might take up to an hour\.
 
-**Note**  
- You can only resize SSD volumes\. Also, increasing your WorkSpace disk size will increase the amount that your organization pays for your WorkSpace\. 
+**Important**  
+You can resize only SSD volumes\. 
+Increasing your WorkSpace disk size will increase the amount that your organization pays for your WorkSpace\. 
 
 **To increase your WorkSpace disk size**
 
@@ -88,13 +94,16 @@ While your WorkSpace disk size increase is in progress, you can perform most tas
 
 1. A message displays information about the disk size increase process\. Review the information, and choose **Close**\.
 
+1. When the disk size increase is finished, you must [ restart the WorkSpace](#client-restart-workspace) for the changes to take effect\. Save any open files before restarting the WorkSpace\.
+
 ## Change Your WorkSpace Compute Type<a name="client-change-compute-type"></a>
 
 You can change your WorkSpace compute type to choose a different bundle for your WorkSpace\. If your administrator recently created your WorkSpace, you must wait 6 hours before you can change your WorkSpace compute type\. After that, you can switch to a larger compute type once in a 6\-hour period, or to a smaller compute type once in a 30\-day period\.
 
-When your WorkSpace compute type change is in progress, you are disconnected from the WorkSpace\. During this time, you can't use or make changes to the WorkSpace\. To avoid losing changes, save any open documents and other application files before you change your WorkSpace compute type\. This process may take up to an hour\.
+When your WorkSpace compute type change is in progress, you are disconnected from the WorkSpace\. During this time, you can't use or make changes to the WorkSpace\. This process might take up to an hour\.
 
-**Note**  
+**Important**  
+To avoid losing changes, save any open documents and other application files before you change your WorkSpace compute type\. 
 Changing your WorkSpace compute type will change the amount that your organization pays for your WorkSpace\. 
 
 **To change your WorkSpace compute type**

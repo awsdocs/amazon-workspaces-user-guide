@@ -14,6 +14,7 @@ The following information will help you get started with the Amazon WorkSpaces m
 + [Proxy Server](#osx_proxy_server)
 + [Command Shortcuts](#osx_shortcuts)
 + [Remapping the Windows Logo Key or the Command Key](#osx_remap_command_key)
++ [Disconnect](#osx_disconnect)
 + [Release Notes](#osx-release-notes)
 
 ## Requirements<a name="osx-requirements"></a>
@@ -211,6 +212,14 @@ By default, the Windows logo key on a Windows keyboard and the Command key on an
 
 1. Restart the WorkSpaces macOS client application and log in to your WorkSpace\. The Windows logo key or the Command key should now be mapped to the Windows logo key\.
 
+## Disconnect<a name="osx_disconnect"></a>
+
+To disconnect the macOS client application, you have several options: 
++ In the Amazon WorkSpaces client application, go to **Amazon WorkSpaces**, and then choose **Disconnect WorkSpace**\. Your WorkSpace session ends, but the client application continues running in case you want to log in again\.
++ In the Amazon WorkSpaces client application, go to **Amazon WorkSpaces**, and then choose **Quit Amazon WorkSpaces**\. Your WorkSpace session ends, and the client application closes\.
++ In the Amazon WorkSpaces client application, close the WorkSpaces client window by clicking the red close \(X\) button in the upper\-left corner\. In the **End Session** dialog box, choose **Yes**\. Your WorkSpace session ends, but the client application continues running in case you want to log in again\.
++ You can also log off of the WorkSpace\. In the Amazon WorkSpaces client application, go to **View**, and then choose **Send Ctrl\+Alt\+Delete**\. Choose **Sign Out**\. Your WorkSpace session ends, but the client application continues running in case you want to log in again\.
+
 ## Release Notes<a name="osx-release-notes"></a>
 
 The following table describes the changes to each release of the client application\.
@@ -218,6 +227,7 @@ The following table describes the changes to each release of the client applicat
 
 | Release | Date | Changes | 
 | --- | --- | --- | 
+|  3\.0\.7  | June 3, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
 |  3\.0\.6  | April 28, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
 |  3\.0\.5  | March 30, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
 |  3\.0\.4  | March 3, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 

@@ -21,9 +21,11 @@ The maximum display size supported for high DPI mode in the Amazon WorkSpaces cl
 
 **To enable high DPI mode**
 
-1. In your Amazon WorkSpaces 3\.0\+ client application, go to **Settings**, **Display Settings**\. 
+1. Open your Amazon WorkSpaces 3\.0\+ client application and log in to your WorkSpace\.
 
-1. In the **Streaming Settings** dialog box, select **High DPI Mode**, then click **Save**\.
+1. In the WorkSpaces client application, go to **Settings**, **Display Settings**\. 
+
+1. In the **Display Settings** dialog box, select **High DPI Mode**, then click **Save**\.
 
    The screen resolution of your WorkSpace will change to match the high DPI resolution of your monitor\.
 

@@ -34,8 +34,8 @@ Depending on which version of the client you want, do one of the following:
 
 | If you want to install\.\.\. | Do this | 
 | --- | --- | 
-| 3\.0\+ client | Download and install the [Amazon WorkSpaces macOS client](https://workspaces-client-updates.s3.amazonaws.com/prod/iad/osx/WorkSpaces.pkg)\. | 
-| 2\.0\+ client | Download and install the Amazon WorkSpaces macOS client from [Amazon WorkSpaces Client Downloads](https://clients.amazonworkspaces.com/)\. | 
+| 3\.0\+ client | Go to [Amazon WorkSpaces Client Downloads](https://clients.amazonworkspaces.com/) and find the Amazon WorkSpaces macOS client\. Under Get the latest client, choose the Download button\. | 
+| 2\.5\.11 client | Go to [Amazon WorkSpaces Client Downloads](https://clients.amazonworkspaces.com/) and find the Amazon WorkSpaces macOS client\. Under Older version 2\.5\.11, choose the Download button\. | 
 
 If you're having trouble updating your Amazon WorkSpaces macOS client application to a newer version, use the following procedure to update your client application\.
 

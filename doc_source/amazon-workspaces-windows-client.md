@@ -27,8 +27,8 @@ Depending on which version of the client you want, do one of the following:
 
 | If you want to install\.\.\. | Do this | 
 | --- | --- | 
-| 3\.0\+ client | Download and install the [Amazon WorkSpaces Windows client](https://workspaces-client-updates.s3.amazonaws.com/prod/iad/windows/Amazon+WorkSpaces.msi)\. | 
-| 2\.0\+ client | Download and install the Amazon WorkSpaces Windows client from [Amazon WorkSpaces Client Downloads](https://clients.amazonworkspaces.com/)\. | 
+| 3\.0\+ client | Go to [Amazon WorkSpaces Client Downloads](https://clients.amazonworkspaces.com/) and find the Amazon WorkSpaces Windows client\. Under Get the latest client, choose the Download button\. | 
+| 2\.5\.11 client | Go to [Amazon WorkSpaces Client Downloads](https://clients.amazonworkspaces.com/) and find the Amazon WorkSpaces Windows client\. Under Older version 2\.5\.11, choose the Download button\. | 
 
 ## Determining Your Client Version<a name="determine-version-windows"></a>
 

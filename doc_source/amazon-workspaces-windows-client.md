@@ -30,6 +30,30 @@ Depending on which version of the client you want, do one of the following:
 | 3\.0\+ client | Go to [Amazon WorkSpaces Client Downloads](https://clients.amazonworkspaces.com/) and find the Amazon WorkSpaces Windows client\. Under Get the latest client, choose the Download button\. | 
 | 2\.5\.11 client | Go to [Amazon WorkSpaces Client Downloads](https://clients.amazonworkspaces.com/) and find the Amazon WorkSpaces Windows client\. Under Older version 2\.5\.11, choose the Download button\. | 
 
+You have two choices for how to install the Amazon WorkSpaces Windows client application: 
++ **Install just for you**\. If you choose this option and you share your local machine with other users, the WorkSpaces client application is available only to you\. If other users on the machine also want to use the WorkSpaces client application, they must install the application for their own use\. 
++ **Install for all users of this machine**\. If you choose this option, the WorkSpaces client application is available to anyone who logs on to the local machine, including those with Guest accounts\. 
+
+Installing the WorkSpaces client application for all users requires you to have administrator privileges on your local machine\. Depending on how your local machine is configured, you might not have such privileges\. In that case, you can install the WorkSpaces client application just for yourself\. If you have questions about which option to choose, ask your WorkSpaces administrator for guidance\.
+
+If you're having trouble updating your Amazon WorkSpaces Windows client application to a newer version, use the following procedure to update your client application\.
+
+**To update the WorkSpaces Windows client application to a newer version**
+
+1. On your local machine, open the Windows search box and enter **registry editor** to open the Registry Editor \(regedit\.exe\)\.
+
+1. When asked "Do you want to allow this app to make changes to your device?", choose **Yes**\.
+
+1. In the Registry Editor, navigate to the following registry entry:
+
+   **Computer\\HKEY\_CURRENT\_USER\\Software\\Amazon Web Services\. LLC\\Amazon WorkSpaces\\WinSparkle**
+
+1. Delete the **SkipThisVersion** registry key\. When prompted to confirm the deletion, choose **Yes**, and then close the Registry Editor\.
+
+1. If you have not already entered a registration code in the WorkSpaces Windows client application, do so, and then choose **Amazon WorkSpaces**, **Quit Amazon WorkSpaces** to close the client application\.
+
+1. Restart the WorkSpaces Windows client application\. You should be prompted to update the client\. Accept the update\.
+
 ## Determining Your Client Version<a name="determine-version-windows"></a>
 
 To see which version of the WorkSpaces client you have, choose **Amazon WorkSpaces**, **About Amazon WorkSpaces**, or click the gear icon in the upper\-right corner and choose **About Amazon WorkSpaces**\.
@@ -173,7 +197,7 @@ The following table describes the changes to each release of the Windows client 
 
 | Release | Date | Changes | 
 | --- | --- | --- | 
-|  3\.0\.7  | June 3, 2020 |  Minor bug fixes and enhancements  | 
+|  3\.0\.7  | June 3, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
 |  3\.0\.6  | April 28, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
 |  3\.0\.5  | March 30, 2020 |  Resolves an issue with the user interface displaying a login prompt if single sign\-on \(SSO\) is enabled for Amazon WorkDocs  | 
 |  3\.0\.4  | March 3, 2020 |  Minor bug fixes and enhancements  | 

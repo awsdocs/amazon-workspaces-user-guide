@@ -1,10 +1,16 @@
 # Amazon WorkSpaces Web Access<a name="amazon-workspaces-web-access"></a>
 
-Users can access their WorkSpaces from any location using a web browser\. This is ideal for users who must use a locked\-down device or restrictive network\. Instead of using a traditional remote access solution and installing the appropriate client application, users can visit the website to access their work resources\.
+Users can access their Windows WorkSpaces from any location using a web browser\. This is ideal for users who must use a locked\-down device or restrictive network\. Instead of using a traditional remote access solution and installing the appropriate client application, users can visit the website to access their work resources\.
+
+**Note**  
+A web browser cannot be used to connect to Amazon Linux WorkSpaces\.
+
+**Important**  
+Beginning October 1, 2020, customers will no longer be able to use the Amazon WorkSpaces Web Access client to connect to Windows 7 custom WorkSpaces or to Windows 7 Bring Your Own License \(BYOL\) WorkSpaces\.
 
 ## Website<a name="web-access-url"></a>
 
-Open [Amazon WorkSpaces Web Access](https://clients.amazonworkspaces.com/webclient) to log on to your WorkSpace through your web browser\.
+Open [Amazon WorkSpaces Web Access](https://clients.amazonworkspaces.com/webclient) to log on to your Windows WorkSpace through your web browser\.
 
 ## Requirements<a name="web-access-requirements"></a>
 

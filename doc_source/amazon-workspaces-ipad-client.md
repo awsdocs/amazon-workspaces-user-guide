@@ -144,6 +144,7 @@ The following table describes the changes to each release of the iPad client app
 
 | Release | Date | Changes | 
 | --- | --- | --- | 
+|  2\.4\.15  | June 28, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
 |  2\.4\.14  | April 17, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 
 |  2\.4\.13  | February 28, 2020 |  Minor bug fixes  | 
 |  2\.4\.11  | October 28, 2019 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 

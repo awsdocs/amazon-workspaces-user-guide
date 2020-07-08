@@ -46,7 +46,7 @@ If you're having trouble updating your Amazon WorkSpaces macOS client applicatio
 1. In the Terminal window, enter the following command, and then press the Return key\.
 
    ```
-   defaults delete com.amazon.workspaces
+   defaults delete com.amazon.workspaces SUSkippedVersion
    ```
 
 1. In the Terminal app, choose **Terminal**, **Quit Terminal**\.

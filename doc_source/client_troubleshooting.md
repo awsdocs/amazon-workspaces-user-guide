@@ -18,6 +18,8 @@ The following are common issues that you might have with your WorkSpaces client\
 + [I got an "invalid certificate" error on the client application\. What does that mean?](#client_cert_error)
 + [I'm having trouble when I try to connect to my Windows WorkSpace using Web Access](#webaccess_connection_issues)
 + [I see the following error message: "Device can't connect to the registration service\. Check your network settings\."](#registration_failure)
++ [I skipped an update to my client application and am having trouble updating my client to the latest version](#client_update_skipped)
++ [My headset doesn't work in my WorkSpace](#headset_problems)
 + [I am unable to install the Android client application on my Chromebook](#chromebook_android_app)
 + [I'm getting the wrong characters when I type; for example, I get \\ and \| when I try to type quotation marks \(' and "\)](#lang_keyboard_mismatch)
 + [I'm having trouble using the Windows logo key in Windows WorkSpaces when working on a Mac](#windows_key_osx)
@@ -115,11 +117,32 @@ The WorkSpaces client application validates the identity of the WorkSpaces servi
 
 Windows WorkSpaces rely on a specific login screen configuration to enable you to log in from your Web Access client\. Your Amazon WorkSpaces administrator might need to configure Group Policy and Security Policy settings to enable you to log in to your WorkSpace from your Web Access client\. If these settings are not correctly configured, you might experience long login times or black screens when you try to log in to your WorkSpace\. Contact your Amazon WorkSpaces administrator for assistance\.
 
+**Important**  
+Beginning October 1, 2020, customers will no longer be able to use the Amazon WorkSpaces Web Access client to connect to Windows 7 custom WorkSpaces or to Windows 7 Bring Your Own License \(BYOL\) WorkSpaces\.
+
 ## I see the following error message: "Device can't connect to the registration service\. Check your network settings\."<a name="registration_failure"></a>
 
 When a registration service failure occurs, you might see the following error message on the **Connection Health Check** page: "Your device is not able to connect to the WorkSpaces Registration service\. You will not be able to register your device with WorkSpaces\. Please check your network settings\."
 
 This error occurs when the WorkSpaces client application can't reach the registration service\. Contact your Amazon WorkSpaces administrator for assistance\.
+
+## I skipped an update to my client application and am having trouble updating my client to the latest version<a name="client_update_skipped"></a>
+
+If you've skipped an update to your Amazon WorkSpaces Windows client application and now want to update to the latest version of the client, see [ Update the WorkSpaces Windows client application to a newer version](amazon-workspaces-windows-client.md#windows_update_client)\.
+
+If you've skipped an update to your Amazon WorkSpaces macOS client application and now want to update to the latest version of the client, see [ Update the WorkSpaces macOS client application to a newer version](amazon-workspaces-osx-client.md#osx_update_client)\.
+
+## My headset doesn't work in my WorkSpace<a name="headset_problems"></a>
+
+If you're using the Windows, macOS, or Linux client application for Amazon WorkSpaces and you're having trouble using your USB headset in your WorkSpace, try the following steps: 
+
+1. Disconnect from your WorkSpace \(choose **Amazon WorkSpaces**, **Disconnect WorkSpace**\)\.
+
+1. Unplug your headset, and then plug it back in\. Verify that it works on your local machine\.
+
+1. Reconnect to your WorkSpace\.
+
+Your headset should now work in your WorkSpace\. If you're still having trouble with your headset, contact your WorkSpaces administrator\. 
 
 ## I am unable to install the Android client application on my Chromebook<a name="chromebook_android_app"></a>
 

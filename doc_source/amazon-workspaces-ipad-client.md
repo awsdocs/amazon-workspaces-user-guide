@@ -10,7 +10,7 @@ The following information will help you get started with the Amazon WorkSpaces i
 + [Radial Menu](#ipad_radial_menu)
 + [Keyboard](#ipad_keyboard)
 + [Mouse Modes](#ipad_mouse_modes)
-+ [Swiftpoint GT Mouse](#ipad_gt_mouse)
++ [Swiftpoint GT, ProPoint, or PadPoint Mouse](#ipad_gt_mouse)
 + [Disconnect](#ipad_disconnect)
 + [Clipboard Redirection](#ipad_clipboard_redirection)
 + [Release Notes](#ipad-release-notes)
@@ -87,7 +87,7 @@ The radial menu is displayed by swiping from the left side of the screen\.
 
 The radial menu provides quick access to the following features:
 
-![\[Image NOT FOUND\]](http://docs.aws.amazon.com/workspaces/latest/userguide/images/ipad-radial-settings.png) **Settings** – Displays controls to change the screen resolution, change the scroll direction, or connect or disconnect the [Swiftpoint GT Mouse](#ipad_gt_mouse)\.
+![\[Image NOT FOUND\]](http://docs.aws.amazon.com/workspaces/latest/userguide/images/ipad-radial-settings.png) **Settings** – Displays controls to change the screen resolution, change the scroll direction, or connect or disconnect the [Swiftpoint GT, ProPoint, or PadPoint Mouse](#ipad_gt_mouse)\.
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/workspaces/latest/userguide/images/ipad-radial-connection-status.png) **Connection Status** – Displays the connection status of the WorkSpace\. 
 
@@ -125,9 +125,12 @@ Simulate a right mouse button click by tapping the right mouse button icon\.
 
 ![\[Right mouse button icon\]](http://docs.aws.amazon.com/workspaces/latest/userguide/images/mouse-icon-right.png)
 
-## Swiftpoint GT Mouse<a name="ipad_gt_mouse"></a>
+## Swiftpoint GT, ProPoint, or PadPoint Mouse<a name="ipad_gt_mouse"></a>
 
-You can use the Swiftpoint GT mouse on an iPad to interact with your WorkSpace\. To do so, before you launch the Amazon WorkSpaces iPad client application, enable Bluetooth on your iPad and pair the GT mouse with your iPad \(the GT mouse should pair automatically\)\. To connect the GT mouse and your iPad client, display the radial menu, and tap **Settings**\. For **SwiftPoint GT Mouse**, choose **Connect**\.
+You can use the Swiftpoint GT, ProPoint, or PadPoint mouse on an iPad to interact with your WorkSpace\. To do so, before you launch the Amazon WorkSpaces iPad client application, enable Bluetooth on your iPad and pair the Swiftpoint mouse with your iPad \(the Swiftpoint mouse should pair automatically\)\. To connect the Swiftpoint mouse and your iPad client, display the radial menu, and tap **Settings**\. For **SwiftPoint GT Mouse**, choose **Connect**\.
+
+**Note**  
+Although the Swiftpoint GT mouse is no longer available, you can use the Swiftpoint ProPoint and PadPoint mice with the Amazon WorkSpaces iPad client application instead\. The Swiftpoint TRACPOINT, PenPoint, and GoPoint mice aren't supported for use with the WorkSpaces iPad client\. For more information, see [Swiftpoint GT Mouse](https://www.swiftpoint.com/products/swiftpoint-gt-ergonomic-mouse/)\.
 
 ## Disconnect<a name="ipad_disconnect"></a>
 

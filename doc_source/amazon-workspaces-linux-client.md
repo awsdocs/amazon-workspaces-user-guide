@@ -155,6 +155,7 @@ The following table describes the changes to each release of the Linux client ap
 
 | Release | Date | Changes | 
 | --- | --- | --- | 
+| 3\.0\.8 | July 30, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-linux-client.html)  | 
 |  3\.0\.7  | June 3, 2020 |  Minor bug fixes and enhancements  | 
 |  3\.0\.6  | April 29, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-linux-client.html)  | 
 |  3\.0\.4  | March 3, 2020 |  Minor bug fixes and enhancements  | 

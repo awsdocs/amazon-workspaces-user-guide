@@ -17,7 +17,10 @@ Enabling high DPI mode might affect the performance of your WorkSpace\. To accom
 
 For Windows WorkSpaces, high DPI mode supports multiple monitors\.
 
-The maximum display size supported for high DPI mode in the Amazon WorkSpaces client applications is 3840x2160\.
+**Note**  
+Graphics bundles support only a single monitor configuration with a maximum resolution of 2560x1600\.
+
+The maximum display size supported for high DPI mode in the Amazon WorkSpaces client applications is 3840x2160\. For more information about display support in the WorkSpaces client applications, see [ Display Support for the Linux Client](amazon-workspaces-linux-client.md#linux-display-support), [Display Support for the macOS Client](amazon-workspaces-osx-client.md#osx-display-support), or [Display Support for the Windows Client](amazon-workspaces-windows-client.md#windows-display-support)\. 
 
 **To enable high DPI mode**
 

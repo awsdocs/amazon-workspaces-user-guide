@@ -196,8 +196,8 @@ The following table describes the changes to each release of the Windows client 
 
 
 | Release | Date | Changes | 
-| --- | --- | --- |
-| 3\.0\.9 | August 14, 2020 |  Minor bug fixes and enhancements  |  
+| --- | --- | --- | 
+| 3\.0\.9 | August 14, 2020 |  Minor bug fixes and enhancements  | 
 | 3\.0\.8 | July 30, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
 |  3\.0\.7  | June 3, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
 |  3\.0\.6  | April 28, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 

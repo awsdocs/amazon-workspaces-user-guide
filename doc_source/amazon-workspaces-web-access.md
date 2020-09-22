@@ -19,6 +19,7 @@ You can access a WorkSpace running the Windows 10 desktop experience and one of 
 + Standard
 + Performance
 + Power
++ PowerPro
 
 You must run one of the following web browsers on your Windows, macOS, or Linux computer:
 + Chrome 53 and later

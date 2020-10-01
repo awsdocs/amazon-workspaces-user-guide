@@ -19,7 +19,7 @@ In some cases, you need to download and install the driver for your local printe
 + Printer model\-specific drivers that do not require communication with the printer\. In these cases, you can install the printer driver directly\.
 + Printer model\-specific drivers that require communication with the printer\. In these cases, you can use the printer driver files to add a local printer using an existing port \(LPT1:\)\. After selecting the port, you can choose **Have Disk** and select the `.INF` file for the printer driver\.
 
-After installing the printer driver, you must restart the WorkSpace for the new printer to be recognized\.
+After installing the printer driver, you must [ restart \(reboot\) the WorkSpace](manage_workspace_client.md#client-restart-workspace) for the new printer to be recognized\.
 
 If you cannot print to your local printer from your WorkSpace, make sure that you can print to your local printer from your client computer\. If you cannot print from your client computer, refer to the printer documentation and support to resolve the issue\. If you can print from your client computer, contact [AWS Support](https://console.aws.amazon.com/support/home#/) for further assistance\.
 

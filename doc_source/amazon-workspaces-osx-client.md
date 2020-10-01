@@ -166,7 +166,7 @@ To use full screen mode on only some of the displays in a multiple monitor setup
 If your network requires you to use a proxy server to access the internet, you can enable the Amazon WorkSpaces client application to use a proxy for HTTPS \(port 443\) traffic\. Proxy with authentication is not currently supported\.
 
 **Note**  
-The Amazon WorkSpaces client applications use the HTTPS port for updates, registration, and authentication\. The desktop streaming connections to the WorkSpace require port 4172 to be enabled, and do not go through the proxy server\. 
+The Amazon WorkSpaces client applications use the HTTPS port for updates, registration, and authentication\. The desktop streaming connections to the WorkSpace require ports 4172 and 4195 to be enabled, and do not go through the proxy server\. 
 
 ### To use a proxy server for 3\.0\+ clients<a name="osx_proxy_server-new-clients"></a>
 

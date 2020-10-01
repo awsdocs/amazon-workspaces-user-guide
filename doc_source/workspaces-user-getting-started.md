@@ -18,7 +18,7 @@ After your administrator creates your WorkSpace, you must complete your user pro
 
 1. Open the link in the invitation email\.
 
-1. Enter your password\. Passwords are case\-sensitive and must be between 8 and 64 characters in length, inclusive\. Passwords must contain at least one character from three of the following categories:
+1. Enter your password\. Passwords are case\-sensitive and must be between 8 and 64 characters in length, inclusive\. Passwords must contain at least one character from each of the following categories:
    + Lowercase characters \(a\-z\)
    + Uppercase characters \(A\-Z\)
    + Numbers \(0\-9\)

@@ -48,11 +48,15 @@ If **Forgot password? **isn't available on your login screen, contact your WorkS
 
 1. Choose **Recover Password**\.
 
-1. You will receive an email with a password\-reset link\. Follow the instructions in the email to change your password\.
+1. You will receive an email with a password\-reset link\. Follow the instructions in the email to change your password\. Passwords are case\-sensitive and must be between 8 and 64 characters in length, inclusive\. Passwords must contain at least one character from each of the following categories:
+   + Lowercase characters \(a\-z\)
+   + Uppercase characters \(A\-Z\)
+   + Numbers \(0\-9\)
+   + Non\-alphanumeric characters \(\~\!@\#$%^&\*\_\-\+=`\|\\\(\)\{\}\[\]:;"'<>,\.?/\)
 
 ## Restart Your WorkSpace<a name="client-restart-workspace"></a>
 
-If you are experiencing issues with your WorkSpace, you can restart it\. Restarting a WorkSpace disconnects you from your WorkSpace, so that it can be shut down and restarted\. Your user data, operating system, and system settings are not affected\. This process takes several minutes to finish\.
+If you are experiencing issues with your WorkSpace, you can restart \(reboot\) it\. Restarting a WorkSpace disconnects you from your WorkSpace, so that it can be shut down and restarted\. Your user data, operating system, and system settings are not affected\. This process takes several minutes to finish\.
 
 **Important**  
 To avoid losing changes, save any open documents and other application files before you restart your WorkSpace\. 

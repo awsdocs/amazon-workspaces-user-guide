@@ -25,6 +25,9 @@ Versions of the Android client application after 2\.4\.15 require devices with A
 
   We recommend using the Android client application if your Chromebook supports it\. To determine whether your Chromebook is compatible with the Amazon WorkSpaces Android client application or whether it requires the Amazon WorkSpaces Chromebook client application, see the [installation steps for Chromebooks launched before 2019](#chromebook_install_before_2019)\.
 
+**Note**  
+The WorkSpaces Android client application is not available for the WorkSpaces Streaming Protocol \(WSP\) beta\.
+
 ## Setup and Installation<a name="android_setup"></a>
 
 To download and install the client application, complete the following procedure\.

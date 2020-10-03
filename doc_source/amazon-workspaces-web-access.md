@@ -3,6 +3,7 @@
 Users can access their Windows WorkSpaces from any location using a web browser\. This is ideal for users who must use a locked\-down device or restrictive network\. Instead of using a traditional remote access solution and installing the appropriate client application, users can visit the website to access their work resources\.
 
 **Note**  
+Web Access is not available for the WorkSpaces Streaming Protocol \(WSP\) beta\.
 A web browser cannot be used to connect to Amazon Linux WorkSpaces\.
 
 **Important**  

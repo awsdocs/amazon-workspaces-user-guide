@@ -23,6 +23,9 @@ The Amazon WorkSpaces iPad client application requires the following:
 + iPad Mini with iOS 8\.0 and later
 + iPad Pro with iOS 9\.0 and later
 
+**Note**  
+The WorkSpaces iPad client application is not available for the WorkSpaces Streaming Protocol \(WSP\) beta\.
+
 ## Setup and Installation<a name="ipad_setup"></a>
 
 To download and install the client application, complete the following procedure\.

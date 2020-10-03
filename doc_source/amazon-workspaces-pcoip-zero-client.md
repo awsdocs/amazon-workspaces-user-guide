@@ -5,6 +5,7 @@ You can set up and use a PCoIP zero client device with Amazon WorkSpaces\. For m
 ## Requirements<a name="zero_client_reqs"></a>
 
 To use a PCoIP zero client with Amazon WorkSpaces, you need the following:
++ PCoIP zero clients are compatible only with WorkSpaces bundles that are using the PCoIP protocol\.
 + If your Tera2 zero client device has firmware version 6\.0\.0 or later, you can connect to your WorkSpace directly without using PCoIP Connection Manager\.
 + If your Tera2 zero client device has a firmware version between 4\.6\.0 and 6\.0\.0, your Amazon WorkSpaces administrator must set up an EC2 instance with Teradici PCoIP Connection Manager for Amazon WorkSpaces\. Your administrator also provides you with a server URI that you can use to connect to your WorkSpace\.
 + WorkSpaces multi\-factor authentication requires a Tera2 zero client device with firmware version 6\.0\.0 or later\.

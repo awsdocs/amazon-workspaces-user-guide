@@ -227,6 +227,7 @@ The following table describes the changes to each release of the client applicat
 
 | Release | Date | Changes | 
 | --- | --- | --- | 
+| 3\.0\.11 | October 02, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
 | 3\.0\.10 | September 16, 2020 |  Adds support for health checks over port 4195 \(UDP and TCP\)  | 
 | 3\.0\.9 | August 14, 2020 |  Minor bug fixes and enhancements  | 
 | 3\.0\.8 | July 30, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 

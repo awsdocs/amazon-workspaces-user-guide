@@ -42,7 +42,8 @@ You can change your WorkSpaces login password at any time\.
 
 1. On the client login screen, choose **Forgot Password?** under the **Sign In** button\.
 **Note**  
-If **Forgot password? **isn't available on your login screen, contact your WorkSpaces administrator for assistance with resetting your password\.
+If **Forgot password? **isn't available on your login screen, contact your WorkSpaces administrator for assistance with resetting your password\.  
+**Forgot Password?** is not available in the AWS GovCloud \(US\-West\) Region\.
 
 1. Enter your user name, and then enter the characters you see in the image\.
 

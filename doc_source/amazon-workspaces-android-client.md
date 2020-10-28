@@ -171,6 +171,7 @@ The following table describes the changes to each release of the Android client 
 
 | Release | Date | Changes | 
 | --- | --- | --- | 
+|  2\.4\.18  | October 19, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
 |  2\.4\.17  | February 24, 2020 |  Minor bug fixes and enhancements  | 
 |  2\.4\.16  | January 30, 2020 |  Adds 64\-bit support for Android 9 and 10  | 
 |  2\.4\.15  | June 24, 2019 |  Adds support for mouse cursor contextual shape changes  | 

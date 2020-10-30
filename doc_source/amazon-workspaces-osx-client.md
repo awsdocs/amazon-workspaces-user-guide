@@ -19,23 +19,26 @@ The following information will help you get started with the Amazon WorkSpaces m
 
 ## Requirements<a name="osx-requirements"></a>
 
-The 3\.0\+ versions of the client application require macOS 10\.12 or later\.
+The 3\.0\+ versions of the client application require macOS 10\.12 \(Sierra\) or later\.
 
 The 1\.0\+ or 2\.0\+ versions of the client application require OS X 10\.8\.1 or later\.
 
 **Important**  
-If you use macOS 10\.15 \(Catalina\), you must use version 2\.5\.11 or later of the macOS client application\. Earlier versions of the client application have issues with keyboard input on Catalina\.  
-If you are using Catalina and are working with Linux WorkSpaces, we recommend using version 3\.0\.2 or later of the macOS client to avoid potential keyboard issues with some applications\.
+If you use macOS 10\.15 \(Catalina\) or later, you must use version 3\.0\.2 or later of the macOS client\.  
+Versions 2\.5\.11 and earlier of the macOS client can no longer be installed on macOS devices\. These versions also no longer work on devices with macOS Catalina or later\.  
+If you are using version 2\.5\.11 or earlier and you upgrade from an older version of macOS to Catalina or later, you will no longer be able to use the 2\.5\.11 or earlier client\. We recommend that affected users upgrade to the latest version of the macOS client that is available for download at [Amazon WorkSpaces Client Downloads](https://clients.amazonworkspaces.com/)\.
 
 ## Setup and Installation<a name="osx_setup"></a>
 
-Depending on which version of the client you want, do one of the following:
+To download and install the client application, complete the following procedure\.
 
+**To download and install the client application**
 
-| If you want to install\.\.\. | Do this | 
-| --- | --- | 
-| 3\.0\+ client | Go to [Amazon WorkSpaces Client Downloads](https://clients.amazonworkspaces.com/) and find the Amazon WorkSpaces macOS client\. Under Get the latest client, choose the Download button\. | 
-| 2\.5\.11 client | Go to [Amazon WorkSpaces Client Downloads](https://clients.amazonworkspaces.com/) and find the Amazon WorkSpaces macOS client\. Under Older version 2\.5\.11, choose the Download button\. | 
+1. On your macOS device, open [Amazon WorkSpaces Client Downloads](https://clients.amazonworkspaces.com/) and choose the **MacOS X** link\.
+
+1. Download and install the application\.
+
+1. Verify that the Amazon WorkSpaces client application icon appears on the desktop\.
 
 If you're having trouble updating your Amazon WorkSpaces macOS client application to a newer version, use the following procedure to update your client application\.
 

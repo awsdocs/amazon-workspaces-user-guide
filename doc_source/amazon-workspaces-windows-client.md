@@ -159,18 +159,31 @@ Using full screen mode on only some of the displays in a multiple monitor setup 
 
 ## Proxy Server<a name="windows_proxy_server"></a>
 
-If your network requires you to use a proxy server to access the internet, you can enable the Amazon WorkSpaces client application to use a proxy for HTTPS \(port 443\) traffic\. Proxy with authentication is not currently supported\.
+If your network requires you to use a proxy server to access the internet, you can enable your Amazon WorkSpaces client application to use a proxy for HTTPS \(port 443\) traffic\. The Amazon WorkSpaces client applications use the HTTPS port for updates, registration, and authentication\. 
 
 **Note**  
-The Amazon WorkSpaces client applications use the HTTPS port for updates, registration, and authentication\. The desktop streaming connections to the WorkSpace require ports 4172 and 4195 to be enabled, and do not go through the proxy server\. 
+The desktop streaming connections to the WorkSpace require ports 4172 and 4195 to be enabled, and do not go through the proxy server\. 
+Proxy servers that require authentication with a username and password are not supported\.
 
-### To use a proxy server for 3\.0\+ clients<a name="windows_proxy_server-new-clients"></a>
+### To control the proxy server for 3\.0\+ clients<a name="windows_proxy_server-new-clients"></a>
+
+By default, the 3\.0\+ Windows clients use the proxy server specified in the device operating system settings\. The first time the client is launched, the device operating system proxy server setting is used\. If you select another option for the proxy server, that setting is used for subsequent launches of the client\.
+
+Starting with version 3\.0\.12 of the Windows client, you can also choose not to use a proxy server\.
 
 1. In the Amazon WorkSpaces client application, go to **Settings**, **Manage Proxy Server**\.
 
-1. In the **Set Proxy** dialog box, select **Use proxy server**, enter the proxy server address and port, and choose **Save**\.
+1. In the **Set Proxy** dialog box, select the appropriate options, depending on which version of the 3\.0\+ client you have\.
+   + **Windows client version 3\.0\.12 or later** — To enable or disable the proxy server, select or deselect **Use proxy server**\. If you deselect **Use proxy server**, no proxy server is used when you access the internet\.
+
+     If you've selected **Use proxy server**, choose one of the following options, and then choose **Save**:
+     + **Use your device operating system settings** — This option uses the proxy server settings for your operating system\.
+     + **Customize proxy server for WorkSpaces** — Enter the IP address and port for your custom proxy server\.
+   + **Windows client version 3\.0\.11 or earlier** — By default, these versions of the client use the proxy server specified in the device operating system settings\. To use a custom proxy server, choose **Use proxy server**, enter the IP address and port for the proxy server, and then choose **Save**\.
 
 ### To use a proxy server for 1\.0\+ and 2\.0\+ clients<a name="windows_proxy_server-legacy-clients"></a>
+
+By default, the 1\.0\+ and 2\.0\+ Windows clients don't use a proxy server\. To specify a proxy server, use the following procedure\.
 
 1. In the Amazon WorkSpaces client application, open the **Advanced Settings** dialog box\.
 
@@ -197,6 +210,7 @@ The following table describes the changes to each release of the Windows client 
 
 | Release | Date | Changes | 
 | --- | --- | --- | 
+| 3\.0\.12 | November 10, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
 | 3\.0\.11 | October 02, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
 | 3\.0\.10 | September 16, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
 | 3\.0\.9 | August 14, 2020 |  Minor bug fixes and enhancements  | 

@@ -121,10 +121,11 @@ Using full screen mode on only some of the displays in a multiple monitor setup 
 
 ## Proxy Server<a name="linux_proxy_server"></a>
 
-If your network requires you to use a proxy server to access the internet, you can enable the Amazon WorkSpaces client application to use a proxy for HTTPS \(port 443\) traffic\. Proxy with authentication is not currently supported\.
+If your network requires you to use a proxy server to access the internet, you can enable your Amazon WorkSpaces client application to use a proxy for HTTPS \(port 443\) traffic\. The Amazon WorkSpaces client applications use the HTTPS port for updates, registration, and authentication\. 
 
 **Note**  
-The Amazon WorkSpaces client applications use the HTTPS port for updates, registration, and authentication\. The desktop streaming connections to the WorkSpace require ports 4172 and 4195 to be enabled, and do not go through the proxy server\. 
+The desktop streaming connections to the WorkSpace require ports 4172 and 4195 to be enabled, and do not go through the proxy server\. 
+Proxy servers that require authentication with a username and password are not supported\.
 
 **To use a proxy server**
 
@@ -155,6 +156,7 @@ The following table describes the changes to each release of the Linux client ap
 
 | Release | Date | Changes | 
 | --- | --- | --- | 
+| 3\.0\.12 | November 10, 2020 |  Adds enhancements to the session reconnect experience  | 
 | 3\.0\.11 | October 02, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-linux-client.html)  | 
 | 3\.0\.10 | September 16, 2020 |  Minor bug fixes and enhancements  | 
 | 3\.0\.9 | August 14, 2020 |  Minor bug fixes and enhancements  | 

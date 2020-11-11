@@ -10,6 +10,7 @@ The following are common issues that you might have with your WorkSpaces client\
 + [It sometimes takes several minutes to log in to my Windows WorkSpace](#login_delay)
 + [When I try to log in, the Amazon WorkSpaces Windows client gets stuck on the "Preparing your login page" screen](#login_stuck_preparing_page)
 + [The Amazon WorkSpaces Windows client application login page is very tiny](#login_tiny_page)
++ [I see the following error message: "WorkSpace Status: Unhealthy\. We were unable to connect you to your WorkSpace\. Please try again in a few minutes\."](#workspace_unhealthy)
 + [Sometimes I am logged off of my Windows WorkSpace, even though I closed the session, but did not log off](#logged_out)
 + [I forgot my password and tried to reset it, but I didn’t receive an email with a reset link](#reset_password)
 + [I can't connect to the internet from my WorkSpace](#internet_access)
@@ -84,6 +85,16 @@ When starting versions 3\.0\.4 and 3\.0\.5 of the WorkSpaces Windows client appl
 ## The Amazon WorkSpaces Windows client application login page is very tiny<a name="login_tiny_page"></a>
 
 Running the WorkSpaces Windows client with administrator \(elevated\) privileges might result in viewing issues in high DPI environments\. To avoid these issues, run the client in user mode instead\.
+
+## I see the following error message: "WorkSpace Status: Unhealthy\. We were unable to connect you to your WorkSpace\. Please try again in a few minutes\."<a name="workspace_unhealthy"></a>
+
+If you just started or restarted your WorkSpace, wait a few minutes, and then try to log in again\.
+
+If you continue to receive this error message, you can try the following actions \(if your WorkSpaces administrator has enabled you to do them\):
++ [Restart Your WorkSpace](manage_workspace_client.md#client-restart-workspace)
++ [Rebuild Your WorkSpace](manage_workspace_client.md#client-rebuild-workspace)
+
+If you are unable to restart or rebuild the WorkSpace yourself, or if you continue to see the error message after doing so, contact your WorkSpaces administrator for assistance\.
 
 ## Sometimes I am logged off of my Windows WorkSpace, even though I closed the session, but did not log off<a name="logged_out"></a>
 

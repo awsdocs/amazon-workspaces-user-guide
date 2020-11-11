@@ -39,7 +39,7 @@ If your Linux WorkSpace is using the WSP beta protocol, version 3\.0\.12 or late
 
 **Note**  
 Both [Common Access Card \(CAC\)](https://www.cac.mil/Common-Access-Card) and [Personal Identity Verification \(PIV\)](https://piv.idmanagement.gov/) smart cards are supported\. Other types of smart cards might also work, but they haven't been fully tested for use with the WSP beta protocol\.
-At this time, you can use smart cards only for in\-session authentication, meaning that you can use smart cards only after logging in to your WorkSpace\. You can use smart cards for in\-session authentication for web browsers and applications\. Your WorkSpaces administrator might also have enabled you to run `sudo` or `sudo -i`commands \(if you have administrative privileges on your WorkSpace\)\.
+At this time, you can use smart cards only for in\-session authentication, meaning that you can use smart cards only after logging in to your WorkSpace\. You can use smart cards for in\-session authentication for web browsers and applications\. If you have administrative privileges on your WorkSpace, your WorkSpaces administrator might also have enabled you to use in\-session authentication to run `sudo` or `sudo -i` commands\.
 You can use multiple smart cards at the same time for in\-session authentication\.
 You can use smart cards only in the AWS GovCloud \(US\-West\) Region\.
 

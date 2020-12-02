@@ -3,7 +3,7 @@
 Users can access their Windows WorkSpaces from any location using a web browser\. This is ideal for users who must use a locked\-down device or restrictive network\. Instead of using a traditional remote access solution and installing the appropriate client application, users can visit the website to access their work resources\.
 
 **Note**  
-Web Access is not available for the WorkSpaces Streaming Protocol \(WSP\) beta\.
+Web Access is not available for the WorkSpaces Streaming Protocol \(WSP\)\.
 A web browser cannot be used to connect to Amazon Linux WorkSpaces\.
 
 **Important**  
@@ -43,3 +43,10 @@ If you are required to use a proxy server to access the internet, you can config
 **Limits**
 + Proxy with authentication is not currently supported\.
 + Proxy server support for Web Access can vary by browser\. Chrome \(versions 55 and later\) supports Web Access traffic routed through a web proxy, while the current Firefox does not\.
+
+## Clipboard Support<a name="web_clipboard_support"></a>
+
+The clipboard supports copy and paste of text and HTML content only\. The maximum uncompressed object size is 20 MB\. For more information, see [I'm having trouble copying and pasting](client_troubleshooting.md#copy_paste)\.
+
+**Note**  
+When copying from a Microsoft Office app, the clipboard only contains the last copied item, and the item is converted into standard format\. If you copy content larger than 890 KB from a Microsoft Office app, the app might become slow or unresponsive for up to 5 seconds\. 

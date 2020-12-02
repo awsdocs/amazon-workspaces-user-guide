@@ -18,6 +18,8 @@ Amazon's trademarks and trade dress may not be used in
 + [Manage Your WorkSpace from Your Client](manage_workspace_client.md)
 + [WorkSpaces Client Peripheral Device Support](peripheral_devices.md)
 + [WorkSpaces High DPI Display Support](high_dpi_support.md)
++ [WorkSpaces Client Smart Card Support](smart_card_support.md)
++ [Amazon WorkSpaces Language and Keyboard Support](language_keyboard.md)
 + [Amazon WorkSpaces Clients](amazon-workspaces-clients.md)
    + [Amazon WorkSpaces Android Client Application](amazon-workspaces-android-client.md)
    + [Amazon WorkSpaces iPad Client Application](amazon-workspaces-ipad-client.md)

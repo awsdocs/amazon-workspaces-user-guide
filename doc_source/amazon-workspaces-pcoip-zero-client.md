@@ -53,3 +53,10 @@ If your zero client device has firmware version 6\.0\.0 or later, you can connec
 ## Disconnect from the Zero Client<a name="zero_client_disconnect"></a>
 
 To disconnect the zero client from your WorkSpace, you can press Ctrl\+Alt\+F12\. Alternatively, you can log off of the WorkSpace, which disconnects the client\.
+
+## Clipboard Support<a name="zero_clipboard_support"></a>
+
+The clipboard supports copy and paste of text and HTML content only\. The maximum uncompressed object size is 20 MB\. For more information, see [I'm having trouble copying and pasting](client_troubleshooting.md#copy_paste)\.
+
+**Note**  
+When copying from a Microsoft Office app, the clipboard only contains the last copied item, and the item is converted into standard format\. If you copy content larger than 890 KB from a Microsoft Office app, the app might become slow or unresponsive for up to 5 seconds\. 

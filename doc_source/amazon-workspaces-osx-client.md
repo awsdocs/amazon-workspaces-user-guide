@@ -15,6 +15,7 @@ The following information will help you get started with the Amazon WorkSpaces m
 + [Command Shortcuts](#osx_shortcuts)
 + [Remapping the Windows Logo Key or the Command Key](#osx_remap_command_key)
 + [Disconnect](#osx_disconnect)
++ [Clipboard Support](#osx_clipboard_support)
 + [Release Notes](#osx-release-notes)
 
 ## Requirements<a name="osx-requirements"></a>
@@ -68,7 +69,7 @@ To connect to your WorkSpace, complete the following procedure\.
 
 ### To connect to your WorkSpace for 3\.0\+ clients<a name="osx_connecting-new-clients"></a>
 
-1. The first time that you run the client application, you are prompted for your registration code, which is contained in your welcome email\. The Amazon WorkSpaces client application uses the registration code and user name to identify which WorkSpace to connect to\. When you launch the client application later, the same registration code is used\. To enter a different registration code, launch the client application, and then on the menu bar, choose **Settings**, **Manage Login Information**\.
+1. The first time that you run the client application, you are prompted for your registration code, which is contained in your welcome email\. The Amazon WorkSpaces client application uses the registration code and user name to identify which WorkSpace to connect to\. When you launch the client application later, the same registration code is used\. To enter a different registration code, launch the client application, and then choose **Change Registration Code** at the bottom of the login page\.
 
 1. Enter your user name and password in the login screen and choose **Sign In**\. If your Amazon WorkSpaces administrator has enabled multi\-factor authentication for your organization's WorkSpaces, you are prompted for a passcode to complete your login\. Your Amazon WorkSpaces administrator will provide more information about how to obtain your passcode\.
 
@@ -224,6 +225,13 @@ To disconnect the macOS client application, you have several options:
 + In the Amazon WorkSpaces client application, close the WorkSpaces client window by clicking the red close \(X\) button in the upper\-left corner\. In the **End Session** dialog box, choose **Yes**\. Your WorkSpace session ends, but the client application continues running in case you want to log in again\.
 + You can also log off of the WorkSpace\. In the Amazon WorkSpaces client application, go to **View**, and then choose **Send Ctrl\+Alt\+Delete**\. Choose **Sign Out**\. Your WorkSpace session ends, but the client application continues running in case you want to log in again\.
 
+## Clipboard Support<a name="osx_clipboard_support"></a>
+
+The clipboard supports a maximum uncompressed object size of 20 MB\. For more information, see [I'm having trouble copying and pasting](client_troubleshooting.md#copy_paste)\.
+
+**Note**  
+When copying from a Microsoft Office app, the clipboard only contains the last copied item, and the item is converted into standard format\. If you copy content larger than 890 KB from a Microsoft Office app, the app might become slow or unresponsive for up to 5 seconds\. 
+
 ## Release Notes<a name="osx-release-notes"></a>
 
 The following table describes the changes to each release of the client application\.
@@ -231,6 +239,7 @@ The following table describes the changes to each release of the client applicat
 
 | Release | Date | Changes | 
 | --- | --- | --- | 
+| 3\.1\.0 | December 1, 2020 |  Minor bug fixes and enhancements  | 
 | 3\.0\.12 | November 10, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
 | 3\.0\.11 | October 02, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
 | 3\.0\.10 | September 16, 2020 |  Adds support for health checks over port 4195 \(UDP and TCP\)  | 

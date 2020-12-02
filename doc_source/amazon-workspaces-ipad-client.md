@@ -8,11 +8,11 @@ The following information will help you get started with the Amazon WorkSpaces i
 + [Connecting to Your WorkSpace](#ipad_connecting)
 + [Gestures](#ipad_gestures)
 + [Radial Menu](#ipad_radial_menu)
-+ [Keyboard](#ipad_keyboard)
++ [Keyboard and Command Shortcuts](#ipad_keyboard)
 + [Mouse Modes](#ipad_mouse_modes)
 + [Swiftpoint GT, ProPoint, or PadPoint Mouse](#ipad_gt_mouse)
 + [Disconnect](#ipad_disconnect)
-+ [Clipboard Redirection](#ipad_clipboard_redirection)
++ [Clipboard Support](#ipad_clipboard_support)
 + [Release Notes](#ipad-release-notes)
 
 ## Requirements<a name="ipad-requirements"></a>
@@ -24,7 +24,7 @@ The Amazon WorkSpaces iPad client application requires the following:
 + iPad Pro with iOS 9\.0 and later
 
 **Note**  
-The WorkSpaces iPad client application is not available for the WorkSpaces Streaming Protocol \(WSP\) beta\.
+The WorkSpaces iPad client application is not available for the WorkSpaces Streaming Protocol \(WSP\)\.
 
 ## Setup and Installation<a name="ipad_setup"></a>
 
@@ -106,9 +106,11 @@ The radial menu provides quick access to the following features:
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/workspaces/latest/userguide/images/ipad-radial-offset-mouse.png) **Offset Mouse Mode** – Sets the input to offset mouse mode\. For more information, see [Mouse Modes](#ipad_mouse_modes)\. 
 
-## Keyboard<a name="ipad_keyboard"></a>
+## Keyboard and Command Shortcuts<a name="ipad_keyboard"></a>
 
-To toggle the display of the on\-screen keyboard, double\-tap with two fingers anywhere on the screen\. Special key combinations are displayed in the top row of the keyboard\.
+To toggle the display of the on\-screen keyboard, double\-tap with two fingers anywhere on the screen\. Special key combinations \(command shortcuts\) that are frequently used in Windows, such as Ctrl\+Alt\+Del, Alt\+Tab, Ctrl\+A, Ctrl\+C, Ctrl\+V, Ctrl\+X, and so on, are displayed in the top row of the on\-screen keyboard\.
+
+If you have a full\-size physical keyboard attached to your iPad, you can use Control\+Option\+Delete ![\[Forward delete key\]](http://docs.aws.amazon.com/workspaces/latest/userguide/images/mac-forward-delete.png) to send Ctrl\+Alt\+Del to your Windows WorkSpace\. \(Be sure to use the forward Delete key, not the backspace Delete key\.\)
 
 ## Mouse Modes<a name="ipad_mouse_modes"></a>
 
@@ -135,13 +137,18 @@ You can use the Swiftpoint GT, ProPoint, or PadPoint mouse on an iPad to interac
 **Note**  
 Although the Swiftpoint GT mouse is no longer available, you can use the Swiftpoint ProPoint and PadPoint mice with the Amazon WorkSpaces iPad client application instead\. The Swiftpoint TRACPOINT, PenPoint, and GoPoint mice aren't supported for use with the WorkSpaces iPad client\. For more information, see [Swiftpoint GT Mouse](https://www.swiftpoint.com/products/swiftpoint-gt-ergonomic-mouse/)\.
 
+iPads with iPadOS 13\.4 or later also support Bluetooth mice\. For more information, see [Use a Bluetooth mouse or trackpad with your iPad](https://support.apple.com/HT211008) in the Apple Support documentation\.
+
 ## Disconnect<a name="ipad_disconnect"></a>
 
 To disconnect the iPad client, display the radial menu, tap the disconnect icon, and tap **Disconnect**\. You can also log off of the WorkSpace, which disconnects the client\.
 
-## Clipboard Redirection<a name="ipad_clipboard_redirection"></a>
+## Clipboard Support<a name="ipad_clipboard_support"></a>
 
-The clipboard supports copy and paste of text and HTML content only\.
+The clipboard supports copy and paste of text and HTML content only\. The maximum uncompressed object size is 20 MB\. For more information, see [I'm having trouble copying and pasting](client_troubleshooting.md#copy_paste)\.
+
+**Note**  
+When copying from a Microsoft Office app, the clipboard only contains the last copied item, and the item is converted into standard format\. If you copy content larger than 890 KB from a Microsoft Office app, the app might become slow or unresponsive for up to 5 seconds\. 
 
 ## Release Notes<a name="ipad-release-notes"></a>
 

@@ -11,7 +11,7 @@ The following information will help you get started with the Amazon WorkSpaces A
 + [Keyboard](#android_keyboard)
 + [Trackpad Mode](#android_trackpad_mode)
 + [Disconnect](#android_disconnect)
-+ [Clipboard Redirection](#android_clipboard_redirection)
++ [Clipboard Support](#android_clipboard_support)
 + [Release Notes](#android-release-notes)
 
 ## Requirements<a name="android-requirements"></a>
@@ -26,7 +26,7 @@ Versions of the Android client application after 2\.4\.15 require devices with A
   We recommend using the Android client application if your Chromebook supports it\. To determine whether your Chromebook is compatible with the Amazon WorkSpaces Android client application or whether it requires the Amazon WorkSpaces Chromebook client application, see the [installation steps for Chromebooks launched before 2019](#chromebook_install_before_2019)\.
 
 **Note**  
-The WorkSpaces Android client application is not available for the WorkSpaces Streaming Protocol \(WSP\) beta\.
+The WorkSpaces Android client application is not available for the WorkSpaces Streaming Protocol \(WSP\)\.
 
 ## Setup and Installation<a name="android_setup"></a>
 
@@ -158,9 +158,12 @@ Simulate a right mouse button click by tapping the right mouse button icon\.
 
 To disconnect the Android client, display the sidebar menu, tap the disconnect icon, and tap **Disconnect**\. You can also log off of the WorkSpace, which disconnects the client\.
 
-## Clipboard Redirection<a name="android_clipboard_redirection"></a>
+## Clipboard Support<a name="android_clipboard_support"></a>
 
-The clipboard supports copy and paste of text and HTML content only\.
+The clipboard supports copy and paste of text and HTML content only\. The maximum uncompressed object size is 20 MB\. For more information, see [I'm having trouble copying and pasting](client_troubleshooting.md#copy_paste)\.
+
+**Note**  
+When copying from a Microsoft Office app, the clipboard only contains the last copied item, and the item is converted into standard format\. If you copy content larger than 890 KB from a Microsoft Office app, the app might become slow or unresponsive for up to 5 seconds\. 
 
 ## Release Notes<a name="android-release-notes"></a>
 

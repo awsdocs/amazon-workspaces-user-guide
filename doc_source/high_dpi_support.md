@@ -44,7 +44,7 @@ If the images and text in your WorkSpace are smaller than you prefer, you will a
 **Important**  
 **Be sure to adjust the display scale settings within the WorkSpace itself, not the display scale settings for the local Windows, Linux, or Mac machine that you are using to access the WorkSpace\.**
 When you dock or undock a laptop, or switch to another client device, you might need to readjust the scaling settings in the WorkSpace to suit the new monitor\.
-If you're using a WorkSpaces Streaming Protocol \(WSP\) beta Windows WorkSpace, you can't adjust the display scale settings\. Instead, you'll see the message "The display settings cannot be changed from a remote session\."
+If you're using a WorkSpaces Streaming Protocol \(WSP\) Windows WorkSpace, you can't adjust the display scale settings\. Instead, you'll see the message "The display settings cannot be changed from a remote session\."
 
 **To adjust the scaling settings on a Windows WorkSpace**
 
@@ -54,7 +54,7 @@ If you're using a WorkSpaces Streaming Protocol \(WSP\) beta Windows WorkSpace, 
 
 1. Choose **Display**\.
 **Note**  
-If you see the message "The display settings cannot be changed from a remote session," this means that you're using a WorkSpaces Streaming Protocol \(WSP\) beta Windows WorkSpace\. At this time, you can't adjust the display scale settings for a WSP beta WorkSpace\.
+If you see the message "The display settings cannot be changed from a remote session," this means that you're using a WorkSpaces Streaming Protocol \(WSP\) Windows WorkSpace\. At this time, you can't adjust the display scale settings for a WSP WorkSpace\.
 
 1. Under **Change the size of text, apps, and other items**, set the amount of scaling you prefer\.
 

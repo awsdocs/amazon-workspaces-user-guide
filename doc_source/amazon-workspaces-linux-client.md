@@ -37,7 +37,7 @@ To connect to your WorkSpace, complete the following procedure\.
 
 **To connect to your WorkSpace**
 
-1. The first time that you run the client application, you are prompted for your registration code, which is contained in your welcome email\. The Amazon WorkSpaces client application uses the registration code and user name to identify which WorkSpace to connect to\. When you launch the client application later, the same registration code is used\. You can enter a different registration code by launching the client application and choosing **Settings**, **Manage Login Information** on the login screen menu\.
+1. The first time that you run the client application, you are prompted for your registration code, which is contained in your welcome email\. The Amazon WorkSpaces client application uses the registration code and user name to identify which WorkSpace to connect to\. When you launch the client application later, the same registration code is used\. To enter a different registration code, launch the client application, and then choose **Change Registration Code** at the bottom of the login page\.
 
 1. Enter your user name and password in the login screen and choose **Sign In**\. If your Amazon WorkSpaces administrator has enabled multi\-factor authentication for your organization's WorkSpaces, you are prompted for a passcode to complete your login\. Your Amazon WorkSpaces administrator will provide more information about how to obtain your passcode\.
 
@@ -156,6 +156,7 @@ The following table describes the changes to each release of the Linux client ap
 
 | Release | Date | Changes | 
 | --- | --- | --- | 
+| 3\.1\.0 | December 1, 2020 |  Minor bug fixes and enhancements  | 
 | 3\.0\.12 | November 10, 2020 |  Adds enhancements to the session reconnect experience  | 
 | 3\.0\.11 | October 02, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-linux-client.html)  | 
 | 3\.0\.10 | September 16, 2020 |  Minor bug fixes and enhancements  | 

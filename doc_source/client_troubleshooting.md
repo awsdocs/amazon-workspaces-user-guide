@@ -25,6 +25,7 @@ The following are common issues that you might have with your WorkSpaces client\
 + [I'm getting the wrong characters when I type; for example, I get \\ and \| when I try to type quotation marks \(' and "\)](#lang_keyboard_mismatch)
 + [I'm having trouble using the Windows logo key in Windows WorkSpaces when working on a Mac](#windows_key_osx)
 + [My WorkSpace looks blurry on my Mac](#screen_blurry_osx)
++ [I'm having trouble copying and pasting](#copy_paste)
 
 ## The Amazon WorkSpaces Application Manager client application isn't appearing on my Windows WorkSpace desktop<a name="no-wam-client"></a>
 
@@ -145,15 +146,22 @@ If you've skipped an update to your Amazon WorkSpaces macOS client application a
 
 ## My headset doesn't work in my WorkSpace<a name="headset_problems"></a>
 
-If you're using the Windows, macOS, or Linux client application for Amazon WorkSpaces and you're having trouble using your USB headset in your WorkSpace, try the following steps: 
+If you're using the Android, iPad, macOS, Linux, or Windows client application for Amazon WorkSpaces, and you're having trouble using your headset in your WorkSpace, try the following steps: 
 
 1. Disconnect from your WorkSpace \(choose **Amazon WorkSpaces**, **Disconnect WorkSpace**\)\.
 
-1. Unplug your headset, and then plug it back in\. Verify that it works on your local machine\.
+1. Unplug your headset, and then plug it back in\. Verify that it works on your local computer or tablet\. For a USB headset, make sure that it shows up as a playback device locally on your computer or tablet:
+   + For Windows, check the devices listed in the **Control Panel** under **Hardware and Sound** > **Sound**\. In the **Sound** dialog box, choose the **Playback** tab\.
+   + For macOS, choose the **Apple menu** > **System Preferences** > **Sound** > **Output**\.
+   + For iPad, open the **Control Center** and tap the **AirPlay** ![\[Airplay button\]](http://docs.aws.amazon.com/workspaces/latest/userguide/images/ipad-airplay-icon.png) button\. 
+   + For Chromebook, open the system tray, and then choose the headphone icon next to the volume slider\. Select the devices that you want to use for audio input and output\.
 
 1. Reconnect to your WorkSpace\.
 
 Your headset should now work in your WorkSpace\. If you're still having trouble with your headset, contact your WorkSpaces administrator\. 
+
+**Note**  
+Audio currently is not supported on Linux WorkSpaces using the WorkSpaces Streaming Protocol \(WSP\)\.
 
 ## I am unable to install the Android client application on my Chromebook<a name="chromebook_android_app"></a>
 
@@ -167,24 +175,9 @@ In some cases, your WorkSpaces administrator might need to enable your Chromeboo
 
 ## I'm getting the wrong characters when I type; for example, I get \\ and \| when I try to type quotation marks \(' and "\)<a name="lang_keyboard_mismatch"></a>
 
-This behavior might occur if your device is not set to the same language as your WorkSpace, or if you are using a language\-specific keyboard, such as a French keyboard\.
+This behavior might occur if your device is not set to the same language as your WorkSpace, or if you're using a language\-specific keyboard, such as a French keyboard\.
 
-There are several ways to solve this issue:
-+ Install the appropriate language or keyboard settings on your WorkSpace\. For a Windows WorkSpace, use the following steps:
-
-  1. Log in to the WorkSpace\.
-
-  1. On the Windows **Start** menu, choose **Settings**\.
-
-  1. Choose **Time & Language**, and then choose **Language**\.
-
-  1. Under **Preferred languages**, choose **Add a language**\.
-
-  1. In the **Choose a language to install** dialog box, select the language to add, and then choose **Next**\.
-
-  1. In the **Install language features** dialog box, select the language features you want, and then choose **Install**\. For example, if you only want to add support for a language\-specific keyboard, select **Basic typing** to install keyboard support for that language\.
-+ If you are in an AWS Region that supports more than one language, have your WorkSpaces administrator create a WorkSpace for you in your preferred language\. Windows WorkSpaces are currently available in all Regions in English \(US\)\. In certain Regions, other languages are available\. In the Canada \(Central\) Region, Windows WorkSpaces are also available in French \(Canadian\); in the Asia Pacific \(Seoul\) Region, Korean is also available; in the Asia Pacific \(Tokyo\) Region, Japanese is also available; and in the China \(Ningxia\) Region, Chinese \(Simplified\) is also available\. To see which Region your WorkSpace is in, log in to the WorkSpaces client application, and then choose **Support**, **About My WorkSpace**\.
-+ Change the keyboard and language settings on your device so that they match the language of your WorkSpace\.
+To resolve this issue, see [Amazon WorkSpaces Language and Keyboard Support](language_keyboard.md)\.
 
 ## I'm having trouble using the Windows logo key in Windows WorkSpaces when working on a Mac<a name="windows_key_osx"></a>
 
@@ -193,3 +186,12 @@ By default, the Windows logo key on a Windows keyboard and the Command key on an
 ## My WorkSpace looks blurry on my Mac<a name="screen_blurry_osx"></a>
 
 If your screen resolution in WorkSpaces is low and objects look blurry, you need to turn on high DPI mode and adjust the display scaling settings on your Mac\. For more information, see [WorkSpaces High DPI Display Support](high_dpi_support.md)\.
+
+## I'm having trouble copying and pasting<a name="copy_paste"></a>
+
+If you are having trouble copying and pasting, confirm the following to help solve your issue:
++ Your administrator has enabled clipboard redirection for your WorkSpace\.
+**Note**  
+Clipboard redirection isn’t supported in the WorkSpaces Linux client application\.
++ The uncompressed object size is under the maximum of 20 MB\.
++ The data type that you copied is supported for clipboard redirection\. For a list of supported data types, see [Understanding Cloud Access Software Copy/Paste Feature](https://help.teradici.com/s/article/1654) in the Teradici documentation\.

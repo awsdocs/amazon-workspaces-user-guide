@@ -1,78 +1,56 @@
 # WorkSpaces Client Peripheral Device Support<a name="peripheral_devices"></a>
 
-
-****  
-
-|  | 
-| --- |
-| Amazon WorkSpaces Streaming Protocol \(WSP\) WorkSpaces are available as a beta service and are subject to change\. WSP beta WorkSpaces should not be used for production workloads\. For more information about the WSP beta, see [Amazon WorkSpaces Streaming Protocol \(beta\)](http://aws.amazon.com/workspaces/wsp/)\. | 
-
 The Amazon WorkSpaces client applications offer the following support for peripheral devices\. If you have an issue with using a particular device, have your WorkSpaces administrator send a report to [https://console\.aws\.amazon\.com/support/home\#/](https://console.aws.amazon.com/support/home#/)\.
 
-**Monitor Support**  
+## Monitors<a name="devices-monitors"></a>
+
 The WorkSpaces client applications for Windows, macOS, and Linux support multiple monitors and the use of high DPI monitors\.
 
-For more information about display support in the WorkSpaces client applications, including how to set up multiple monitors, see [ Display Support for the Linux Client](amazon-workspaces-linux-client.md#linux-display-support), [Display Support for the macOS Client](amazon-workspaces-osx-client.md#osx-display-support), or [Display Support for the Windows Client](amazon-workspaces-windows-client.md#windows-display-support)\.
+**Note**  
+Multiple monitors aren't currently supported on Linux WorkSpaces using the WorkSpaces Streaming Protocol \(WSP\)\.
+
+For more information about display support in the WorkSpaces client applications, including how to set up multiple monitors, see [Display Support for the Linux Client](amazon-workspaces-linux-client.md#linux-display-support), [Display Support for the macOS Client](amazon-workspaces-osx-client.md#osx-display-support), or [Display Support for the Windows Client](amazon-workspaces-windows-client.md#windows-display-support)\.
 
 For more information about support for high DPI monitors, see [WorkSpaces High DPI Display Support](high_dpi_support.md)\.
 
-**USB Bluetooth Keyboards and Mice, USB Audio Headsets, and USB Printers**  
-The Amazon WorkSpaces client applications for Windows and macOS support all of these devices\. The WorkSpaces client application for Linux supports USB keyboards and mice\. 
+## USB Bluetooth Keyboards and Mice<a name="devices-input"></a>
 
-For more information about printing, see [Printing from a WorkSpace](printing.md)\. 
+The Amazon WorkSpaces client applications for Windows, macOS, and Linux support USB Bluetooth keyboards and mice\.
 
-If you're having difficulty using a headset, see [My headset doesn't work in my WorkSpace](client_troubleshooting.md#headset_problems)\.
+The WorkSpaces client applications for Android and iPad support touch input, and both clients offer on\-screen keyboards and support keyboards attached to the device\. The Android client supports mice, and [ iPads with iPadOS 13\.4 or later support Bluetooth mice](https://support.apple.com/HT211008)\. The iPad client also supports certain SwiftPoint mice models\. For more information, see [Swiftpoint GT, ProPoint, or PadPoint Mouse](amazon-workspaces-ipad-client.md#ipad_gt_mouse)\.
 
-**Webcams, Other Video Devices, and Storage Devices**  
+3D mice aren't supported by the WorkSpaces client applications\.
+
+To use languages or keyboards other than English, see [Amazon WorkSpaces Language and Keyboard Support](language_keyboard.md)\. 
+
+## Analog or USB Audio Headsets<a name="devices-audio"></a>
+
+Analog and USB audio headsets are supported on the Android, iPad, macOS, Linux, and Windows client applications, and on the PCoIP Zero Client\. We recommend using a headset for audio calls\. If you use your device's built\-in microphone and speakers, you might experience echoing during your conversations\. If you're having difficulty using a headset, see [My headset doesn't work in my WorkSpace](client_troubleshooting.md#headset_problems)\.
+
+**Note**  
+Audio currently is not supported on Linux WorkSpaces using the WorkSpaces Streaming Protocol \(WSP\)\.
+
+## USB Printers<a name="devices-printers"></a>
+
+The Windows and macOS client applications support USB printers and local printing\. The other client applications support other printing methods\. For details about printer support for the various clients, see [Printing from a WorkSpace](printing.md)\.
+
+## Webcams, Other Video Devices, and Storage Devices<a name="devices-webcams"></a>
+
 If your WorkSpace is using the PCoIP protocol, the WorkSpaces clients do not support webcams or other video devices, or other locally attached peripherals such as storage devices\.
 
-If your WorkSpace is using the WorkSpaces Streaming Protocol \(WSP\) beta, the WorkSpaces client applications for Windows and macOS support webcams\.
+If your WorkSpace is using the WorkSpaces Streaming Protocol \(WSP\), the WorkSpaces client applications for Windows and macOS support webcams\.
 
-To use a webcam on your WSP beta WorkSpace, select the **Devices** icon ![\[Devices icon\]](http://docs.aws.amazon.com/workspaces/latest/userguide/images/devices-icon.png) in the upper\-right corner, and then select **Use this device on the remote WorkSpace**\. 
+**Note**  
+Webcam support in WSP WorkSpaces is a beta feature\.
+
+To use a webcam on your WSP WorkSpace, select the **Devices** icon ![\[Devices icon\]](http://docs.aws.amazon.com/workspaces/latest/userguide/images/devices-icon.png) in the upper\-right corner, and then select **Use this device on the remote WorkSpace**\. 
 
 To use a webcam on your local computer instead of on your WorkSpace, select the **Devices** icon ![\[Devices icon\]](http://docs.aws.amazon.com/workspaces/latest/userguide/images/devices-icon.png) in the upper\-right corner, and then select **Use Locally**\. 
 
-**Smart Cards**  
+## Smart Cards<a name="devices-smart-cards"></a>
+
 If your WorkSpace is using the PCoIP protocol, the WorkSpaces clients do not support smart cards\. 
 
-If your Linux WorkSpace is using the WSP beta protocol, version 3\.0\.12 or later of the WorkSpaces client application for Windows supports smart cards\.
+If your Windows or Linux WorkSpace is using the WSP protocol, version 3\.1\.1 or later of the WorkSpaces client application for Windows supports smart cards\.
 
-**Note**  
-Both [Common Access Card \(CAC\)](https://www.cac.mil/Common-Access-Card) and [Personal Identity Verification \(PIV\)](https://piv.idmanagement.gov/) smart cards are supported\. Other types of smart cards might also work, but they haven't been fully tested for use with the WSP beta protocol\.
-At this time, you can use smart cards only for in\-session authentication, meaning that you can use smart cards only after logging in to your WorkSpace\. You can use smart cards for in\-session authentication for web browsers and applications\. If you have administrative privileges on your WorkSpace, your WorkSpaces administrator might also have enabled you to use in\-session authentication to run `sudo` or `sudo -i` commands\.
-You can use multiple smart cards at the same time for in\-session authentication\.
-You can use smart cards only in the AWS GovCloud \(US\-West\) Region\.
-
-To use your smart card with the Chrome browser, use the following procedure\.
-
-1. Log in to your Linux WorkSpace using the WorkSpaces for Windows client application\. 
-
-1. Open Terminal \(**Applications** > **System Tools** > **MATE Terminal**\)\.
-
-1. Run the following command:
-
-   ```
-   cd; modutil -dbdir sql:.pki/nssdb/ -add "OpenSC" -libfile /lib64/opensc-pkcs11.so
-   ```
-
-1. If Chrome is already running, close it, and then press **Enter**\. When the command finishes running, you should see this message: 
-
-   `Module "OpenSC" added to database.`
-
-You can also use your smart card with the Firefox browser\. Your WorkSpaces administrator might have already enabled Firefox to work with smart cards\. If your smart card doesn't work in Firefox, use the following procedure to enable it\.
-
-1. Open Firefox\. Choose the menu button ![\[Firefox menu button\]](http://docs.aws.amazon.com/workspaces/latest/userguide/images/firefox-menu-button.png) in the upper\-right corner, and then choose **Preferences**\. 
-
-1. On the **about:preferences** page, choose **Privacy & Security** in the left navigation pane\.
-
-1. Under **Certificates**, choose **Security Devices**\.
-
-1. In the **Device Manager** dialog box, choose **Load**\. 
-
-1. In the **Load PKCS\#11 Device Driver** dialog box, enter the following:
-
-   **Module Name**: **OpenSC**
-
-   **Module filename**: **/lib64/opensc\-pkcs11\.so**
-
-1. Choose **OK**\. 
+For more information about using smart cards with your WorkSpace, see [WorkSpaces Client Smart Card Support](smart_card_support.md)\.

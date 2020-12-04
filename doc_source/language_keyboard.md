@@ -37,7 +37,7 @@ If you're using a language\-specific keyboard, use one of the following methods 
 The following languages require the use of an Input Method Editor \(IME\) to enter characters that aren't found on a QWERTY keyboard:
 + Amharic \(Ethiopia\)
 + Chinese \(PRC\)
-+ Chinese \(Taiwan\)
++ Chinese \(Traditional\)
 + Chinese \(Traditional DaYi input method\)
 + Chinese \(Wubi input method\)
 + Chinese \(Yi script\)

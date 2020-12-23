@@ -148,7 +148,7 @@ The Amazon WorkSpaces client application extracts the Extended Display Informati
 **Note**  
 Multiple monitors aren't currently supported on Linux WorkSpaces using the WorkSpaces Streaming Protocol \(WSP\)\.
 
-1. Configure your local machine to use multiple monitors\. 
+1. Configure your local machine to use multiple monitors\. For more information, see [ How to use multiple monitors in Windows 10](https://support.microsoft.com/windows/how-to-use-multiple-monitors-in-windows-10-329c6962-5a4d-b481-7baa-bec9671f728a) in the Microsoft documentation\. 
 
 1. Start the WorkSpaces client application and log in to your WorkSpace\.
 

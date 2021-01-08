@@ -43,9 +43,12 @@ If your WorkSpace is using the WorkSpaces Streaming Protocol \(WSP\), the WorkSp
 **Note**  
 Webcam support in WSP WorkSpaces is a beta feature\.
 
-To use a webcam on your WSP WorkSpace, select the **Devices** icon ![\[Devices icon\]](http://docs.aws.amazon.com/workspaces/latest/userguide/images/devices-icon.png) in the upper\-right corner, and then select **Use this device on the remote WorkSpace**\. 
+**To use a webcam**
 
-To use a webcam on your local computer instead of on your WorkSpace, select the **Devices** icon ![\[Devices icon\]](http://docs.aws.amazon.com/workspaces/latest/userguide/images/devices-icon.png) in the upper\-right corner, and then select **Use Locally**\. 
+1. Log in to your WSP WorkSpace\.
+
+1. Do one of the following, depending on which client you're using\.    
+[\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/peripheral_devices.html)
 
 ## Smart Cards<a name="devices-smart-cards"></a>
 

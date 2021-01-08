@@ -156,6 +156,7 @@ The following table describes the changes to each release of the Linux client ap
 
 | Release | Date | Changes | 
 | --- | --- | --- | 
+| 3\.1\.2 | January 8, 2021 |  Minor bug fixes and enhancements  | 
 | 3\.1\.0 | December 1, 2020 |  Minor bug fixes and enhancements  | 
 | 3\.0\.12 | November 10, 2020 |  Adds enhancements to the session reconnect experience  | 
 | 3\.0\.11 | October 02, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-linux-client.html)  | 

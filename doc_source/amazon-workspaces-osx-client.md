@@ -25,7 +25,7 @@ The 3\.0\+ versions of the client application require macOS 10\.12 \(Sierra\) or
 The 1\.0\+ or 2\.0\+ versions of the client application require OS X 10\.8\.1 or later\.
 
 **Important**  
-If you use macOS 10\.15 \(Catalina\) or later, you must use version 3\.0\.2 or later of the macOS client\.  
+**If you use macOS 10\.15 \(Catalina\) or later, you must use version 3\.0\.2 or later of the macOS client\.**  
 Versions 2\.5\.11 and earlier of the macOS client can no longer be installed on macOS devices\. These versions also no longer work on devices with macOS Catalina or later\.  
 If you are using version 2\.5\.11 or earlier and you upgrade from an older version of macOS to Catalina or later, you will no longer be able to use the 2\.5\.11 or earlier client\. We recommend that affected users upgrade to the latest version of the macOS client that is available for download at [Amazon WorkSpaces Client Downloads](https://clients.amazonworkspaces.com/)\.
 

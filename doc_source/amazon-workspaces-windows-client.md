@@ -177,12 +177,17 @@ Starting with version 3\.0\.12 of the Windows client, you can also choose not to
 1. In the Amazon WorkSpaces client application, go to **Settings**, **Manage Proxy Server**\.
 
 1. In the **Set Proxy** dialog box, select the appropriate options, depending on which version of the 3\.0\+ client you have\.
-   + **Windows client version 3\.0\.12 or later** — To enable or disable the proxy server, select or deselect **Use proxy server**\. If you deselect **Use proxy server**, no proxy server is used when you access the internet\.
+   + **Windows client version 3\.1\.3 or later** — To disable usage of a proxy server, select **Don't use proxy server**\. If you select **Don't use proxy server**, no proxy server is used when you access the internet\.
+
+     To use a proxy server, choose one of the following options, and then choose **Save**:
+     + **Use your device operating system settings** — This option uses the proxy server settings for your operating system\.
+     + **Customize proxy server for WorkSpaces** — Enter the URL or IP address and the port for your custom proxy server\.
+   + **Windows client versions 3\.0\.12, 3\.1\.0, and 3\.1\.2** — To enable or disable usage of a proxy server, select or deselect **Use proxy server**\. If you deselect **Use proxy server**, no proxy server is used when you access the internet\.
 
      If you've selected **Use proxy server**, choose one of the following options, and then choose **Save**:
      + **Use your device operating system settings** — This option uses the proxy server settings for your operating system\.
-     + **Customize proxy server for WorkSpaces** — Enter the IP address and port for your custom proxy server\.
-   + **Windows client version 3\.0\.11 or earlier** — By default, these versions of the client use the proxy server specified in the device operating system settings\. To use a custom proxy server, choose **Use proxy server**, enter the IP address and port for the proxy server, and then choose **Save**\.
+     + **Customize proxy server for WorkSpaces** — Enter the URL or IP address and the port for your custom proxy server\.
+   + **Windows client version 3\.0\.11 or earlier** — By default, these versions of the client use the proxy server specified in the device operating system settings\. To use a custom proxy server, choose **Use proxy server**, enter the URL or IP address and the port for the proxy server, and then choose **Save**\.
 
 ### To use a proxy server for 1\.0\+ and 2\.0\+ clients<a name="windows_proxy_server-legacy-clients"></a>
 
@@ -190,7 +195,7 @@ By default, the 1\.0\+ and 2\.0\+ Windows clients don't use a proxy server\. To 
 
 1. In the Amazon WorkSpaces client application, open the **Advanced Settings** dialog box\.
 
-1. In the **Proxy Server Setting** area, select **Use Proxy Server**, enter the proxy server address and port, and choose **Save**\.
+1. In the **Proxy Server Setting** area, select **Use Proxy Server**, enter the proxy server URL or IP address and the port, and choose **Save**\.
 
 ## Command Shortcuts<a name="windows_shortcuts"></a>
 
@@ -220,6 +225,7 @@ The following table describes the changes to each release of the Windows client 
 
 | Release | Date | Changes | 
 | --- | --- | --- | 
+| 3\.1\.3 | February 15, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
 | 3\.1\.2 | January 8, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
 | 3\.1\.1 | December 1, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  Version 3\.1\.1 is available only in the AWS GovCloud \(US\-West\) Region\.   | 
 | 3\.1\.0 | December 1, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 

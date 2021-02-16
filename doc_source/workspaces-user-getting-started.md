@@ -86,4 +86,31 @@ You use the Amazon WorkSpaces Application Manager client application on your Win
 
 ## \(Optional\) Integrate with WorkDocs<a name="workdocs-integration"></a>
 
-If your Amazon WorkSpaces administrator has enabled it, you can integrate your WorkSpace with Amazon WorkDocs\. Amazon WorkDocs Drive enables you to stream your Amazon WorkDocs files to your WorkSpace on demand\. You can easily access any file on Amazon WorkDocs without needing to keep a local copy\. For more information, see [Amazon WorkDocs Drive](https://docs.aws.amazon.com/workdocs/latest/userguide/workdocs_drive_help.html) in the *Amazon WorkDocs Administration Guide*\.
+If your Amazon WorkSpaces administrator has enabled it, you can integrate your WorkSpace with Amazon WorkDocs\. You can use Amazon WorkDocs to store, sync, and share your files\. WorkDocs can automatically back up documents on your WorkSpace and sync documents to and from other devices such as a PC or Mac, so that you can access your data regardless of which desktop you are using\.
+
+**Note**  
+WorkDocs isn't available for use with Linux WorkSpaces\.
+
+**To install WorkDocs on your WorkSpace**
+
+1. Choose \(double\-click\) the **Install Amazon WorkDocs** desktop shortcut on your WorkSpace\.
+
+1. In the **Amazon WorkDocs Setup** dialog box, choose **Get Started**\.
+
+1. Ignore the prompt to provide a WorkDocs site URL, and instead choose **Enter a WorkSpaces registration code** under the **Next** button\.
+
+1. In the **Registration Code** box, enter the registration code that you received in your WorkSpaces welcome mail, and then choose **Next**\.
+
+1. In the **Username** and **Password** boxes, enter your WorkSpace login credentials, and then choose **Sign In**\.
+
+1. In the next dialog box, a folder is suggested for the location of your synced files\. The default folder is `D:\Users\WorkSpaceUserName\WorkDocs`\. To specify a different folder, choose **Change**\. After you've made your choice, choose **Next**\. 
+
+1. Choose which files you'd like to sync \(either **Sync only the files and folders I select from WorkDocs** or **Sync all files and folders from WorkDocs**\)\. To finish setting up, choose **Next**\.
+
+1. Open Windows File Explorer\. You should now see your new `D:\Users\WorkSpaceUserName\WorkDocs `folder\. To back up and sync your files, make sure to save your files to this location\.
+
+1. Install WorkDocs Drive on any other computers or devices that you'd like to sync files between\. You can download the WorkDocs Drive client from [https://amazonworkdocs\.com/clients](https://amazonworkdocs.com/clients)\. When you log in to WorkDocs Drive, make sure to use your WorkSpace registration code, username, and password, as described earlier in this procedure\.
+**Important**  
+If you're installing WorkDocs Drive on a Mac, follow the instructions in [Installing Amazon WorkDocs Drive](https://docs.aws.amazon.com/workdocs/latest/userguide/drive_install.html) in the *Amazon WorkDocs Administration Guide* in the *Amazon WorkDocs Administration Guide*\.
+
+For more information about working with WorkDocs Drive, see [Amazon WorkDocs Drive](https://docs.aws.amazon.com/workdocs/latest/userguide/workdocs_drive_help.html) in the *Amazon WorkDocs Administration Guide*\.

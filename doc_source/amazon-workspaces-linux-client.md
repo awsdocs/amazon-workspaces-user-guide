@@ -131,7 +131,7 @@ Proxy servers that require authentication with a username and password are not s
 
 1. In the Amazon WorkSpaces client application, go to **Settings**, **Manage Proxy Server**\.
 
-1. In the **Set Proxy** dialog box, select **Use proxy server**, enter the proxy server address and port, and choose **Save**\.
+1. In the **Set Proxy** dialog box, select **Use proxy server**, enter the proxy server URL or IP address and the port, and choose **Save**\.
 
 ## Command Shortcuts<a name="linux_shortcuts"></a>
 
@@ -156,6 +156,7 @@ The following table describes the changes to each release of the Linux client ap
 
 | Release | Date | Changes | 
 | --- | --- | --- | 
+| 3\.1\.3 | February 15, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-linux-client.html)  | 
 | 3\.1\.2 | January 8, 2021 |  Minor bug fixes and enhancements  | 
 | 3\.1\.0 | December 1, 2020 |  Minor bug fixes and enhancements  | 
 | 3\.0\.12 | November 10, 2020 |  Adds enhancements to the session reconnect experience  | 

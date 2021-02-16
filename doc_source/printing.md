@@ -28,4 +28,4 @@ If you cannot print to your local printer from your WorkSpace, make sure that yo
 You can also use one of the following methods to print from a WorkSpace:
 + In a connected directory, you can attach your WorkSpace to network printers that are exposed through Active Directory\.
 + Use a cloud printing service, such as [HP Mobile Printing](https://www8.hp.com/us/en/printers/mobility/overview.html)\.
-+ Print to a file, transfer the file to your local desktop \(such as by emailing the file or by using [ Amazon WorkDocs](https://docs.aws.amazon.com/workdocs/latest/userguide/what_is.html)\), and print the file locally to an attached printer\.
++ Print to a file, transfer the file to your local desktop \(such as by emailing the file or by using [Amazon WorkDocs](workspaces-user-getting-started.md#workdocs-integration)\), and print the file locally to an attached printer\.

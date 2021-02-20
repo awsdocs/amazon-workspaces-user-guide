@@ -153,7 +153,7 @@ If your screen resolution in WorkSpaces is low and objects look blurry, you need
 
 **To use multiple monitors with WorkSpaces**
 
-1. Configure your local machine to use multiple monitors\. 
+1. Configure your local machine to use multiple monitors\. For more information, see [ Use multiple displays with your Mac](https://support.apple.com/guide/mac-help/use-multiple-displays-mchl7c7ebe08/mac) in the Apple documentation\.
 
 1. Start the WorkSpaces client application and log in to your WorkSpace\.
 

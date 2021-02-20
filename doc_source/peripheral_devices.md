@@ -2,6 +2,17 @@
 
 The Amazon WorkSpaces client applications offer the following support for peripheral devices\. If you have an issue with using a particular device, have your WorkSpaces administrator send a report to [https://console\.aws\.amazon\.com/support/home\#/](https://console.aws.amazon.com/support/home#/)\.
 
+Device support might differ depending on which streaming protocol your WorkSpace is using, either PCoIP or WorkSpaces Streaming Protocol \(WSP\)\. In the 3\.0\+ versions of the macOS and Windows client applications, you can see which protocol your WorkSpace is using by choosing **Support**, **About My WorkSpace**\. The iPad, Android, and Linux client applications currently support only the PCoIP protocol\.
+
+**Topics**
++ [Monitors](#devices-monitors)
++ [Keyboards and Mice](#devices-input)
++ [Audio Headsets](#devices-audio)
++ [Printers](#devices-printers)
++ [USB Drives and Other Storage Devices](#devices-storage)
++ [Webcams and Other Video Devices](#devices-webcams)
++ [Smart Cards](#devices-smart-cards)
+
 ## Monitors<a name="devices-monitors"></a>
 
 The WorkSpaces client applications for Windows, macOS, and Linux support multiple monitors and the use of high DPI monitors\.
@@ -13,7 +24,7 @@ For more information about display support in the WorkSpaces client applications
 
 For more information about support for high DPI monitors, see [WorkSpaces High DPI Display Support](high_dpi_support.md)\.
 
-## USB Bluetooth Keyboards and Mice<a name="devices-input"></a>
+## Keyboards and Mice<a name="devices-input"></a>
 
 The Amazon WorkSpaces client applications for Windows, macOS, and Linux support USB Bluetooth keyboards and mice\.
 
@@ -23,20 +34,26 @@ The WorkSpaces client applications for Android and iPad support touch input, and
 
 To use languages or keyboards other than English, see [Amazon WorkSpaces Language and Keyboard Support](language_keyboard.md)\. 
 
-## Analog or USB Audio Headsets<a name="devices-audio"></a>
+## Audio Headsets<a name="devices-audio"></a>
 
 Analog and USB audio headsets are supported on the Android, iPad, macOS, Linux, and Windows client applications, and on the PCoIP Zero Client\. We recommend using a headset for audio calls\. If you use your device's built\-in microphone and speakers, you might experience echoing during your conversations\. If you're having difficulty using a headset, see [My headset doesn't work in my WorkSpace](client_troubleshooting.md#headset_problems)\.
 
 **Note**  
 Audio currently is not supported on Linux WorkSpaces using the WorkSpaces Streaming Protocol \(WSP\)\.
 
-## USB Printers<a name="devices-printers"></a>
+## Printers<a name="devices-printers"></a>
 
 The Windows and macOS client applications support USB printers and local printing\. The other client applications support other printing methods\. For details about printer support for the various clients, see [Printing from a WorkSpace](printing.md)\.
 
-## Webcams, Other Video Devices, and Storage Devices<a name="devices-webcams"></a>
+## USB Drives and Other Storage Devices<a name="devices-storage"></a>
 
-If your WorkSpace is using the PCoIP protocol, the WorkSpaces clients do not support webcams or other video devices, or other locally attached peripherals such as storage devices\.
+The WorkSpaces clients do not support locally attached peripheral storage devices, such as USB flash drives or external hard drives\.
+
+If you need to transfer, back up, or synchronize files between your WorkSpace and your local client device, consider using [Amazon WorkDocs](workspaces-user-getting-started.md#workdocs-integration) \(if your WorkSpaces administrator has enabled it\)\. You might also be able to email files to yourself\. To see if other solutions are available to you, contact your WorkSpaces administrator\. 
+
+## Webcams and Other Video Devices<a name="devices-webcams"></a>
+
+If your WorkSpace is using the PCoIP protocol, the WorkSpaces clients do not support webcams or other video devices\.
 
 If your WorkSpace is using the WorkSpaces Streaming Protocol \(WSP\), the WorkSpaces client applications for Windows and macOS support webcams\.
 

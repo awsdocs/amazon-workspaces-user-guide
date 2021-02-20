@@ -6,6 +6,7 @@ After your administrator creates your WorkSpace, you receive an invitation email
 + [Complete Your User Profile](#complete-registration)
 + [Choose a Client](#choose-client)
 + [Determine Your Client Version](#determine-version)
++ [Determine Your Streaming Protocol](#determine-protocol)
 + [Verify Networking Requirements](#verify-requirements)
 + [\(Optional\) Access the Applications Assigned to You](#access-wam-apps)
 + [\(Optional\) Integrate with WorkDocs](#workdocs-integration)
@@ -44,6 +45,10 @@ For information about connecting to your WorkSpace, see the following client doc
 ## Determine Your Client Version<a name="determine-version"></a>
 
 To see which version of the WorkSpaces client you have, choose **Amazon WorkSpaces**, **About Amazon WorkSpaces**, or click the gear icon in the upper\-right corner and choose **About Amazon WorkSpaces**\.
+
+## Determine Your Streaming Protocol<a name="determine-protocol"></a>
+
+Device or feature support might differ depending on which streaming protocol your WorkSpace is using, either PCoIP or WorkSpaces Streaming Protocol \(WSP\)\. In the 3\.0\+ versions of the macOS and Windows client applications, you can see which protocol your WorkSpace is using by choosing **Support**, **About My WorkSpace**\. The iPad, Android, and Linux client applications currently support only the PCoIP protocol\.
 
 ## Verify Networking Requirements<a name="verify-requirements"></a>
 

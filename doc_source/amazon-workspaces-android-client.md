@@ -10,6 +10,7 @@ The following information will help you get started with the Amazon WorkSpaces A
 + [Sidebar Menu](#android_sidebar_menu)
 + [Keyboard](#android_keyboard)
 + [Trackpad Mode](#android_trackpad_mode)
++ [Display Support](#android_display_support)
 + [Disconnect](#android_disconnect)
 + [Clipboard Support](#android_clipboard_support)
 + [Release Notes](#android-release-notes)
@@ -154,6 +155,18 @@ Simulate a right mouse button click by tapping the right mouse button icon\.
 
 ![\[Right mouse button icon\]](http://docs.aws.amazon.com/workspaces/latest/userguide/images/mouse-icon-right.png)
 
+## Display Support<a name="android_display_support"></a>
+
+The Amazon WorkSpaces Android client application supports a single monitor\. Multiple monitors are not supported\.
+
+The maximum supported screen resolution depends on your device's display\. Although specific screen resolution settings are offered in the **Settings** menu, if you choose **Default**, WorkSpaces matches the resolution that you've set on your device\. If your device supports a resolution higher than 2560x1440, choose **Default** if you want WorkSpaces to use a higher resolution\. 
+
+
+| Resolution Setting | When to Use | 
+| --- | --- | 
+| 2560x1440, 1920x1080, 1600x900, 1280x720, 960x540 | Choose one of these settings if you want your display to use this exact resolution\. | 
+| Default | Choose this setting to match the resolution that you've set on your device, up to the maximum resolution that your device supports\. | 
+
 ## Disconnect<a name="android_disconnect"></a>
 
 To disconnect the Android client, display the sidebar menu, tap the disconnect icon, and tap **Disconnect**\. You can also log off of the WorkSpace, which disconnects the client\.
@@ -174,6 +187,7 @@ The following table describes the changes to each release of the Android client 
 
 | Release | Date | Changes | 
 | --- | --- | --- | 
+|  2\.4\.19  | February 22, 2021 |  Enhanced support for resolution 2560x1440  | 
 |  2\.4\.18  | October 19, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
 |  2\.4\.17  | February 24, 2020 |  Minor bug fixes and enhancements  | 
 |  2\.4\.16  | January 30, 2020 |  Adds 64\-bit support for Android 9 and 10  | 

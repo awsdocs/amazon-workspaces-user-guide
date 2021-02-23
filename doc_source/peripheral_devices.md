@@ -15,12 +15,14 @@ Device support might differ depending on which streaming protocol your WorkSpace
 
 ## Monitors<a name="devices-monitors"></a>
 
-The WorkSpaces client applications for Windows, macOS, and Linux support multiple monitors and the use of high DPI monitors\.
+The Amazon WorkSpaces Android client application supports a single monitor\. For more information about display support in the WorkSpaces Android client application, see [Display Support for the Android Client](amazon-workspaces-android-client.md#android_display_support)\.
+
+The Amazon WorkSpaces client applications for Linux, macOS, and Windows support multiple monitors and the use of high DPI monitors\.
 
 **Note**  
 Multiple monitors aren't currently supported on Linux WorkSpaces using the WorkSpaces Streaming Protocol \(WSP\)\.
 
-For more information about display support in the WorkSpaces client applications, including how to set up multiple monitors, see [Display Support for the Linux Client](amazon-workspaces-linux-client.md#linux-display-support), [Display Support for the macOS Client](amazon-workspaces-osx-client.md#osx-display-support), or [Display Support for the Windows Client](amazon-workspaces-windows-client.md#windows-display-support)\.
+For more information about display support in the Linux, macOS, and Windows WorkSpaces client applications, including how to set up multiple monitors, see [Display Support for the Linux Client](amazon-workspaces-linux-client.md#linux-display-support), [Display Support for the macOS Client](amazon-workspaces-osx-client.md#osx-display-support), or [Display Support for the Windows Client](amazon-workspaces-windows-client.md#windows-display-support)\.
 
 For more information about support for high DPI monitors, see [WorkSpaces High DPI Display Support](high_dpi_support.md)\.
 

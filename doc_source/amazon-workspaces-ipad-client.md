@@ -25,6 +25,7 @@ The Amazon WorkSpaces iPad client application requires the following:
 
 **Note**  
 The WorkSpaces iPad client application is not available for the WorkSpaces Streaming Protocol \(WSP\)\.
+If your WorkSpace is located in the Asia Pacific \(Mumbai\) Region, you must use version 2\.4\.17 or later of the Amazon WorkSpaces iPad client application\.
 
 ## Setup and Installation<a name="ipad_setup"></a>
 

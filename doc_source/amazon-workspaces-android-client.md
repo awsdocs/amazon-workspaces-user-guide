@@ -28,6 +28,7 @@ Versions of the Android client application after 2\.4\.15 require devices with A
 
 **Note**  
 The WorkSpaces Android client application is not available for the WorkSpaces Streaming Protocol \(WSP\)\.
+If your WorkSpace is located in the Asia Pacific \(Mumbai\) Region, you must use version 2\.4\.19 or later of the Amazon WorkSpaces Android client application\.
 
 ## Setup and Installation<a name="android_setup"></a>
 

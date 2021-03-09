@@ -4,6 +4,7 @@ Users can access their Windows WorkSpaces from any location using a web browser\
 
 **Note**  
 Web Access is not available for the WorkSpaces Streaming Protocol \(WSP\)\.
+Web Access isn't currently available in the Asia Pacific \(Mumbai\) Region\.
 A web browser cannot be used to connect to Amazon Linux WorkSpaces\.
 
 **Important**  

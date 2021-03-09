@@ -21,6 +21,9 @@ The following information will help you get started with the Amazon WorkSpaces W
 
 The Amazon WorkSpaces Windows client application requires Microsoft Windows 7, Windows 8, or Windows 10\.
 
+**Note**  
+If your WorkSpace is located in the Asia Pacific \(Mumbai\) Region, you must use version 3\.1\.3 or later of the Amazon WorkSpaces Windows client application\.
+
 ## Setup and Installation<a name="windows_setup"></a>
 
 Depending on which version of the client you want, do one of the following:

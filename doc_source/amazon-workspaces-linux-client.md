@@ -22,6 +22,8 @@ The Amazon WorkSpaces Linux client application requires 64\-bit Ubuntu 18\.04 \(
 
 **Note**  
 By default, Linux client access is disabled\. To use this client with your WorkSpace, your Amazon WorkSpaces administrator must enable Linux client access for your WorkSpaces directory\. For more information, see [ Control Device Access](https://docs.aws.amazon.com/workspaces/latest/adminguide/update-directory-details.html#control-device-access) in the *Amazon WorkSpaces Administration Guide*\.
+The WorkSpaces Linux client application is not available for the WorkSpaces Streaming Protocol \(WSP\)\.
+If your WorkSpace is located in the Asia Pacific \(Mumbai\) Region, you must use version 3\.1\.3 or later of the Amazon WorkSpaces Linux client application\.
 
 ## Setup and Installation<a name="linux_setup"></a>
 

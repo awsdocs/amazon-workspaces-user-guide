@@ -222,38 +222,13 @@ Clipboard redirection isn’t supported in the WorkSpaces Linux client applicati
 
 ## My screen is flickering or not updating properly, or my mouse isn't clicking in the right place<a name="screen_artifacts"></a>
 
-Some users might experience the following screen update issues:
+If you're using a version of the Amazon WorkSpaces Windows client application prior to version 3\.1\.4, you might experience the following screen update issues, caused by hardware acceleration:
 + The screen might have flickering black boxes in some places\.
 + The screen might not properly update on the WorkSpaces login page, or it might not properly update after you log in to your WorkSpace\. You might see artifacts on the screen\.
-+ Your mouse clicks might not be lined up with the cursor position on screen\.
++ Your mouse clicks might not be lined up with the cursor position on the screen\.
 
-To address these issues, you can turn off hardware acceleration in Windows\. Turning off hardware acceleration might affect the performance of other Windows applications\.
+To address these issues, we recommend upgrading to version 3\.1\.4 or later of the Windows client application\. Starting with version 3\.1\.4, hardware acceleration is turned off by default in the Windows client application\. 
 
-**To turn off hardware acceleration**
+However, if you need to enable hardware acceleration in version 3\.1\.4 or later, for example if you're experiencing slow performance when using the client, see [Managing Hardware Acceleration](amazon-workspaces-windows-client.md#windows_hardware_acceleration)\.
 
-1. On your Windows computer \(not your WorkSpace\), open the Windows search box, and enter **registry editor** to open the Registry Editor \(regedit\.exe\)\. Choose **Run as administrator**\. \(If you don't have permission to run the Registry Editor as an administrator, contact your system administrator for assistance\.\)
-
-1. When asked "Do you want to allow this app to make changes to your device?", choose **Yes**\. 
-
-1. In the Registry Editor, navigate to the following registry entry:
-
-   **HKEY\_CURRENT\_USER\\SOFTWARE\\Microsoft\\Avalon\.Graphics**
-
-1. Do one of the following:
-   + If the **DisableHWAcceleration** registry key exists, select it and choose **Edit** > **Modify**\. In the **Value data** box, enter **1** \(to disable hardware acceleration\), and then choose **OK**\. 
-   + If the **DisableHWAcceleration** registry key doesn't exist, do the following:
-
-     1. Select **Avalon\.Graphics**, and then choose **Edit** > **New** > **DWORD \(32\-bit\) Value**\.
-
-     1. For the registry key name, enter **DWORD DisableHWAcceleration**\.
-
-     1. Select the new **DisableHWAcceleration** key, and then choose **Edit** > **Modify**\. 
-
-     1. In the **Value data** box, enter **1** \(to disable hardware acceleration\), set **Base** to **Hexadecimal**, and then choose **OK**\. 
-
-1. Close the Registry Editor\.
-
-1. Close and restart the WorkSpaces client application\. 
-
-**Note**  
-If you need to turn on hardware acceleration to improve the performance of other Windows applications, set the **DisableHWAcceleration** key to **0**\.
+If you need to use version 3\.1\.3 or earlier of the Windows client application, you can disable hardware acceleration in Windows\. To disable hardware acceleration for version 3\.1\.3 or earlier, see [Managing Hardware Acceleration](amazon-workspaces-windows-client.md#hwacc-earlier-clients)\. Disabling hardware acceleration in Windows might affect the performance of other Windows applications\.

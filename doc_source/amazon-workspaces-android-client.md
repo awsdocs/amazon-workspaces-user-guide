@@ -188,6 +188,7 @@ The following table describes the changes to each release of the Android client 
 
 | Release | Date | Changes | 
 | --- | --- | --- | 
+|  2\.4\.20  | March 25, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
 |  2\.4\.19  | February 22, 2021 |  Enhanced support for resolution 2560x1440  | 
 |  2\.4\.18  | October 19, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
 |  2\.4\.17  | February 24, 2020 |  Minor bug fixes and enhancements  | 

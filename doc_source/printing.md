@@ -3,8 +3,8 @@
 The following printing methods are supported by Amazon WorkSpaces\.
 
 **Note**  
-The Amazon WorkSpaces clients for iPad, Android, Chromebook, and Linux support cloud printing services\. Local and network printing are not currently supported for the iPad, Android, Chromebook, and Linux clients\.  
-Amazon Linux WorkSpaces support network printers and cloud printing services\. Local printer redirection is not available for Linux WorkSpaces or the Linux client\. 
+The Amazon WorkSpaces clients for iPad, Android, Chromebook, Web Access, and Linux support network printing and cloud printing services\. Local printing is not currently supported for the iPad, Android, Chromebook, Web Access, and Linux clients\.  
+Local printer redirection is not available for Linux WorkSpaces, regardless of the client being used to access them\.
 
 **Topics**
 + [Local Printers](#local_printers)
@@ -12,7 +12,7 @@ Amazon Linux WorkSpaces support network printers and cloud printing services\. L
 
 ## Local Printers<a name="local_printers"></a>
 
-Amazon WorkSpaces supports local printer redirection\. When you print from an application in your WorkSpace, the local printers are contained in your list of available printers\. The local printers have "\(Local – *workspace username*\.*directory name*\.*client computer name*\)" appended to the printer's display name\. Select one of the local printers and your documents are printed on that printer\.
+Windows WorkSpaces support local printer redirection\. When you print from an application in your WorkSpace, the local printers are contained in your list of available printers\. The local printers have "\(Local – *workspace username*\.*directory name*\.*client computer name*\)" appended to the printer's display name\. Select one of the local printers and your documents are printed on that printer\.
 
 In some cases, you need to download and install the driver for your local printer manually on the WorkSpace\. When you install a printer driver on your WorkSpace, there are different types of drivers that you might encounter:
 + Add Printer wizard driver\. This driver includes only the printer drivers, and is for users who are familiar with installation using the Add Printer wizard in Windows\.
@@ -25,7 +25,7 @@ If you cannot print to your local printer from your WorkSpace, make sure that yo
 
 ## Other Printing Methods<a name="other_printing"></a>
 
-You can also use one of the following methods to print from a WorkSpace:
+You can also use one of the following methods to print from a Windows or Linux WorkSpace:
 + In a connected directory, you can attach your WorkSpace to network printers that are exposed through Active Directory\.
 + Use a cloud printing service, such as [HP Mobile Printing](https://www8.hp.com/us/en/printers/mobility/overview.html)\.
 + Print to a file, transfer the file to your local desktop \(such as by emailing the file or by using [Amazon WorkDocs](workspaces-user-getting-started.md#workdocs-integration)\), and print the file locally to an attached printer\.

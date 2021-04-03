@@ -1,6 +1,6 @@
 # WorkSpaces Client Smart Card Support<a name="smart_card_support"></a>
 
-Version 3\.1\.1 or later of the WorkSpaces Windows client supports smart cards if your Windows or Linux WorkSpace is using the WSP protocol\. If your WorkSpace is using the PCoIP protocol, the WorkSpaces clients do not support smart cards\. 
+Smart cards are supported if your Windows or Linux WorkSpace is using the WorkSpaces Streaming Protocol \(WSP\)\. If your WorkSpace is using the PCoIP protocol, the WorkSpaces clients do not support smart cards\. 
 
 You can use smart cards for both *pre\-session authentication* and *in\-session authentication*\. Authentication is the process of verifying your identity and confirming that you have access to certain resources\. Pre\-session authentication refers to smart card authentication that's performed while you're logging in to your WorkSpace\. In\-session authentication refers to authentication that's performed during your WorkSpace session, after you log in\. 
 
@@ -10,14 +10,14 @@ For example, you can use smart cards for in\-session authentication while workin
 Both [Common Access Card \(CAC\)](https://www.cac.mil/Common-Access-Card) and [Personal Identity Verification \(PIV\)](https://piv.idmanagement.gov/) smart cards are supported\. Other types of smart cards might also work, but they haven't been fully tested for use with the WSP protocol\.
 For in\-session authentication and pre\-session authentication on Linux or Windows WorkSpaces, only one smart card is currently allowed at a time\.
 Pre\-session authentication is available only in the AWS GovCloud \(US\-West\) Region at this time\. In\-session authentication is available in all Regions where WSP is supported\.
-Only the WorkSpaces Windows client application version 3\.1\.1 or later is currently supported for smart card authentication\.
+Only the WorkSpaces Windows client application version 3\.1\.1 or later and the macOS client application version 3\.1\.5 or later are currently supported for smart card authentication\.
 The WorkSpaces Windows client application 3\.1\.1 or later supports smart cards only when the client is running on a 64\-bit version of Windows\.
 
 ## Use a Smart Card to Log In to Your WorkSpace<a name="smart-card-login"></a>
 
 **To use your smart card to log in to your WorkSpace**
 
-1. Open version 3\.1\.1 or later of the WorkSpaces Windows client application\.
+1. Open version 3\.1\.1 or later of the WorkSpaces Windows client application or version 3\.1\.5 or later of the WorkSpaces macOS client application\.
 
 1. Enter the registration code provided by your WorkSpaces administrator, and then choose **Register**\. You might need to choose **Change Registration Code** at the bottom of the login page so that you can enter a new registration code\.
 

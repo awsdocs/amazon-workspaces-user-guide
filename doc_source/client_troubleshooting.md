@@ -9,6 +9,7 @@ The following are common issues that you might have with your WorkSpaces client\
 + [My WorkSpaces client gives me a network error, but I am able to use other network\-enabled apps on my device](#net_error)
 + [It sometimes takes several minutes to log in to my Windows WorkSpace](#login_delay)
 + [When I try to log in, the Amazon WorkSpaces Windows client gets stuck on the "Preparing your login page" screen](#login_stuck_preparing_page)
++ [When I try to log in, I get the error message: "No network\. Network connection lost\. Check your network connection or contact your administrator for help\."](#login_proxy_server)
 + [The Amazon WorkSpaces Windows client application login page is very tiny](#login_tiny_page)
 + [I see the following error message: "WorkSpace Status: Unhealthy\. We were unable to connect you to your WorkSpace\. Please try again in a few minutes\."](#workspace_unhealthy)
 + [Sometimes I am logged off of my Windows WorkSpace, even though I closed the session, but did not log off](#logged_out)
@@ -84,6 +85,13 @@ Group Policy settings that are set by your system administrator can cause a dela
 ## When I try to log in, the Amazon WorkSpaces Windows client gets stuck on the "Preparing your login page" screen<a name="login_stuck_preparing_page"></a>
 
 When starting versions 3\.0\.4 and 3\.0\.5 of the WorkSpaces Windows client application on a Windows 10 machine, the client might get stuck on the "Preparing your login page" screen\. To avoid this issue, either upgrade to version 3\.0\.6 of the Windows client application or do not run the Windows client application with administrator \(elevated\) privileges\.
+
+## When I try to log in, I get the error message: "No network\. Network connection lost\. Check your network connection or contact your administrator for help\."<a name="login_proxy_server"></a>
+
+When you try to log in to your WorkSpace using some 3\.0\+ versions of the Windows, macOS, and Linux WorkSpaces client applications, you might receive a "No network" error on the login page if you have specified a custom proxy server\.
++ **Windows client** — To avoid this issue with the Windows client, upgrade to version 3\.0\.12 or later\. For more information about configuring the proxy server settings in the Windows client, see [Proxy Server for Windows Client](amazon-workspaces-windows-client.md#windows_proxy_server)\.
++ **macOS client** — To work around this issue, use the proxy server that's specified in the device operating system instead of using a custom proxy server\. For more information about configuring the proxy server settings in the macOS client, see [Proxy Server for macOS Client](amazon-workspaces-osx-client.md#osx_proxy_server)\. 
++ **Linux client** — To avoid this issue with the Linux client, upgrade to version 3\.1\.5 or later\. If you can't upgrade, you can work around this issue by using the proxy server that's specified in the device operating system instead of using a custom proxy server\. For more information about configuring the proxy server settings in the Linux client, see [Proxy Server for Linux Client](amazon-workspaces-linux-client.md#linux_proxy_server)\.
 
 ## The Amazon WorkSpaces Windows client application login page is very tiny<a name="login_tiny_page"></a>
 
@@ -231,4 +239,4 @@ To address these issues, we recommend upgrading to version 3\.1\.4 or later of t
 
 However, if you need to enable hardware acceleration in version 3\.1\.4 or later, for example if you're experiencing slow performance when using the client, see [Managing Hardware Acceleration](amazon-workspaces-windows-client.md#windows_hardware_acceleration)\.
 
-If you need to use version 3\.1\.3 or earlier of the Windows client application, you can disable hardware acceleration in Windows\. To disable hardware acceleration for version 3\.1\.3 or earlier, see [Managing Hardware Acceleration](amazon-workspaces-windows-client.md#hwacc-earlier-clients)\. Disabling hardware acceleration in Windows might affect the performance of other Windows applications\.
+If you need to use version 3\.1\.3 or earlier of the Windows client application, you can disable hardware acceleration in Windows\. To disable hardware acceleration for version 3\.1\.3 or earlier, see [Managing Hardware Acceleration](amazon-workspaces-windows-client.md#hardware_acceleration_313)\. Disabling hardware acceleration in Windows might affect the performance of other Windows applications\.

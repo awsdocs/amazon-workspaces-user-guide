@@ -57,10 +57,7 @@ If you need to transfer, back up, or synchronize files between your WorkSpace an
 
 If your WorkSpace is using the PCoIP protocol, the WorkSpaces clients do not support webcams or other video devices\.
 
-If your WorkSpace is using the WorkSpaces Streaming Protocol \(WSP\), the WorkSpaces client applications for Windows and macOS support webcams\.
-
-**Note**  
-Webcam support in WSP WorkSpaces is a beta feature\.
+If your WorkSpace is using the WorkSpaces Streaming Protocol \(WSP\), versions 3\.1\.5 and later of the WorkSpaces client applications for Windows and macOS support webcams\. For the Windows client, you must run the client on a machine that's running Windows 10 version 1607 or later\.
 
 **To use a webcam**
 
@@ -73,6 +70,6 @@ Webcam support in WSP WorkSpaces is a beta feature\.
 
 If your WorkSpace is using the PCoIP protocol, the WorkSpaces clients do not support smart cards\. 
 
-If your Windows or Linux WorkSpace is using the WSP protocol, version 3\.1\.1 or later of the WorkSpaces client application for Windows supports smart cards\.
+If your Windows or Linux WorkSpace is using the WSP protocol, version 3\.1\.1 or later of the WorkSpaces client application for Windows and version 3\.1\.5 or later of the WorkSpaces client application for macOS support smart cards\.
 
 For more information about using smart cards with your WorkSpace, see [WorkSpaces Client Smart Card Support](smart_card_support.md)\.

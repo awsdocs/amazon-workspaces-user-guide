@@ -174,9 +174,12 @@ Proxy servers that require authentication with a username and password are not s
 
 ### To control the proxy server for 3\.0\+ clients<a name="windows_proxy_server-new-clients"></a>
 
-By default, the 3\.0\+ Windows clients use the proxy server specified in the device operating system settings\. The first time the client is launched, the device operating system proxy server setting is used\. If you select another option for the proxy server, that setting is used for subsequent launches of the client\.
+By default, the 3\.0\+ Windows clients use the proxy server that's specified in the device operating system settings\. The first time the client is launched, the device operating system proxy server setting is used\. If you select another option for the proxy server, that setting is used for subsequent launches of the client\. If a proxy server is specified at both the operating system level and in the WorkSpaces client, the client setting is used\.
 
 Starting with version 3\.0\.12 of the Windows client, you can also choose not to use a proxy server\.
+
+**Note**  
+In versions 3\.0\.0 through 3\.0\.11, if you specify a custom proxy server, a "No network" error might appear when you attempt to log in to your WorkSpace\. If you want to use a custom proxy server with the Windows client, we recommend upgrading to the latest version\.
 
 1. In the Amazon WorkSpaces client application, go to **Settings**, **Manage Proxy Server**\.
 
@@ -227,7 +230,7 @@ When copying from a Microsoft Office app, the clipboard only contains the last c
 Starting with version 3\.1\.4, hardware acceleration is disabled by default when you're using the Amazon WorkSpaces Windows client application\.
 
 **Note**  
-If you plan to upgrade to version 3\.1\.4, and if you've disabled hardware acceleration for version 3\.1\.3 or earlier by using the [procedure described later in this section](#hwacc-earlier-clients), make sure that you re\-enable hardware acceleration in Windows by setting the **DisableHWAcceleration** registry key to **0**\. Then you can upgrade to version 3\.1\.4 or later of the WorkSpaces Windows client application\.
+If you plan to upgrade to version 3\.1\.4, and if you've disabled hardware acceleration for version 3\.1\.3 or earlier by using the [procedure described later in this section](#hardware_acceleration_313), make sure that you re\-enable hardware acceleration in Windows by setting the **DisableHWAcceleration** registry key to **0**\. Then you can upgrade to version 3\.1\.4 or later of the WorkSpaces Windows client application\.
 
 We recommend that you leave hardware acceleration disabled in the Windows client\. However, if you're experiencing high CPU usage or slower performance when using the client, you might want to enable hardware acceleration in the client\.
 
@@ -237,7 +240,43 @@ The screen might have flickering black boxes in some places\.
 The screen might not properly update on the WorkSpaces login page, or it might not properly update after you log in to your WorkSpace\. You might see artifacts on the screen\.
 Your mouse clicks might not be lined up with the cursor position on the screen\.
 
-**To enable hardware acceleration in version 3\.1\.4 or later of the Windows client**
+### To enable hardware acceleration in version 3\.1\.5 or later of the Windows client<a name="hardware_acceleration_315"></a>
+
+1. Choose **Settings**, **Manage Hardware Acceleration**\.
+
+1. In the **Manage Hardware Acceleration** dialog box, select **Enable Hardware Acceleration for Amazon WorkSpaces**, and then choose **Save**\. 
+
+1. For this change to take effect, choose **Amazon WorkSpaces**, **Quit Amazon WorkSpaces** to close the Windows client application\.
+
+1. Restart the WorkSpaces Windows client application\. Hardware acceleration should now be enabled\.
+
+   After you've enabled hardware acceleration in the Windows client, if the screen and mouse issues described earlier occur, clear the **Enable Hardware Acceleration for Amazon WorkSpaces** check box to disable hardware acceleration, and then restart the Windows client application\.
+
+WorkSpaces administrators can enable hardware acceleration in version 3\.1\.4 or later of the WorkSpaces Windows client by using the following commands in a Command Prompt or PowerShell window\.
+
+1. Use the following command to check for the **EnableHwAcc** registry key\.
+
+   ```
+   reg query "HKCU\SOFTWARE\Amazon Web Services. LLC\Amazon WorkSpaces" /v EnableHwAcc
+   ```
+
+1. Use the following command to add the **EnableHwAcc** registry key\.
+
+   ```
+   reg add "HKCU\SOFTWARE\Amazon Web Services. LLC\Amazon WorkSpaces" /v EnableHwAcc
+   ```
+
+   This registry setting takes effect after the WorkSpaces Windows client is closed and restarted\.
+
+If needed, use the following command to delete the **EnableHwAcc** registry key\.
+
+```
+reg delete "HKCU\SOFTWARE\Amazon Web Services. LLC\Amazon WorkSpaces" /v EnableHwAcc /f
+```
+
+This registry setting takes effect after the WorkSpaces Windows client is closed and restarted\. 
+
+### To enable hardware acceleration in version 3\.1\.4 of the Windows client<a name="hardware_acceleration_314"></a>
 
 1. On your Windows computer \(not your WorkSpace\), open the Windows search box, and enter **registry editor** to open the Registry Editor \(regedit\.exe\)\. Choose **Run as administrator**\. \(If you don't have permission to run the Registry Editor as an administrator, contact your system administrator for assistance\.\)
 
@@ -255,11 +294,35 @@ Your mouse clicks might not be lined up with the cursor position on the screen\.
 
 1. Close and restart the WorkSpaces client application\. 
 
-After you've enabled hardware acceleration in the Windows client, if the screen and mouse issues described earlier occur, delete the **EnableHwAcc** registry key to disable hardware acceleration, and then restart the Windows client application\.
+   After you've enabled hardware acceleration in the Windows client, if the screen and mouse issues described earlier occur, delete the **EnableHwAcc** registry key to disable hardware acceleration, and then restart the Windows client application\.
+
+WorkSpaces administrators can enable hardware acceleration in version 3\.1\.4 or later of the WorkSpaces Windows client by using the following commands in a Command Prompt or PowerShell window\.
+
+1. Use the following command to check for the **EnableHwAcc** registry key\.
+
+   ```
+   reg query "HKCU\SOFTWARE\Amazon Web Services. LLC\Amazon WorkSpaces" /v EnableHwAcc
+   ```
+
+1. Use the following command to add the **EnableHwAcc** registry key\.
+
+   ```
+   reg add "HKCU\SOFTWARE\Amazon Web Services. LLC\Amazon WorkSpaces" /v EnableHwAcc
+   ```
+
+   This registry setting takes effect after the WorkSpaces Windows client is closed and restarted\.
+
+If needed, use the following command to delete the **EnableHwAcc** registry key\.
+
+```
+reg delete "HKCU\SOFTWARE\Amazon Web Services. LLC\Amazon WorkSpaces" /v EnableHwAcc /f
+```
+
+This registry setting takes effect after the WorkSpaces Windows client is closed and restarted\. 
+
+### To disable hardware acceleration in version 3\.1\.3 or earlier of the Windows client<a name="hardware_acceleration_313"></a>
 
 If you need to use version 3\.1\.3 or earlier of the Windows client application, you can disable hardware acceleration in Windows through the Windows registry\. Disabling hardware acceleration in Windows might affect the performance of other Windows applications\.
-
-**To disable hardware acceleration for version 3\.1\.3 or earlier**
 
 1. On your Windows computer \(not your WorkSpace\), open the Windows search box, and enter **registry editor** to open the Registry Editor \(regedit\.exe\)\. Choose **Run as administrator**\. \(If you don't have permission to run the Registry Editor as an administrator, contact your system administrator for assistance\.\)
 
@@ -295,6 +358,7 @@ The following table describes the changes to each release of the Windows client 
 
 | Release | Date | Changes | 
 | --- | --- | --- | 
+| 3\.1\.5 | April 2, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
 | 3\.1\.4 | March 16, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
 | 3\.1\.3 | February 15, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
 | 3\.1\.2 | January 8, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 

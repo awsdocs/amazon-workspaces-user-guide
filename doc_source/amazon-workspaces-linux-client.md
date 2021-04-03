@@ -131,6 +131,10 @@ Proxy servers that require authentication with a username and password are not s
 
 **To use a proxy server**
 
+By default, the Linux client uses the proxy server that's specified in the device operating system settings\. The first time the client is launched, the device operating system proxy server setting is used\. If you select another option for the proxy server, that setting is used for subsequent launches of the client\.
+**Note**  
+In versions 3\.0\.0 through 3\.1\.4, if you specify a custom proxy server, a "No network" error might appear when you attempt to log in to your WorkSpace\. If you want to use a custom proxy server with the Linux client, we recommend upgrading to version 3\.1\.5\. If you can't upgrade, you can work around the issue by using the default operating system proxy server instead of specifying a custom proxy server in the Linux client\.
+
 1. In the Amazon WorkSpaces client application, go to **Settings**, **Manage Proxy Server**\.
 
 1. In the **Set Proxy** dialog box, select **Use proxy server**, enter the proxy server URL or IP address and the port, and choose **Save**\.
@@ -158,6 +162,7 @@ The following table describes the changes to each release of the Linux client ap
 
 | Release | Date | Changes | 
 | --- | --- | --- | 
+| 3\.1\.5 | April 2, 2021 |  Minor bug fixes and enhancements  | 
 | 3\.1\.4 | March 16, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-linux-client.html)  | 
 | 3\.1\.3 | February 15, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-linux-client.html)  | 
 | 3\.1\.2 | January 8, 2021 |  Minor bug fixes and enhancements  | 

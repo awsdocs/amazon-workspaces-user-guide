@@ -178,11 +178,18 @@ Proxy servers that require authentication with a username and password are not s
 
 ### To use a proxy server for 3\.0\+ clients<a name="osx_proxy_server-new-clients"></a>
 
+By default, the 3\.0\+ macOS clients use the proxy server that's specified in the device operating system settings\. The first time the client is launched, the device operating system proxy server setting is used\. If you select another option for the proxy server, that setting is used for subsequent launches of the client\.
+
+**Note**  
+If you specify a custom proxy server, a "No network" error might appear when you attempt to log in to your WorkSpace\. To work around this issue, use the default operating system proxy server instead of specifying a custom proxy server in the macOS client\.
+
 1. In the Amazon WorkSpaces client application, go to **Settings**, **Manage Proxy Server**\.
 
 1. In the **Set Proxy** dialog box, select **Use proxy server**, enter the proxy server URL or IP address and the port, and choose **Save**\.
 
 ### To use a proxy server for 1\.0\+ and 2\.0\+ clients<a name="osx_proxy_server-legacy-clients"></a>
+
+By default, the 1\.0\+ and 2\.0\+ macOS clients don't use a proxy server\. To specify a proxy server, use the following procedure\. 
 
 1. In the Amazon WorkSpaces client application, open the **Advanced Settings** dialog box\.
 
@@ -242,6 +249,7 @@ The following table describes the changes to each release of the client applicat
 
 | Release | Date | Changes | 
 | --- | --- | --- | 
+| 3\.1\.5 | April 2, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
 | 3\.1\.4 | March 16, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
 | 3\.1\.3 | February 15, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
 | 3\.1\.2 | January 8, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 

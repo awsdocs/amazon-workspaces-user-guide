@@ -358,6 +358,7 @@ The following table describes the changes to each release of the Windows client 
 
 | Release | Date | Changes | 
 | --- | --- | --- | 
+| 3\.1\.6 | April 8, 2021 |  Fixes for disconnects and crashes resulting from WorkSpaces Streaming Protocol \(WSP\) audio traffic optimization  | 
 | 3\.1\.5 | April 2, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
 | 3\.1\.4 | March 16, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
 | 3\.1\.3 | February 15, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 

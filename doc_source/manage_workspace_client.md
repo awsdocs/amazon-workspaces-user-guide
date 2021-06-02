@@ -1,9 +1,9 @@
 # Manage Your WorkSpace from Your Client<a name="manage_workspace_client"></a>
 
-If you use the [Windows client ](amazon-workspaces-windows-client.md), the [macOS client ](amazon-workspaces-osx-client.md), or the [Linux client](amazon-workspaces-linux-client.md) for Amazon WorkSpaces, you can perform the following management tasks directly from your client\. 
+If you use the [Windows client ](amazon-workspaces-windows-client.md), the [macOS client ](amazon-workspaces-osx-client.md), or the [Linux client](amazon-workspaces-linux-client.md) for Workspaces, you can perform the following management tasks directly from your client\. 
 
 **Note**  
-You can perform these tasks only if they are enabled by your Amazon WorkSpaces administrator\.
+You can perform these tasks only if they are enabled by your Workspaces administrator\.
 
 **Topics**
 + [Save Your Credentials](#client-save-credentials)
@@ -20,13 +20,13 @@ You can choose whether to save your credentials \(your user name and password\) 
 
 ### To save your credentials for 3\.0\+ clients<a name="client-save-credentials-new-clients"></a>
 
-1. Open your Amazon WorkSpaces client\.
+1. Open your Workspaces client\.
 
 1. On the client login screen, select or clear the **Keep me logged in** check box to enable or disable this option as required\.
 
 ### To save your credentials for 1\.0\+ and 2\.0\+ clients<a name="client-save-credentials-legacy-clients"></a>
 
-1. Open your Amazon WorkSpaces client\.
+1. Open your Workspaces client\.
 
 1. On the client login screen, choose the gear icon \(Windows\) or the **Option** menu \(macOS\), and choose **Advanced Settings**\.
 
@@ -38,7 +38,7 @@ You can change your WorkSpaces login password at any time\.
 
 **To change your password**
 
-1. Open your Amazon WorkSpaces client\.
+1. Open your Workspaces client\.
 
 1. On the client login screen, choose **Forgot Password?** under the **Sign In** button\.
 **Note**  
@@ -64,9 +64,9 @@ To avoid losing changes, save any open documents and other application files bef
 
 **To restart your WorkSpace**
 
-1. Open your Amazon WorkSpaces client and connect to your WorkSpace\.
+1. Open your Workspaces client and connect to your WorkSpace\.
 
-1. Choose **Amazon WorkSpaces**, **Restart WorkSpace**\. 
+1. Choose **Workspaces**, **Restart WorkSpace**\. 
 
 1. When prompted to restart your WorkSpace, choose **Restart**\.
 
@@ -88,7 +88,7 @@ Increasing your WorkSpace disk size will increase the amount that your organizat
 
 **To increase your WorkSpace disk size**
 
-1. Open your Amazon WorkSpaces client and connect to your WorkSpace\.
+1. Open your Workspaces client and connect to your WorkSpace\.
 
 1. Depending on which client you're using, do one of the following\.    
 [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/manage_workspace_client.html)
@@ -113,7 +113,7 @@ Changing your WorkSpace compute type will change the amount that your organizati
 
 **To change your WorkSpace compute type**
 
-1. Open your Amazon WorkSpaces client and connect to your WorkSpace\.
+1. Open your Workspaces client and connect to your WorkSpace\.
 
 1. Depending on which client you're using, do one of the following\.    
 [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/manage_workspace_client.html)
@@ -124,7 +124,7 @@ Changing your WorkSpace compute type will change the amount that your organizati
 
 ## Switch Your WorkSpace Running Mode<a name="client-switch-running-mode"></a>
 
-You can specify whether your WorkSpace is always running or whether it stops after a specified period of inactivity\. Amazon WorkSpaces provides the following two running modes that you can choose from\.
+You can specify whether your WorkSpace is always running or whether it stops after a specified period of inactivity\. Workspaces provides the following two running modes that you can choose from\.
 + **AlwaysOn** — Keeps your WorkSpace always running\. 
 + **AutoStop** — Your WorkSpace starts when you sign in and stops after a specified period of inactivity\. After your WorkSpace stops, the state of your apps and data is saved\. 
 
@@ -133,7 +133,7 @@ Switching your WorkSpace running mode will change the amount that your organizat
 
 ### To switch your WorkSpace running mode for 3\.0\+ clients<a name="client-switch-running-mode-new-clients"></a>
 
-1. Open your Amazon WorkSpaces client and connect to your WorkSpace\.
+1. Open your Workspaces client and connect to your WorkSpace\.
 
 1. Choose **Settings**, **Switch Running Mode**\. 
 
@@ -143,7 +143,7 @@ Switching your WorkSpace running mode will change the amount that your organizat
 
 ### To switch your WorkSpace running mode for 1\.0\+ and 2\.0\+ clients<a name="client-switch-running-mode-credentials-legacy-clients"></a>
 
-1. Open your Amazon WorkSpaces client and connect to your WorkSpace\.
+1. Open your Workspaces client and connect to your WorkSpace\.
 
 1. Choose **My WorkSpace**, **Switch running mode**\. 
 
@@ -166,7 +166,7 @@ While your WorkSpace rebuild is in progress, you are disconnected from the WorkS
 
 **To rebuild your WorkSpace**
 
-1. Open your Amazon WorkSpaces client and connect to your WorkSpace\.
+1. Open your Workspaces client and connect to your WorkSpace\.
 
 1. Depending on which client you're using, do one of the following\.    
 [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/manage_workspace_client.html)

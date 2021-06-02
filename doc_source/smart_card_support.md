@@ -7,7 +7,7 @@ You can use smart cards for both *pre\-session authentication* and *in\-session 
 For example, you can use smart cards for in\-session authentication while working with web browsers and applications\. You can also use smart cards for performing actions that require administrative permissions\. For example, if you have administrative permissions on your Linux WorkSpace, you can use smart cards to authenticate yourself when running `sudo` and `sudo -i` commands\.
 
 **Note**  
-Both [Common Access Card \(CAC\)](https://www.cac.mil/Common-Access-Card) and [Personal Identity Verification \(PIV\)](https://piv.idmanagement.gov/) smart cards are supported\. Other types of smart cards might also work, but they haven't been fully tested for use with the WSP protocol\.
+Both [Common Access Card \(CAC\)](https://www.cac.mil/Common-Access-Card) and [Personal Identity Verification \(PIV\)](https://piv.idmanagement.gov/) smart cards are supported\. Other types of hardware or software\-based smart cards might also work, but they haven't been fully tested for use with the WSP protocol\.
 For in\-session authentication and pre\-session authentication on Linux or Windows WorkSpaces, only one smart card is currently allowed at a time\.
 Pre\-session authentication is available only in the AWS GovCloud \(US\-West\) Region at this time\. In\-session authentication is available in all Regions where WSP is supported\.
 Only the WorkSpaces Windows client application version 3\.1\.1 or later and the macOS client application version 3\.1\.5 or later are currently supported for smart card authentication\.

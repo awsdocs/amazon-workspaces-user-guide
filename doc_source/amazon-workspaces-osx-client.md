@@ -1,6 +1,6 @@
-# Amazon WorkSpaces macOS Client Application<a name="amazon-workspaces-osx-client"></a>
+# Workspaces macOS Client Application<a name="amazon-workspaces-osx-client"></a>
 
-The following information will help you get started with the Amazon WorkSpaces macOS client application\.
+The following information will help you get started with the Workspaces macOS client application\.
 
 **Topics**
 + [Requirements](#osx-requirements)
@@ -27,10 +27,10 @@ The 1\.0\+ or 2\.0\+ versions of the client application require OS X 10\.8\.1 or
 **Important**  
 **If you use macOS 10\.15 \(Catalina\) or later, you must use version 3\.0\.2 or later of the macOS client\.**  
 Versions 2\.5\.11 and earlier of the macOS client can no longer be installed on macOS devices\. These versions also no longer work on devices with macOS Catalina or later\.  
-If you are using version 2\.5\.11 or earlier and you upgrade from an older version of macOS to Catalina or later, you will no longer be able to use the 2\.5\.11 or earlier client\. We recommend that affected users upgrade to the latest version of the macOS client that is available for download at [Amazon WorkSpaces Client Downloads](https://clients.amazonworkspaces.com/)\.
+If you are using version 2\.5\.11 or earlier and you upgrade from an older version of macOS to Catalina or later, you will no longer be able to use the 2\.5\.11 or earlier client\. We recommend that affected users upgrade to the latest version of the macOS client that is available for download at [Amazon Workspaces Client Downloads](https://clients.amazonworkspaces.com/)\.
 
 **Note**  
-If your WorkSpace is located in the Asia Pacific \(Mumbai\) Region, you must use version 3\.1\.3 or later of the Amazon WorkSpaces macOS client application\.
+If your WorkSpace is located in the Asia Pacific \(Mumbai\) Region, you must use version 3\.1\.3 or later of the Amazon Workspaces macOS client application\.
 
 ## Setup and Installation<a name="osx_setup"></a>
 
@@ -38,13 +38,13 @@ To download and install the client application, complete the following procedure
 
 **To download and install the client application**
 
-1. On your macOS device, open [Amazon WorkSpaces Client Downloads](https://clients.amazonworkspaces.com/) and choose the **MacOS X** link\.
+1. On your macOS device, open [Amazon Workspaces Client Downloads](https://clients.amazonworkspaces.com/) and choose the **MacOS X** link\.
 
 1. Download and install the application\.
 
-1. Verify that the Amazon WorkSpaces client application icon appears on the desktop\.
+1. Verify that the Amazon Workspaces client application icon appears on the desktop\.
 
-If you're having trouble updating your Amazon WorkSpaces macOS client application to a newer version, use the following procedure to update your client application\.
+If you're having trouble updating your Workspaces macOS client application to a newer version, use the following procedure to update your client application\.
 
 **To update the WorkSpaces macOS client application to a newer version**
 
@@ -58,13 +58,13 @@ If you're having trouble updating your Amazon WorkSpaces macOS client applicatio
 
 1. In the Terminal app, choose **Terminal**, **Quit Terminal**\.
 
-1. If you have not already entered a registration code in the WorkSpaces macOS client application, do so, and then choose **Amazon WorkSpaces**, **Quit Amazon WorkSpaces** to close the client application\.
+1. If you have not already entered a registration code in the WorkSpaces macOS client application, do so, and then choose **Amazon Workspaces**, **Quit Amazon Workspaces** to close the client application\.
 
 1. Restart the WorkSpaces macOS client application\. You should be prompted to update the client\. Accept the update\.
 
 ## Determining Your Client Version<a name="determine-version-osx"></a>
 
-To see which version of the WorkSpaces client you have, choose **Amazon WorkSpaces**, **About Amazon WorkSpaces**, or click the gear icon in the upper\-right corner and choose **About Amazon WorkSpaces**\.
+To see which version of the WorkSpaces client you have, choose **Amazon Workspaces**, **About Amazon Workspaces**, or click the gear icon in the upper\-right corner and choose **About Amazon Workspaces**\.
 
 ## Connecting to Your WorkSpace<a name="osx_connecting"></a>
 
@@ -72,25 +72,25 @@ To connect to your WorkSpace, complete the following procedure\.
 
 ### To connect to your WorkSpace for 3\.0\+ clients<a name="osx_connecting-new-clients"></a>
 
-1. The first time that you run the client application, you are prompted for your registration code, which is contained in your welcome email\. The Amazon WorkSpaces client application uses the registration code and user name to identify which WorkSpace to connect to\. When you launch the client application later, the same registration code is used\. To enter a different registration code, launch the client application, and then choose **Change Registration Code** at the bottom of the login page\.
+1. The first time that you run the client application, you are prompted for your registration code, which is contained in your welcome email\. The Workspaces client application uses the registration code and user name to identify which WorkSpace to connect to\. When you launch the client application later, the same registration code is used\. To enter a different registration code, launch the client application, and then choose **Change Registration Code** at the bottom of the login page\.
 
-1. Enter your user name and password in the login screen and choose **Sign In**\. If your Amazon WorkSpaces administrator has enabled multi\-factor authentication for your organization's WorkSpaces, you are prompted for a passcode to complete your login\. Your Amazon WorkSpaces administrator will provide more information about how to obtain your passcode\.
+1. Enter your user name and password in the login screen and choose **Sign In**\. If your Workspaces administrator has enabled multi\-factor authentication for your organization's WorkSpaces, you are prompted for a passcode to complete your login\. Your Workspaces administrator will provide more information about how to obtain your passcode\.
 
-1. If your Amazon WorkSpaces administrator has not disabled the **Keep me logged in** feature, you can select the **Keep me logged in** check box at the bottom of the login screen to save your credentials securely so that you can connect to your WorkSpace easily while the client application remains running\. Your credentials are securely cached up to the maximum lifetime of your Kerberos ticket\.
+1. If your Workspaces administrator has not disabled the **Keep me logged in** feature, you can select the **Keep me logged in** check box at the bottom of the login screen to save your credentials securely so that you can connect to your WorkSpace easily while the client application remains running\. Your credentials are securely cached up to the maximum lifetime of your Kerberos ticket\.
 
    After the client application connects to your WorkSpace, your WorkSpace desktop is displayed\.
 
 ### To connect to your WorkSpace for 1\.0\+ and 2\.0\+ clients<a name="osx_connecting-legacy-clients"></a>
 
-1. The first time that you run the client application, you are prompted for your registration code, which is contained in your welcome email\. The Amazon WorkSpaces client application uses the registration code and user name to identify which WorkSpace to connect to\. When you launch the client application later, the same registration code is used\. To enter a different registration code, launch the client application, and then on the menu bar, choose **Options**, **Manage Registrations**\.
+1. The first time that you run the client application, you are prompted for your registration code, which is contained in your welcome email\. The Workspaces client application uses the registration code and user name to identify which WorkSpace to connect to\. When you launch the client application later, the same registration code is used\. To enter a different registration code, launch the client application, and then on the menu bar, choose **Options**, **Manage Registrations**\.
 
-1. Enter your user name and password in the login screen and choose **Sign In**\. If your Amazon WorkSpaces administrator has enabled multi\-factor authentication for your organization's WorkSpaces, you are prompted for a passcode to complete your login\. Your Amazon WorkSpaces administrator will provide more information about how to obtain your passcode\.
+1. Enter your user name and password in the login screen and choose **Sign In**\. If your Workspaces administrator has enabled multi\-factor authentication for your organization's WorkSpaces, you are prompted for a passcode to complete your login\. Your Workspaces administrator will provide more information about how to obtain your passcode\.
 
-1. If your Amazon WorkSpaces administrator has not disabled the "Remember Me" feature, you are prompted to save your credentials securely so that you can connect to your WorkSpace easily while the client application remains running\. Your credentials are securely cached up to the maximum lifetime of your Kerberos ticket\.
+1. If your Workspaces administrator has not disabled the "Remember Me" feature, you are prompted to save your credentials securely so that you can connect to your WorkSpace easily while the client application remains running\. Your credentials are securely cached up to the maximum lifetime of your Kerberos ticket\.
 
    After the client application connects to your WorkSpace, your WorkSpace desktop is displayed\.
 
-An interruption of network connectivity causes an active session to be disconnected\. This can be caused by events such as closing the laptop lid, or the loss of your wireless network connection\. The Amazon WorkSpaces client application for macOS attempts to reconnect the session automatically if network connectivity is regained within a certain amount of time\. The default session resume timeout is 20 minutes, but this timeout can be modified by your network administrator\.
+An interruption of network connectivity causes an active session to be disconnected\. This can be caused by events such as closing the laptop lid, or the loss of your wireless network connection\. The Workspaces client application for macOS attempts to reconnect the session automatically if network connectivity is regained within a certain amount of time\. The default session resume timeout is 20 minutes, but this timeout can be modified by your network administrator\.
 
 ## Managing Your Login Information \(3\.0\+ Clients Only\)<a name="manage-login-info-osx"></a>
 
@@ -98,7 +98,7 @@ You can view your registration code and what Region your WorkSpace is in\. You c
 
 **To manage your login information for a WorkSpace**
 
-1. In the Amazon WorkSpaces client application, go to **Settings**, **Manage Login Information**\.
+1. In the Workspaces client application, go to **Settings**, **Manage Login Information**\.
 
 1. In the **Manage Login Information** dialog box, you can see the registration code and Region information for your WorkSpace\.
 
@@ -138,7 +138,7 @@ The WorkSpaces client applications support Japanese\. However, Japanese WorkSpac
 
 ## Display Support<a name="osx-display-support"></a>
 
-Amazon WorkSpaces Value, Standard, Performance, Power, PowerPro, and GraphicsPro bundles support a maximum of four displays and a maximum resolution of 3840x2160 \(ultra\-high definition, or UHD\)\. The maximum supported resolution depends on the number of displays, as shown in the following table\.
+Workspaces Value, Standard, Performance, Power, PowerPro, and GraphicsPro bundles support a maximum of four displays and a maximum resolution of 3840x2160 \(ultra\-high definition, or UHD\)\. The maximum supported resolution depends on the number of displays, as shown in the following table\.
 
 
 | Displays | Resolution | 
@@ -149,7 +149,7 @@ Amazon WorkSpaces Value, Standard, Performance, Power, PowerPro, and GraphicsPro
 **Note**  
 Graphics bundles support only a single monitor configuration with a maximum resolution of 2560x1600\.
 
-The Amazon WorkSpaces client application extracts the Extended Display Information Data \(EDID\) of all attached displays and determines the best compatibility match before starting the session\. If you have a high pixel density \(high DPI\) display, the client application automatically scales the streaming window according to your local DPI settings\. For better maximum resolution with high DPI displays, see [WorkSpaces High DPI Display Support](high_dpi_support.md)\.
+The Workspaces client application extracts the Extended Display Information Data \(EDID\) of all attached displays and determines the best compatibility match before starting the session\. If you have a high pixel density \(high DPI\) display, the client application automatically scales the streaming window according to your local DPI settings\. For better maximum resolution with high DPI displays, see [WorkSpaces High DPI Display Support](high_dpi_support.md)\.
 
 **Note**  
 If your screen resolution in WorkSpaces is low and objects look blurry, you need to turn on high DPI mode and adjust the display scaling settings on your Mac\. For more information, see [WorkSpaces High DPI Display Support](high_dpi_support.md)\.
@@ -170,7 +170,7 @@ To use full screen mode on only some of the displays in a multiple monitor setup
 
 ## Proxy Server<a name="osx_proxy_server"></a>
 
-If your network requires you to use a proxy server to access the internet, you can enable your Amazon WorkSpaces client application to use a proxy for HTTPS \(port 443\) traffic\. The Amazon WorkSpaces client applications use the HTTPS port for updates, registration, and authentication\. 
+If your network requires you to use a proxy server to access the internet, you can enable your Workspaces client application to use a proxy for HTTPS \(port 443\) traffic\. The Workspaces client applications use the HTTPS port for updates, registration, and authentication\. 
 
 **Note**  
 The desktop streaming connections to the WorkSpace require ports 4172 and 4195 to be enabled, and do not go through the proxy server\. 
@@ -183,7 +183,7 @@ By default, the 3\.0\+ macOS clients use the proxy server that's specified in th
 **Note**  
 If you specify a custom proxy server, a "No network" error might appear when you attempt to log in to your WorkSpace\. To work around this issue, use the default operating system proxy server instead of specifying a custom proxy server in the macOS client\.
 
-1. In the Amazon WorkSpaces client application, go to **Settings**, **Manage Proxy Server**\.
+1. In the Workspaces client application, go to **Settings**, **Manage Proxy Server**\.
 
 1. In the **Set Proxy** dialog box, select **Use proxy server**, enter the proxy server URL or IP address and the port, and choose **Save**\.
 
@@ -191,27 +191,27 @@ If you specify a custom proxy server, a "No network" error might appear when you
 
 By default, the 1\.0\+ and 2\.0\+ macOS clients don't use a proxy server\. To specify a proxy server, use the following procedure\. 
 
-1. In the Amazon WorkSpaces client application, open the **Advanced Settings** dialog box\.
+1. In the Workspaces client application, open the **Advanced Settings** dialog box\.
 
 1. In the **Proxy Server Setting** area, select **Use Proxy Server**, enter the proxy server URL or IP address and the port, and choose **Save**\.
 
 ## Command Shortcuts<a name="osx_shortcuts"></a>
 
-The Amazon WorkSpaces macOS client supports the following command shortcuts:
+The Workspaces macOS client supports the following command shortcuts:
 
 
 | If you're using\.\.\. | Use these shortcuts | 
 | --- | --- | 
-|  3\.0\+ client  |  Command\+Q—Quit Amazon WorkSpaces Control\+Option\+Return—Toggle full screen display Control\+Option\+F12—Disconnect session  | 
+|  3\.0\+ client  |  Command\+Q—Quit Amazon Workspaces Control\+Option\+Return—Toggle full screen display Control\+Option\+F12—Disconnect session  | 
 |  1\.0\+ or 2\.0\+ client  |  Control\+Option\+Return—Toggle full screen display Control\+Option\+F12—Disconnect session  | 
 
 ## Remapping the Windows Logo Key or the Command Key<a name="osx_remap_command_key"></a>
 
-By default, the Windows logo key on a Windows keyboard and the Command key on an Apple keyboard are both mapped to the Ctrl key when you're using the Amazon WorkSpaces macOS client application\. If you want to change this behavior so that these two keys are mapped to the Windows logo key for use with Windows WorkSpaces, use the following procedure\.
+By default, the Windows logo key on a Windows keyboard and the Command key on an Apple keyboard are both mapped to the Ctrl key when you're using the Amazon Workspaces macOS client application\. If you want to change this behavior so that these two keys are mapped to the Windows logo key for use with Windows WorkSpaces, use the following procedure\.
 
 **To map the Windows logo key or the Command key to the Windows logo key**
 
-1. If you haven't already done so, [install or update](#osx_setup) to version 3\.0\.5 or later of the Amazon WorkSpaces macOS client application\.
+1. If you haven't already done so, [install or update](#osx_setup) to version 3\.0\.5 or later of the Amazon Workspaces macOS client application\.
 
 1. In the **Finder**, open your **Applications** folder, then open **Utilities**, and choose **Terminal**\.
 
@@ -223,17 +223,17 @@ By default, the Windows logo key on a Windows keyboard and the Command key on an
 
 1. In the Terminal app, choose **Terminal**, **Quit Terminal**\.
 
-1. If your WorkSpaces macOS client application is running, choose **Amazon WorkSpaces**, **Quit Amazon WorkSpaces** in the client to close the client application\.
+1. If your WorkSpaces macOS client application is running, choose **Amazon Workspaces**, **Quit Amazon Workspaces** in the client to close the client application\.
 
 1. Restart the WorkSpaces macOS client application and log in to your WorkSpace\. The Windows logo key or the Command key should now be mapped to the Windows logo key\.
 
 ## Disconnect<a name="osx_disconnect"></a>
 
 To disconnect the macOS client application, you have several options: 
-+ In the Amazon WorkSpaces client application, go to **Amazon WorkSpaces**, and then choose **Disconnect WorkSpace**\. Your WorkSpace session ends, but the client application continues running in case you want to log in again\.
-+ In the Amazon WorkSpaces client application, go to **Amazon WorkSpaces**, and then choose **Quit Amazon WorkSpaces**\. Your WorkSpace session ends, and the client application closes\.
-+ In the Amazon WorkSpaces client application, close the WorkSpaces client window by clicking the red close \(X\) button in the upper\-left corner\. In the **End Session** dialog box, choose **Yes**\. Your WorkSpace session ends, but the client application continues running in case you want to log in again\.
-+ You can also log off of the WorkSpace\. In the Amazon WorkSpaces client application, go to **View**, and then choose **Send Ctrl\+Alt\+Delete**\. Choose **Sign Out**\. Your WorkSpace session ends, but the client application continues running in case you want to log in again\.
++ In the Amazon Workspaces client application, go to **Amazon Workspaces**, and then choose **Disconnect WorkSpace**\. Your WorkSpace session ends, but the client application continues running in case you want to log in again\.
++ In the Amazon Workspaces client application, go to **Amazon Workspaces**, and then choose **Quit Amazon Workspaces**\. Your WorkSpace session ends, and the client application closes\.
++ In the Amazon Workspaces client application, close the WorkSpaces client window by clicking the red close \(X\) button in the upper\-left corner\. In the **End Session** dialog box, choose **Yes**\. Your WorkSpace session ends, but the client application continues running in case you want to log in again\.
++ You can also log off of the WorkSpace\. In the Amazon Workspaces client application, go to **View**, and then choose **Send Ctrl\+Alt\+Delete**\. Choose **Sign Out**\. Your WorkSpace session ends, but the client application continues running in case you want to log in again\.
 
 ## Clipboard Support<a name="osx_clipboard_support"></a>
 
@@ -249,6 +249,7 @@ The following table describes the changes to each release of the client applicat
 
 | Release | Date | Changes | 
 | --- | --- | --- | 
+| 3\.1\.8 | May 28, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
 | 3\.1\.7 | April 29, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
 | 3\.1\.6 | April 8, 2021 |  Fixes for disconnects and crashes resulting from WorkSpaces Streaming Protocol \(WSP\) audio traffic optimization  | 
 | 3\.1\.5 | April 2, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 

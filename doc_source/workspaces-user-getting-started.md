@@ -31,7 +31,7 @@ You can change your WorkSpaces password anytime\. For more information, see [Cha
 
 ## Choose a Client<a name="choose-client"></a>
 
-You can connect to your WorkSpace using the client application for a supported device or a web browser\. To run the Amazon WorkSpaces client application, you must have a Windows or Linux PC, Mac, iPad, Kindle, Chromebook, or Android tablet or phone\. To run Amazon WorkSpaces Web Access, you must have a Windows PC or a Mac running a Chrome or Firefox web browser, or a Linux PC running a Firefox browser\.
+You can connect to your WorkSpace using the client application for a supported device or a web browser\. To run the Workspaces client application, you must have a Windows or Linux PC, Mac, iPad, Kindle, Chromebook, or Android tablet or phone\. To run Workspaces Web Access, you must have a Windows PC or a Mac running a Chrome or Firefox web browser, or a Linux PC running a Firefox browser\.
 
 For information about connecting to your WorkSpace, see the following client documentation\.
 + [Android Client Application](amazon-workspaces-android-client.md)
@@ -44,7 +44,7 @@ For information about connecting to your WorkSpace, see the following client doc
 
 ## Determine Your Client Version<a name="determine-version"></a>
 
-To see which version of the WorkSpaces client you have, choose **Amazon WorkSpaces**, **About Amazon WorkSpaces**, or click the gear icon in the upper\-right corner and choose **About Amazon WorkSpaces**\.
+To see which version of the WorkSpaces client you have, choose **Amazon Workspaces**, **About Amazon Workspaces**, or click the gear icon in the upper\-right corner and choose **About Amazon Workspaces**\.
 
 ## Determine Your Streaming Protocol<a name="determine-protocol"></a>
 
@@ -56,7 +56,7 @@ To ensure a good experience with your WorkSpace, verify that your client device 
 
 ### To verify networking requirements for 3\.0\+ clients<a name="verify-requirements-new-clients"></a>
 
-1. Open your Amazon WorkSpaces client\. If this is the first time you have opened the client, you are prompted to enter the registration code that you received in the invitation email\.
+1. Open your Workspaces client\. If this is the first time you have opened the client, you are prompted to enter the registration code that you received in the invitation email\.
 
 1. Depending on which client you're using, do one of the following\.    
 [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/workspaces-user-getting-started.html)
@@ -67,7 +67,7 @@ To ensure a good experience with your WorkSpace, verify that your client device 
 
 ### To verify networking requirements for 1\.0\+ and 2\.0\+ clients<a name="verify-requirements-legacy-clients"></a>
 
-1. Open your Amazon WorkSpaces client\. If this is the first time you have opened the client, you are prompted to enter the registration code that you received in the invitation email\.
+1. Open your Workspaces client\. If this is the first time you have opened the client, you are prompted to enter the registration code that you received in the invitation email\.
 
 1. Choose **Network** in the lower\-right corner of the client application\. The client application tests the network connection, ports, and round\-trip time, and reports the results of these tests\.
 
@@ -75,7 +75,7 @@ To ensure a good experience with your WorkSpace, verify that your client device 
 
 ## \(Optional\) Access the Applications Assigned to You<a name="access-wam-apps"></a>
 
-You use the Amazon WorkSpaces Application Manager client application on your Windows WorkSpace to install and access the applications that your Amazon WorkSpaces administrator has assigned to you\.
+You use the Amazon WorkSpaces Application Manager client application on your Windows WorkSpace to install and access the applications that your Amazon Workspaces administrator has assigned to you\.
 
 **To install and start assigned applications**
 
@@ -91,7 +91,7 @@ You use the Amazon WorkSpaces Application Manager client application on your Win
 
 ## \(Optional\) Integrate with WorkDocs<a name="workdocs-integration"></a>
 
-If your Amazon WorkSpaces administrator has enabled it, you can integrate your WorkSpace with Amazon WorkDocs\. You can use Amazon WorkDocs to store, sync, and share your files\. WorkDocs can automatically back up documents on your WorkSpace and sync documents to and from other devices such as a PC or Mac, so that you can access your data regardless of which desktop you are using\.
+If your Amazon Workspaces administrator has enabled it, you can integrate your WorkSpace with Amazon WorkDocs\. You can use Amazon WorkDocs to store, sync, and share your files\. WorkDocs can automatically back up documents on your WorkSpace and sync documents to and from other devices such as a PC or Mac, so that you can access your data regardless of which desktop you are using\.
 
 **Note**  
 WorkDocs isn't available for use with Linux WorkSpaces\.

@@ -1,4 +1,4 @@
-# Amazon WorkSpaces Clients<a name="amazon-workspaces-clients"></a>
+# Workspaces Clients<a name="amazon-workspaces-clients"></a>
 
 You can connect to your WorkSpace using the client application for a supported device or a web browser\.
 

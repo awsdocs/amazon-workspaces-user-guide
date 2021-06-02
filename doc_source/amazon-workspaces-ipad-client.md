@@ -1,6 +1,6 @@
-# Amazon WorkSpaces iPad Client Application<a name="amazon-workspaces-ipad-client"></a>
+# Workspaces iPad Client Application<a name="amazon-workspaces-ipad-client"></a>
 
-The following information will help you get started with the Amazon WorkSpaces iPad client application\.
+The following information will help you get started with the Workspaces iPad client application\.
 
 **Topics**
 + [Requirements](#ipad-requirements)
@@ -17,15 +17,16 @@ The following information will help you get started with the Amazon WorkSpaces i
 
 ## Requirements<a name="ipad-requirements"></a>
 
-The Amazon WorkSpaces iPad client application requires the following:
+The Workspaces iPad client application requires the following:
 + iPad 2 or later with iOS 8\.0 or later
 + iPad Retina with iOS 8\.0 and later
 + iPad Mini with iOS 8\.0 and later
 + iPad Pro with iOS 9\.0 and later
 
 **Note**  
-The WorkSpaces iPad client application is not available for the WorkSpaces Streaming Protocol \(WSP\)\.
-If your WorkSpace is located in the Asia Pacific \(Mumbai\) Region, you must use version 2\.4\.17 or later of the Amazon WorkSpaces iPad client application\.
+The Amazon Workspaces iPad client application is not available for the WorkSpaces Streaming Protocol \(WSP\)\.
+If your WorkSpace is located in the Asia Pacific \(Mumbai\) Region, you must use version 2\.4\.17 or later of the Amazon Workspaces iPad client application\.
+If your iPad is using iPadOS 14\.5 or later, we recommend using version 2\.4\.18 or later of the Amazon Workspaces iPad client application\.
 
 ## Setup and Installation<a name="ipad_setup"></a>
 
@@ -33,11 +34,11 @@ To download and install the client application, complete the following procedure
 
 **To download and install the client application**
 
-1. On your iPad, open [Amazon WorkSpaces Client Downloads](https://clients.amazonworkspaces.com/) and choose the **iPad** link\.
+1. On your iPad, open [Amazon Workspaces Client Downloads](https://clients.amazonworkspaces.com/) and choose the **iPad** link\.
 
 1. Download and install the application\.
 
-1. Verify that the Amazon WorkSpaces client application icon appears on one of the iPad desktops\.
+1. Verify that the Amazon Workspaces client application icon appears on one of the iPad desktops\.
 
 ## Connecting to Your WorkSpace<a name="ipad_connecting"></a>
 
@@ -45,19 +46,19 @@ To connect to your WorkSpace, complete the following procedure\.
 
 **To connect to your WorkSpace**
 
-1. On your iPad, open the Amazon WorkSpaces client application\.
+1. On your iPad, open the Amazon Workspaces client application\.
 
-1. The first time that you run the client application, you are prompted for your registration code, which is contained in your welcome email\. The Amazon WorkSpaces client application uses the registration code and user name to identify which WorkSpace to connect to\. When you launch the client application later, the same registration code is used\. You can enter a different registration code by launching the client application and choosing **Enter new registration code** on the login screen\.
+1. The first time that you run the client application, you are prompted for your registration code, which is contained in your welcome email\. The Workspaces client application uses the registration code and user name to identify which WorkSpace to connect to\. When you launch the client application later, the same registration code is used\. You can enter a different registration code by launching the client application and choosing **Enter new registration code** on the login screen\.
 
-1. Enter your user name and password and choose **Sign In**\. If your Amazon WorkSpaces administrator has enabled multi\-factor authentication for your organization's WorkSpaces, you are prompted for a passcode to complete your login\. Your Amazon WorkSpaces administrator will provide more information about how to obtain your passcode\.
+1. Enter your user name and password and choose **Sign In**\. If your Workspaces administrator has enabled multi\-factor authentication for your organization's WorkSpaces, you are prompted for a passcode to complete your login\. Your Workspaces administrator will provide more information about how to obtain your passcode\.
 
-1. If your Amazon WorkSpaces administrator has not disabled the "Remember Me" feature, you are prompted to save your credentials securely so that you can connect to your WorkSpace easily in the future\. Your credentials will be securely cached up to the maximum lifetime of your Kerberos ticket\.
+1. If your Workspaces administrator has not disabled the "Remember Me" feature, you are prompted to save your credentials securely so that you can connect to your WorkSpace easily in the future\. Your credentials will be securely cached up to the maximum lifetime of your Kerberos ticket\.
 
    After the client application connects to your WorkSpace, your WorkSpace desktop is displayed\.
 
 ## Gestures<a name="ipad_gestures"></a>
 
-The following gestures are supported for the Amazon WorkSpaces iPad client application\.
+The following gestures are supported for the Workspaces iPad client application\.
 
 Single tap  
 Equivalent to a single click in Windows\.
@@ -133,10 +134,10 @@ Simulate a right mouse button click by tapping the right mouse button icon\.
 
 ## Swiftpoint GT, ProPoint, or PadPoint Mouse<a name="ipad_gt_mouse"></a>
 
-You can use the Swiftpoint GT, ProPoint, or PadPoint mouse on an iPad to interact with your WorkSpace\. To do so, before you launch the Amazon WorkSpaces iPad client application, enable Bluetooth on your iPad and pair the Swiftpoint mouse with your iPad \(the Swiftpoint mouse should pair automatically\)\. To connect the Swiftpoint mouse and your iPad client, display the radial menu, and tap **Settings**\. For **SwiftPoint GT Mouse**, choose **Connect**\.
+You can use the Swiftpoint GT, ProPoint, or PadPoint mouse on an iPad to interact with your WorkSpace\. To do so, before you launch the Amazon Workspaces iPad client application, enable Bluetooth on your iPad and pair the Swiftpoint mouse with your iPad \(the Swiftpoint mouse should pair automatically\)\. To connect the Swiftpoint mouse and your iPad client, display the radial menu, and tap **Settings**\. For **SwiftPoint GT Mouse**, choose **Connect**\.
 
 **Note**  
-Although the Swiftpoint GT mouse is no longer available, you can use the Swiftpoint ProPoint and PadPoint mice with the Amazon WorkSpaces iPad client application instead\. The Swiftpoint TRACPOINT, PenPoint, and GoPoint mice aren't supported for use with the WorkSpaces iPad client\. For more information, see [Swiftpoint GT Mouse](https://www.swiftpoint.com/products/swiftpoint-gt-ergonomic-mouse/)\.
+Although the Swiftpoint GT mouse is no longer available, you can use the Swiftpoint ProPoint and PadPoint mice with the Amazon Workspaces iPad client application instead\. The Swiftpoint TRACPOINT, PenPoint, and GoPoint mice aren't supported for use with the WorkSpaces iPad client\. For more information, see [Swiftpoint GT Mouse](https://www.swiftpoint.com/products/swiftpoint-gt-ergonomic-mouse/)\.
 
 iPads with iPadOS 13\.4 or later also support Bluetooth mice\. For more information, see [Use a Bluetooth mouse or trackpad with your iPad](https://support.apple.com/HT211008) in the Apple Support documentation\.
 
@@ -158,6 +159,7 @@ The following table describes the changes to each release of the iPad client app
 
 | Release | Date | Changes | 
 | --- | --- | --- | 
+|  2\.4\.18  | May 9, 2021 |  Addresses the crash on startup issue on iPadOS 14\.5  | 
 |  2\.4\.17  | February 18, 2021 |  Improved Japanese keyboard support  | 
 |  2\.4\.16  | September 27, 2020 |  Minor bug fixes and enhancements  | 
 |  2\.4\.15  | June 28, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-ipad-client.html)  | 

@@ -1,10 +1,11 @@
 # Printing from a WorkSpace<a name="printing"></a>
 
-The following printing methods are supported by Amazon WorkSpaces\.
+The following printing methods are supported by Amazon Workspaces\.
 
 **Note**  
-The Amazon WorkSpaces clients for iPad, Android, Chromebook, Web Access, and Linux support network printing and cloud printing services\. Local printing is not currently supported for the iPad, Android, Chromebook, Web Access, and Linux clients\.  
+The Workspaces clients for iPad, Android, Chromebook, Web Access, and Linux support network printing and cloud printing services\. Local printing is not currently supported for the iPad, Android, Chromebook, Web Access, and Linux clients\.
 Local printer redirection is not available for Linux WorkSpaces, regardless of the client being used to access them\.
+If you're using a PCoIP zero client device to connect to your WorkSpace and you're having trouble using a USB printer or other USB peripheral devices, contact your WorkSpaces administrator for assistance\. For more information, see [ USB printers and other USB peripherals aren't working for PCoIP zero clients](https://docs.aws.amazon.com/workspaces/latest/adminguide/amazon-workspaces-troubleshooting.html#pcoip_zero_client_usb) in the *Amazon Workspaces Administration Guide*\.
 
 **Topics**
 + [Local Printers](#local_printers)

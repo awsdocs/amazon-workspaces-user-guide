@@ -1,6 +1,6 @@
 # WorkSpaces High DPI Display Support<a name="high_dpi_support"></a>
 
-The Amazon WorkSpaces 3\.0\+ client applications for Windows, macOS, and Linux support high pixel density \(high DPI\) displays\. Screen resolution is defined by the number of pixels per inch \(PPI\) or dots per inch \(DPI\) that the screen can display horizontally and vertically\. Some common screen resolutions are:
+The Amazon Workspaces Android version 2\.4\.21 or later client application and the version 3\.0\+ client applications for Windows, macOS, and Linux support high pixel density \(high DPI\) displays\. Screen resolution is defined by the number of pixels per inch \(PPI\) or dots per inch \(DPI\) that the screen can display horizontally and vertically\. Some common screen resolutions are:
 + 1280x720 – High definition \(HD\), also known as 720p
 + 1920x1080 – FHD \(Full HD\), also known as 1080p
 + 2560x1440 – QHD/WQHD \(Quad HD\), also known as 1440p
@@ -11,20 +11,30 @@ Although all of these resolutions are labeled "high definition \(HD\)," that doe
 
 High DPI \(also known as HiDPI\) displays are those that use twice as many physical pixels to represent images than the virtual pixels that make up an image\. For example, if an image is 128 virtual pixels wide and 128 virtual pixels tall, on a high DPI display that image would be rendered using 256 physical pixels in both directions, making the image twice as crisp\.
 
-For better maximum resolution of your WorkSpaces on high DPI displays, you can enable high DPI mode in the WorkSpaces client applications for Windows, macOS, and Linux\.
+For better maximum resolution of your WorkSpaces on high DPI displays, you can enable high DPI mode in the WorkSpaces client applications for Android, Windows, macOS, and Linux\.
 
 Enabling high DPI mode might affect the performance of your WorkSpace\. To accommodate the bandwidth of your network, the streaming protocol upgrades or downgrades the number of pixels that you receive as needed to maintain performance\. However, in high latency, high packet loss, or low bandwidth environments, the performance of your WorkSpace might be unacceptably affected by high DPI mode\. We recommend that you turn off high DPI mode if it is affecting your WorkSpace performance\.
 
-For Windows WorkSpaces, high DPI mode supports multiple monitors\.
+For Windows WorkSpaces, high DPI mode supports multiple monitors\. However, the Android client supports only a single monitor\.
 
 **Note**  
 Graphics bundles support only a single monitor configuration with a maximum resolution of 2560x1600\.
 
-The maximum display size supported for high DPI mode in the Amazon WorkSpaces client applications is 3840x2160\. For more information about display support in the WorkSpaces client applications, see [ Display Support for the Linux Client](amazon-workspaces-linux-client.md#linux-display-support), [Display Support for the macOS Client](amazon-workspaces-osx-client.md#osx-display-support), or [Display Support for the Windows Client](amazon-workspaces-windows-client.md#windows-display-support)\. 
+The maximum display size supported for high DPI mode in the Amazon Workspaces client applications is 3840x2160\. For more information about display support in the WorkSpaces client applications, see [ Display Support for the Android Client](amazon-workspaces-android-client.md#android_display_support), [ Display Support for the Linux Client](amazon-workspaces-linux-client.md#linux-display-support), [Display Support for the macOS Client](amazon-workspaces-osx-client.md#osx-display-support), or [Display Support for the Windows Client](amazon-workspaces-windows-client.md#windows-display-support)\. 
 
-**To enable high DPI mode**
+**To enable high DPI mode for Android**
 
-1. Open your Amazon WorkSpaces 3\.0\+ client application and log in to your WorkSpace\.
+1. Open your Amazon Workspaces version 2\.4\.21 or later client application and log in to your WorkSpace\.
+
+1. In the WorkSpaces client application, swipe from the left side of the screen to open the sidebar menu, and then choose **Settings**\. 
+
+1. In the **Settings** dialog box, select **High DPI Mode**, then choose **OK**\.
+
+   The screen resolution of your WorkSpace will change to match the high DPI resolution of your device\.
+
+**To enable high DPI mode for Windows, macOS, or Linux**
+
+1. Open your Amazon Workspaces 3\.0\+ client application and log in to your WorkSpace\.
 
 1. In the WorkSpaces client application, go to **Settings**, **Display Settings**\. 
 

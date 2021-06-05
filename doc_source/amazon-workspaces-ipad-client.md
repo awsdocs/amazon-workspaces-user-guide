@@ -143,7 +143,15 @@ iPads with iPadOS 13\.4 or later also support Bluetooth mice\. For more informat
 
 ## Disconnect<a name="ipad_disconnect"></a>
 
-To disconnect the iPad client, display the radial menu, tap the disconnect icon, and tap **Disconnect**\. You can also log off of the WorkSpace, which disconnects the client\.
+To disconnect the iPad client application, display the radial menu, tap the disconnect icon, and tap **Disconnect**\. You can also log off of the WorkSpace, which disconnects the client\.
+
+**To quit the WorkSpaces iPad client application**
+
+1. Open the App Switcher by doing one of the following:
+   + Swipe up from the bottom edge and pause in the center of the screen\.
+   + Double\-click the **Home** button \(on an iPad with a **Home** button\)\.
+
+1. Swipe up on the WorkSpaces iPad client application to close it\.
 
 ## Clipboard Support<a name="ipad_clipboard_support"></a>
 

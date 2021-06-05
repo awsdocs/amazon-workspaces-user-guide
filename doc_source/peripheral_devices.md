@@ -12,7 +12,7 @@ If you're using a PCoIP zero client device to connect to your WorkSpace and you'
 + [Keyboards and Mice](#devices-input)
 + [Audio Headsets](#devices-audio)
 + [Printers](#devices-printers)
-+ [USB Drives and Other Storage Devices](#devices-storage)
++ [Scanners, USB Drives, and Other Storage Devices](#devices-storage)
 + [Webcams and Other Video Devices](#devices-webcams)
 + [Smart Cards](#devices-smart-cards)
 
@@ -50,9 +50,9 @@ Audio currently is not supported on Linux WorkSpaces using the WorkSpaces Stream
 
 The Windows and macOS client applications support USB printers and local printing\. The other client applications support other printing methods\. For details about printer support for the various clients, see [Printing from a WorkSpace](printing.md)\.
 
-## USB Drives and Other Storage Devices<a name="devices-storage"></a>
+## Scanners, USB Drives, and Other Storage Devices<a name="devices-storage"></a>
 
-The WorkSpaces clients do not support locally attached peripheral storage devices, such as USB flash drives or external hard drives\.
+The WorkSpaces clients do not support scanners or locally attached peripheral storage devices, such as USB flash drives or external hard drives\.
 
 If you need to transfer, back up, or synchronize files between your WorkSpace and your local client device, consider using [Amazon WorkDocs](workspaces-user-getting-started.md#workdocs-integration) \(if your WorkSpaces administrator has enabled it\)\. You might also be able to email files to yourself\. To see if other solutions are available to you, contact your WorkSpaces administrator\. 
 

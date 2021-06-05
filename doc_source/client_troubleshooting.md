@@ -3,6 +3,7 @@
 The following are common issues that you might have with your WorkSpaces client\.
 
 **Topics**
++ [I didn't receive an email with my Amazon Workspaces registration code](#no-welcome-email)
 + [The Amazon WorkSpaces Application Manager client application isn't appearing on my Windows WorkSpace desktop](#no-wam-client)
 + [I don't see any applications listed in the Amazon WorkSpaces Application Manager client application](#no-wam-apps)
 + [After logging in, the Windows client application displays only a white page and I cannot connect to my WorkSpace](#windows_white-page)
@@ -29,6 +30,10 @@ The following are common issues that you might have with your WorkSpaces client\
 + [My WorkSpace looks blurry on my Mac](#screen_blurry_osx)
 + [I'm having trouble copying and pasting](#copy_paste)
 + [My screen is flickering or not updating properly, or my mouse isn't clicking in the right place](#screen_artifacts)
+
+## I didn't receive an email with my Amazon Workspaces registration code<a name="no-welcome-email"></a>
+
+Contact your Workspaces administrator for assistance\.
 
 ## The Amazon WorkSpaces Application Manager client application isn't appearing on my Windows WorkSpace desktop<a name="no-wam-client"></a>
 

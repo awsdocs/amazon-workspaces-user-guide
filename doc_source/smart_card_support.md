@@ -1,4 +1,4 @@
-# WorkSpaces Client Smart Card Support<a name="smart_card_support"></a>
+# WorkSpaces client smart card support<a name="smart_card_support"></a>
 
 Smart cards are supported if your Windows or Linux WorkSpace is using the WorkSpaces Streaming Protocol \(WSP\)\. If your WorkSpace is using the PCoIP protocol, the WorkSpaces clients do not support smart cards\. 
 
@@ -9,11 +9,17 @@ For example, you can use smart cards for in\-session authentication while workin
 **Note**  
 Both [Common Access Card \(CAC\)](https://www.cac.mil/Common-Access-Card) and [Personal Identity Verification \(PIV\)](https://piv.idmanagement.gov/) smart cards are supported\. Other types of hardware or software\-based smart cards might also work, but they haven't been fully tested for use with the WSP protocol\.
 For in\-session authentication and pre\-session authentication on Linux or Windows WorkSpaces, only one smart card is currently allowed at a time\.
-Pre\-session authentication is available only in the AWS GovCloud \(US\-West\) Region at this time\. In\-session authentication is available in all Regions where WSP is supported\.
+In\-session authentication is available in all Regions where WSP is supported\. Pre\-session authentication is available in the following Regions:  
+Asia Pacific \(Sydney\) Region
+Asia Pacific \(Tokyo\) Region
+Europe \(Ireland\) Region
+AWS GovCloud \(US\-West\) Region
+US East \(N\. Virginia\) Region
+US West \(Oregon\) Region
 Only the WorkSpaces Windows client application version 3\.1\.1 or later and the macOS client application version 3\.1\.5 or later are currently supported for smart card authentication\.
 The WorkSpaces Windows client application 3\.1\.1 or later supports smart cards only when the client is running on a 64\-bit version of Windows\.
 
-## Use a Smart Card to Log In to Your WorkSpace<a name="smart-card-login"></a>
+## Use a smart card to log in to your WorkSpace<a name="smart-card-login"></a>
 
 **To use your smart card to log in to your WorkSpace**
 
@@ -37,13 +43,13 @@ You should be logged in to your WorkSpace\. If you're unable to sign in, close a
 
 After you have logged in to your WorkSpace, you can continue to use the smart card on your local device as well as in the WorkSpace\.
 
-## Use a Smart Card with Chrome or Firefox on Windows WorkSpaces<a name="smart-card-windows-browsers"></a>
+## Use a smart card with Chrome or Firefox on Windows WorkSpaces<a name="smart-card-windows-browsers"></a>
 
 Chrome doesn't require any special configuration to work with your smart card\.
 
 You can also use your smart card with the Firefox browser\. Your WorkSpaces administrator might have already enabled Firefox to work with smart cards\. If your smart card doesn't work in Firefox, contact your WorkSpaces administrator for help\.
 
-## Use a Smart Card with Chrome or Firefox on Linux WorkSpaces<a name="smart-card-linux-browsers"></a>
+## Use a smart card with Chrome or Firefox on Linux WorkSpaces<a name="smart-card-linux-browsers"></a>
 
 **To use your smart card with the Chrome browser**
 

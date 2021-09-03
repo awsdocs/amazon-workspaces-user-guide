@@ -1,44 +1,44 @@
-# Manage Your WorkSpace from Your Client<a name="manage_workspace_client"></a>
+# Manage your WorkSpace from your client<a name="manage_workspace_client"></a>
 
-If you use the [Windows client ](amazon-workspaces-windows-client.md), the [macOS client ](amazon-workspaces-osx-client.md), or the [Linux client](amazon-workspaces-linux-client.md) for Workspaces, you can perform the following management tasks directly from your client\. 
+If you use the [Windows client ](amazon-workspaces-windows-client.md), the [macOS client ](amazon-workspaces-osx-client.md), or the [Linux client](amazon-workspaces-linux-client.md) for WorkSpaces, you can perform the following management tasks directly from your client\. 
 
 **Note**  
-You can perform these tasks only if they are enabled by your Workspaces administrator\.
+You can perform these tasks only if they are enabled by your WorkSpaces administrator\.
 
 **Topics**
-+ [Save Your Credentials](#client-save-credentials)
-+ [Change Your Password](#client-change-password)
-+ [Restart Your WorkSpace](#client-restart-workspace)
-+ [Increase Your WorkSpace Disk Size](#client-increase-disk-workspace)
-+ [Change Your WorkSpace Compute Type](#client-change-compute-type)
-+ [Switch Your WorkSpace Running Mode](#client-switch-running-mode)
-+ [Rebuild Your WorkSpace](#client-rebuild-workspace)
++ [Save your credentials](#client-save-credentials)
++ [Change your password](#client-change-password)
++ [Restart your WorkSpace](#client-restart-workspace)
++ [Increase your the size of WorkSpace disks](#client-increase-disk-workspace)
++ [Change your WorkSpace compute type](#client-change-compute-type)
++ [Switch the WorkSpace running mode](#client-switch-running-mode)
++ [Rebuild your WorkSpace](#client-rebuild-workspace)
 
-## Save Your Credentials<a name="client-save-credentials"></a>
+## Save your credentials<a name="client-save-credentials"></a>
 
 You can choose whether to save your credentials \(your user name and password\) securely so that you can reconnect to your WorkSpace without re\-entering your credentials while the client application remains running\. Your credentials are securely cached in RAM only\. You can disable this feature and enable it again at any time\.
 
 ### To save your credentials for 3\.0\+ clients<a name="client-save-credentials-new-clients"></a>
 
-1. Open your Workspaces client\.
+1. Open your WorkSpaces client\.
 
 1. On the client login screen, select or clear the **Keep me logged in** check box to enable or disable this option as required\.
 
 ### To save your credentials for 1\.0\+ and 2\.0\+ clients<a name="client-save-credentials-legacy-clients"></a>
 
-1. Open your Workspaces client\.
+1. Open your WorkSpaces client\.
 
 1. On the client login screen, choose the gear icon \(Windows\) or the **Option** menu \(macOS\), and choose **Advanced Settings**\.
 
 1. Select or clear the **Remember Me** check box to enable or disable this option as required\.
 
-## Change Your Password<a name="client-change-password"></a>
+## Change your password<a name="client-change-password"></a>
 
 You can change your WorkSpaces login password at any time\.
 
 **To change your password**
 
-1. Open your Workspaces client\.
+1. Open your WorkSpaces client\.
 
 1. On the client login screen, choose **Forgot Password?** under the **Sign In** button\.
 **Note**  
@@ -55,7 +55,7 @@ If **Forgot password? **isn't available on your login screen, contact your WorkS
    + Numbers \(0\-9\)
    + Non\-alphanumeric characters \(\~\!@\#$%^&\*\_\-\+=`\|\\\(\)\{\}\[\]:;"'<>,\.?/\)
 
-## Restart Your WorkSpace<a name="client-restart-workspace"></a>
+## Restart your WorkSpace<a name="client-restart-workspace"></a>
 
 If you are experiencing issues with your WorkSpace, you can restart \(reboot\) it\. Restarting a WorkSpace disconnects you from your WorkSpace, so that it can be shut down and restarted\. Your user data, operating system, and system settings are not affected\. This process takes several minutes to finish\.
 
@@ -64,15 +64,15 @@ To avoid losing changes, save any open documents and other application files bef
 
 **To restart your WorkSpace**
 
-1. Open your Workspaces client and connect to your WorkSpace\.
+1. Open your WorkSpaces client and connect to your WorkSpace\.
 
-1. Choose **Workspaces**, **Restart WorkSpace**\. 
+1. Choose **WorkSpaces**, **Restart WorkSpace**\. 
 
 1. When prompted to restart your WorkSpace, choose **Restart**\.
 
 1. After you are disconnected from your WorkSpace, the client application login screen remains open\. You can log back in to your WorkSpace, or close the screen\.
 
-## Increase Your WorkSpace Disk Size<a name="client-increase-disk-workspace"></a>
+## Increase your the size of WorkSpace disks<a name="client-increase-disk-workspace"></a>
 
 You can increase your WorkSpace disk size to add more storage capacity\. You can increase the size of your C: drive \(for Linux, this is /\) up to 175 GB, and you can increase the size of your D: drive \(for Linux, this is /home\) up to 100 GB without contacting your administrator\. If you need your drives increased beyond these limits, your administrator must increase the sizes of your drives for you\. 
 
@@ -88,7 +88,7 @@ Increasing your WorkSpace disk size will increase the amount that your organizat
 
 **To increase your WorkSpace disk size**
 
-1. Open your Workspaces client and connect to your WorkSpace\.
+1. Open your WorkSpaces client and connect to your WorkSpace\.
 
 1. Depending on which client you're using, do one of the following\.    
 [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/manage_workspace_client.html)
@@ -101,7 +101,7 @@ Increasing your WorkSpace disk size will increase the amount that your organizat
 
 1. When the disk size increase is finished, you must [ restart the WorkSpace](#client-restart-workspace) for the changes to take effect\. Save any open files before restarting the WorkSpace\.
 
-## Change Your WorkSpace Compute Type<a name="client-change-compute-type"></a>
+## Change your WorkSpace compute type<a name="client-change-compute-type"></a>
 
 You can change your WorkSpace compute type to choose a different bundle for your WorkSpace\. If your administrator recently created your WorkSpace, you must wait 6 hours before you can change your WorkSpace compute type\. After that, you can switch to a larger compute type once in a 6\-hour period, or to a smaller compute type once in a 30\-day period\.
 
@@ -113,7 +113,7 @@ Changing your WorkSpace compute type will change the amount that your organizati
 
 **To change your WorkSpace compute type**
 
-1. Open your Workspaces client and connect to your WorkSpace\.
+1. Open your WorkSpaces client and connect to your WorkSpace\.
 
 1. Depending on which client you're using, do one of the following\.    
 [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/manage_workspace_client.html)
@@ -122,9 +122,9 @@ Changing your WorkSpace compute type will change the amount that your organizati
 
 1. A message displays information about the compute type change process\. Review the information, and choose **Update**\.
 
-## Switch Your WorkSpace Running Mode<a name="client-switch-running-mode"></a>
+## Switch the WorkSpace running mode<a name="client-switch-running-mode"></a>
 
-You can specify whether your WorkSpace is always running or whether it stops after a specified period of inactivity\. Workspaces provides the following two running modes that you can choose from\.
+You can specify whether your WorkSpace is always running or whether it stops after a specified period of inactivity\. WorkSpaces provides the following two running modes that you can choose from\.
 + **AlwaysOn** — Keeps your WorkSpace always running\. 
 + **AutoStop** — Your WorkSpace starts when you sign in and stops after a specified period of inactivity\. After your WorkSpace stops, the state of your apps and data is saved\. 
 
@@ -133,7 +133,7 @@ Switching your WorkSpace running mode will change the amount that your organizat
 
 ### To switch your WorkSpace running mode for 3\.0\+ clients<a name="client-switch-running-mode-new-clients"></a>
 
-1. Open your Workspaces client and connect to your WorkSpace\.
+1. Open your WorkSpaces client and connect to your WorkSpace\.
 
 1. Choose **Settings**, **Switch Running Mode**\. 
 
@@ -143,7 +143,7 @@ Switching your WorkSpace running mode will change the amount that your organizat
 
 ### To switch your WorkSpace running mode for 1\.0\+ and 2\.0\+ clients<a name="client-switch-running-mode-credentials-legacy-clients"></a>
 
-1. Open your Workspaces client and connect to your WorkSpace\.
+1. Open your WorkSpaces client and connect to your WorkSpace\.
 
 1. Choose **My WorkSpace**, **Switch running mode**\. 
 
@@ -151,7 +151,7 @@ Switching your WorkSpace running mode will change the amount that your organizat
 
 1. A message confirms your choice\. Choose **Close**\.
 
-## Rebuild Your WorkSpace<a name="client-rebuild-workspace"></a>
+## Rebuild your WorkSpace<a name="client-rebuild-workspace"></a>
 
 To restore the operating system that is running on your WorkSpace to its original state, you can rebuild the WorkSpace\.
 
@@ -166,7 +166,7 @@ While your WorkSpace rebuild is in progress, you are disconnected from the WorkS
 
 **To rebuild your WorkSpace**
 
-1. Open your Workspaces client and connect to your WorkSpace\.
+1. Open your WorkSpaces client and connect to your WorkSpace\.
 
 1. Depending on which client you're using, do one of the following\.    
 [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/manage_workspace_client.html)

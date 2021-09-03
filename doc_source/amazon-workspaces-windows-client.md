@@ -1,47 +1,69 @@
-# Workspaces Windows Client Application<a name="amazon-workspaces-windows-client"></a>
+# WorkSpaces Windows client application<a name="amazon-workspaces-windows-client"></a>
 
-The following information will help you get started with the Workspaces Windows client application\.
+The following information will help you get started with the WorkSpaces Windows client application\.
 
 **Topics**
 + [Requirements](#windows-requirements)
-+ [Setup and Installation](#windows_setup)
-+ [Determining Your Client Version](#determine-version-windows)
-+ [Connecting to Your WorkSpace](#windows_connecting)
-+ [Managing Your Login Information \(3\.0\+ Clients Only\)](#manage-login-info-windows)
-+ [Client Views](#windows_views)
-+ [Client Language](#windows_client_lang)
-+ [Display Support](#windows-display-support)
-+ [Proxy Server](#windows_proxy_server)
-+ [Command Shortcuts](#windows_shortcuts)
++ [Setup and installation](#windows_setup)
++ [Determine your client version](#determine-version-windows)
++ [Connect to your WorkSpace](#windows_connecting)
++ [Manage your login information \(3\.0\+ clients only\)](#manage-login-info-windows)
++ [Client views](#windows_views)
++ [Client language](#windows_client_lang)
++ [Display support](#windows-display-support)
++ [Proxy servers](#windows_proxy_server)
++ [Command shortcuts](#windows_shortcuts)
 + [Disconnect](#windows_disconnect)
-+ [Clipboard Support](#windows_clipboard_support)
-+ [Managing Hardware Acceleration](#windows_hardware_acceleration)
-+ [Release Notes](#windows-release-notes)
++ [Clipboard support](#windows_clipboard_support)
++ [Manage hardware acceleration](#windows_hardware_acceleration)
++ [Release notes](#windows-release-notes)
 
 ## Requirements<a name="windows-requirements"></a>
 
-The Workspaces Windows client application requires Microsoft Windows 7, Windows 8, or Windows 10\.
+The 4\.x client requires 64\-bit Microsoft Windows 8\.1 or Windows 10\.
 
-**Note**  
-If your WorkSpace is located in the Asia Pacific \(Mumbai\) Region, you must use version 3\.1\.3 or later of the Amazon Workspaces Windows client application\.
+The 3\.x client requires 32\-bit Microsoft Windows 7, Windows 8, or Windows 10\.
 
-## Setup and Installation<a name="windows_setup"></a>
+## Setup and installation<a name="windows_setup"></a>
 
-Depending on which version of the client you want, do one of the following:
+Download and install the version of the client that you need as follows:
 
 
-| If you want to install\.\.\. | Do this | 
+| To install\.\.\. | Do this | 
 | --- | --- | 
-| 3\.0\+ client | Go to [Amazon Workspaces Client Downloads](https://clients.amazonworkspaces.com/) and find the Workspaces Windows client\. Under Get the latest client, choose the Download button\. | 
-| 2\.5\.11 client | Go to [Amazon Workspaces Client Downloads](https://clients.amazonworkspaces.com/) and find the Workspaces Windows client\. Under Older version 2\.5\.11, choose the Download button\. | 
+| 4\.x client | Open [Amazon WorkSpaces Client Downloads](https://clients.amazonworkspaces.com/) and find the WorkSpaces Windows client\. Under Get the latest 64 bit client, choose the Download button\. | 
+| 3\.x client | Open [Amazon WorkSpaces Client Downloads](https://clients.amazonworkspaces.com/) and find the WorkSpaces Windows client\. Under Get the latest 32\-bit client, choose the Download button\. | 
+| 2\.5\.11 client | Open [Previous Versions](https://clients.amazonworkspaces.com/Versions.html)\. Find the WorkSpaces Windows client version and choose the Download button\. | 
 
-You have two choices for how to install the Amazon Workspaces Windows client application: 
+You have two choices for how to install the Amazon WorkSpaces Windows client application: 
 + **Install just for you**\. If you choose this option and you share your local machine with other users, the WorkSpaces client application is available only to you\. If other users on the machine also want to use the WorkSpaces client application, they must install the application for their own use\. 
 + **Install for all users of this machine**\. If you choose this option, the WorkSpaces client application is available to anyone who logs on to the local machine, including those with Guest accounts\. 
 
 Installing the WorkSpaces client application for all users requires you to have administrator privileges on your local machine\. Depending on how your local machine is configured, you might not have such privileges\. In that case, you can install the WorkSpaces client application just for yourself\. If you have questions about which option to choose, ask your WorkSpaces administrator for guidance\.
 
-If you're having trouble updating your Workspaces Windows client application to a newer version, use the following procedure to update your client application\.
+When installing the client 4\.0\+ version, you will have an option to install the USB redirection driver for features like USB mass storage device support\. Use the following procedure to install the USB redirection driver\.
+
+**To install the USB redirection driver**
+
+1. On the Amazon WorkSpaces Setup page, select **Install for all users of this machine**\. Choose **Next**\.  
+![\[Selection of scope and folder\]](http://docs.aws.amazon.com/workspaces/latest/userguide/images/installation_1.png)
+
+1. Select **Install driver for USB redirection** to enable the USB redirection features \(the default setting is not selected\)\. Choose **Install**\. You must have administrator privileges to install the driver\.  
+![\[Selection of install driver for USB redirection\]](http://docs.aws.amazon.com/workspaces/latest/userguide/images/installer_string_draft2_box_checked.png)
+
+1. To install the client with PCoIP USB redirection, enter and run the following command in an elevated command prompt\.
+
+   ```
+   msiexec.exe /i "[path to msi]" /qn INSTALL_USB="1" ALLUSERS="1"
+   ```
+
+   To install the client without PCoIP USB redirection, enter and run the following command in an elevated command prompt\.
+
+   ```
+   msiexec.exe /i "[path to msi]" /qn ALLUSERS="1"
+   ```
+
+If you're having trouble updating your WorkSpaces Windows client application to a newer version, use the following procedure to update your client application\.
 
 **To update the WorkSpaces Windows client application to a newer version**
 
@@ -55,47 +77,47 @@ If you're having trouble updating your Workspaces Windows client application to 
 
 1. Delete the **SkipThisVersion** registry key\. When prompted to confirm the deletion, choose **Yes**, and then close the Registry Editor\.
 
-1. If you have not already entered a registration code in the WorkSpaces Windows client application, do so, and then choose **Amazon Workspaces**, **Quit Amazon Workspaces** to close the client application\.
+1. If you have not already entered a registration code in the WorkSpaces Windows client application, do so, and then choose **Amazon WorkSpaces**, **Quit Amazon WorkSpaces** to close the client application\.
 
 1. Restart the WorkSpaces Windows client application\. You should be prompted to update the client\. Accept the update\.
 
-## Determining Your Client Version<a name="determine-version-windows"></a>
+## Determine your client version<a name="determine-version-windows"></a>
 
-To see which version of the WorkSpaces client you have, choose **Amazon Workspaces**, **About Amazon Workspaces**, or click the gear icon in the upper\-right corner and choose **About Amazon Workspaces**\.
+To see which version of the WorkSpaces client you have, choose **Amazon WorkSpaces**, **About Amazon WorkSpaces**, or click the gear icon in the upper\-right corner and choose **About Amazon WorkSpaces**\.
 
-## Connecting to Your WorkSpace<a name="windows_connecting"></a>
+## Connect to your WorkSpace<a name="windows_connecting"></a>
 
 To connect to your WorkSpace, complete the following procedure\.
 
 ### To connect to your WorkSpace for 3\.0\+ clients<a name="windows_connecting-new-clients"></a>
 
-1. The first time that you run the client application, you are prompted for your registration code, which is contained in your welcome email\. The Workspaces client application uses the registration code and user name to identify which WorkSpace to connect to\. When you launch the client application later, the same registration code is used\. To enter a different registration code, launch the client application, and then choose **Change Registration Code** at the bottom of the login page\.
+1. The first time that you run the client application, you are prompted for your registration code, which is contained in your welcome email\. The WorkSpaces client application uses the registration code and user name to identify which WorkSpace to connect to\. When you launch the client application later, the same registration code is used\. To enter a different registration code, launch the client application, and then choose **Change Registration Code** at the bottom of the login page\.
 
-1. Enter your user name and password in the login screen and choose **Sign In**\. If your Workspaces administrator has enabled multi\-factor authentication for your organization's WorkSpaces, you are prompted for a passcode to complete your login\. Your Workspaces administrator will provide more information about how to obtain your passcode\.
+1. Enter your user name and password in the login screen and choose **Sign In**\. If your WorkSpaces administrator has enabled multi\-factor authentication for your organization's WorkSpaces, you are prompted for a passcode to complete your login\. Your WorkSpaces administrator will provide more information about how to obtain your passcode\.
 
-1. If your Workspaces administrator has not disabled the **Keep me logged in** feature, you can select the **Keep me logged in** check box at the bottom of the login screen to save your credentials securely so that you can connect to your WorkSpace easily while the client application remains running\. Your credentials are securely cached up to the maximum lifetime of your Kerberos ticket\.
+1. If your WorkSpaces administrator has not disabled the **Keep me logged in** feature, you can select the **Keep me logged in** check box at the bottom of the login screen to save your credentials securely so that you can connect to your WorkSpace easily while the client application remains running\. Your credentials are securely cached up to the maximum lifetime of your Kerberos ticket\.
 
    After the client application connects to your WorkSpace, your WorkSpace desktop is displayed\.
 
 ### To connect to your WorkSpace for 1\.0\+ and 2\.0\+ clients<a name="windows_connecting-legacy-clients"></a>
 
-1. The first time that you run the client application, you are prompted for your registration code, which is contained in your welcome email\. The Workspaces client application uses the registration code and user name to identify which WorkSpace to connect to\. When you launch the client application later, the same registration code is used\. To enter a different registration code, launch the client application, and then on the menu bar, choose **Options**, **Manage Registrations**\.
+1. The first time that you run the client application, you are prompted for your registration code, which is contained in your welcome email\. The WorkSpaces client application uses the registration code and user name to identify which WorkSpace to connect to\. When you launch the client application later, the same registration code is used\. To enter a different registration code, launch the client application, and then on the menu bar, choose **Options**, **Manage Registrations**\.
 
-1. Enter your user name and password in the login screen and choose **Sign In**\. If your Workspaces administrator has enabled multi\-factor authentication for your organization's WorkSpaces, you are prompted for a passcode to complete your login\. Your Workspaces administrator will provide more information about how to obtain your passcode\.
+1. Enter your user name and password in the login screen and choose **Sign In**\. If your WorkSpaces administrator has enabled multi\-factor authentication for your organization's WorkSpaces, you are prompted for a passcode to complete your login\. Your WorkSpaces administrator will provide more information about how to obtain your passcode\.
 
-1. If your Workspaces administrator has not disabled the "Remember Me" feature, you are prompted to save your credentials securely so that you can connect to your WorkSpace easily while the client application remains running\. Your credentials are securely cached up to the maximum lifetime of your Kerberos ticket\.
+1. If your WorkSpaces administrator has not disabled the "Remember Me" feature, you are prompted to save your credentials securely so that you can connect to your WorkSpace easily while the client application remains running\. Your credentials are securely cached up to the maximum lifetime of your Kerberos ticket\.
 
    After the client application connects to your WorkSpace, your WorkSpace desktop is displayed\.
 
-An interruption of network connectivity causes an active session to be disconnected\. This can be caused by events such as closing the laptop lid, or the loss of your wireless network connection\. The Workspaces client application for Windows attempts to reconnect the session automatically if network connectivity is regained within a certain amount of time\. The default session resume timeout is 20 minutes, but this timeout can be modified by your network administrator\.
+An interruption of network connectivity causes an active session to be disconnected\. This can be caused by events such as closing the laptop lid, or the loss of your wireless network connection\. The WorkSpaces client application for Windows attempts to reconnect the session automatically if network connectivity is regained within a certain amount of time\. The default session resume timeout is 20 minutes, but this timeout can be modified by your network administrator\.
 
-## Managing Your Login Information \(3\.0\+ Clients Only\)<a name="manage-login-info-windows"></a>
+## Manage your login information \(3\.0\+ clients only\)<a name="manage-login-info-windows"></a>
 
 You can view your registration code and what Region your WorkSpace is in\. You can specify whether you want the WorkSpaces client application to save your current registration code, and you can assign a name to your WorkSpace\. You can also specify if you want Amazon WorkSpaces to keep you logged in to a WorkSpace until you quit or your login period expires\.
 
 **To manage your login information for a WorkSpace**
 
-1. In the Workspaces client application, go to **Settings**, **Manage Login Information**\.
+1. In the WorkSpaces client application, go to **Settings**, **Manage Login Information**\.
 
 1. In the **Manage Login Information** dialog box, you can see the registration code and Region information for your WorkSpace\.
 
@@ -109,7 +131,7 @@ You can view your registration code and what Region your WorkSpace is in\. You c
 
 1. Choose **Save**\.
 
-## Client Views<a name="windows_views"></a>
+## Client views<a name="windows_views"></a>
 
 You can switch to full screen mode by choosing **View**, **Enter Full Screen** \(3\.0\+ clients\) or **View**, **Show Fullscreen** \(1\.0\+ and 2\.0\+ clients\) in the client application menu\.
 
@@ -117,7 +139,7 @@ While in full screen mode, you can switch back to window mode by moving the poin
 
 You can also toggle full screen mode by pressing Ctrl\+Alt\+Enter\.
 
-## Client Language<a name="windows_client_lang"></a>
+## Client language<a name="windows_client_lang"></a>
 
 You can select the language displayed by the client by performing the following steps\.
 
@@ -133,9 +155,9 @@ The WorkSpaces client applications support Japanese\. However, Japanese WorkSpac
 
 1. Restart the client\.
 
-## Display Support<a name="windows-display-support"></a>
+## Display support<a name="windows-display-support"></a>
 
-Workspaces Value, Standard, Performance, Power, PowerPro, and GraphicsPro bundles support a maximum of four displays and a maximum resolution of 3840x2160 \(ultra\-high definition, or UHD\)\. The maximum supported resolution depends on the number of displays, as shown in the following table\.
+WorkSpaces Value, Standard, Performance, Power, PowerPro, and GraphicsPro bundles support a maximum of four displays and a maximum resolution of 3840x2160 \(ultra\-high definition, or UHD\)\. The maximum supported resolution depends on the number of displays, as shown in the following table\.
 
 
 | Displays | Resolution | 
@@ -146,7 +168,7 @@ Workspaces Value, Standard, Performance, Power, PowerPro, and GraphicsPro bundle
 **Note**  
 Graphics bundles support only a single monitor configuration with a maximum resolution of 2560x1600\.
 
-The Workspaces client application extracts the Extended Display Information Data \(EDID\) of all attached displays and determines the best compatibility match before starting the session\. If you have a high pixel density \(high DPI\) display, the client application automatically scales the streaming window according to your local DPI settings\. For better maximum resolution with high DPI displays, see [WorkSpaces High DPI Display Support](high_dpi_support.md)\. 
+The WorkSpaces client application extracts the Extended Display Information Data \(EDID\) of all attached displays and determines the best compatibility match before starting the session\. If you have a high pixel density \(high DPI\) display, the client application automatically scales the streaming window according to your local DPI settings\. For better maximum resolution with high DPI displays, see [WorkSpaces high DPI display support](high_dpi_support.md)\. 
 
 **To use multiple monitors with WorkSpaces**
 **Note**  
@@ -164,9 +186,9 @@ Your WorkSpace should now be extended across your displays\. Whichever display y
 **Note**  
 Using full screen mode on only some of the displays in a multiple monitor setup isn't possible\. You can, however, press the Windows logo key \+ Up Arrow or use the maximize button in the upper\-right corner of the WorkSpaces window to maximize the WorkSpaces client window on a display without extending the WorkSpace to the other displays\.
 
-## Proxy Server<a name="windows_proxy_server"></a>
+## Proxy servers<a name="windows_proxy_server"></a>
 
-If your network requires you to use a proxy server to access the internet, you can enable your Workspaces client application to use a proxy for HTTPS \(port 443\) traffic\. The Workspaces client applications use the HTTPS port for updates, registration, and authentication\. 
+If your network requires you to use a proxy server to access the internet, you can enable your WorkSpaces client application to use a proxy for HTTPS \(port 443\) traffic\. The WorkSpaces client applications use the HTTPS port for updates, registration, and authentication\. 
 
 **Note**  
 The desktop streaming connections to the WorkSpace require ports 4172 and 4195 to be enabled, and do not go through the proxy server\. 
@@ -181,7 +203,7 @@ Starting with version 3\.0\.12 of the Windows client, you can also choose not to
 **Note**  
 In versions 3\.0\.0 through 3\.0\.11, if you specify a custom proxy server, a "No network" error might appear when you attempt to log in to your WorkSpace\. If you want to use a custom proxy server with the Windows client, we recommend upgrading to the latest version\.
 
-1. In the Workspaces client application, go to **Settings**, **Manage Proxy Server**\.
+1. In the WorkSpaces client application, go to **Settings**, **Manage Proxy Server**\.
 
 1. In the **Set Proxy** dialog box, select the appropriate options, depending on which version of the 3\.0\+ client you have\.
    + **Windows client version 3\.1\.3 or later** — To disable usage of a proxy server, select **Don't use proxy server**\. If you select **Don't use proxy server**, no proxy server is used when you access the internet\.
@@ -200,34 +222,34 @@ In versions 3\.0\.0 through 3\.0\.11, if you specify a custom proxy server, a "N
 
 By default, the 1\.0\+ and 2\.0\+ Windows clients don't use a proxy server\. To specify a proxy server, use the following procedure\.
 
-1. In the Workspaces client application, open the **Advanced Settings** dialog box\.
+1. In the WorkSpaces client application, open the **Advanced Settings** dialog box\.
 
 1. In the **Proxy Server Setting** area, select **Use Proxy Server**, enter the proxy server URL or IP address and the port, and choose **Save**\.
 
-## Command Shortcuts<a name="windows_shortcuts"></a>
+## Command shortcuts<a name="windows_shortcuts"></a>
 
-The Workspaces Windows client supports the following command shortcuts:
+The WorkSpaces Windows client supports the following command shortcuts:
 + Ctrl\+Alt\+Enter—Toggle full screen display
 + Ctrl\+Alt\+F12—Disconnect session
 
 ## Disconnect<a name="windows_disconnect"></a>
 
 To disconnect the Windows client application, you have several options: 
-+ In the Amazon Workspaces client application, go to **Amazon Workspaces**, and then choose **Disconnect WorkSpace**\. Your WorkSpace session ends, but the client application continues running in case you want to log in again\.
-+ In the Amazon Workspaces client application, go to **Amazon Workspaces**, and then choose **Quit Amazon Workspaces**\. Your WorkSpace session ends, and the client application closes\.
-+ In the Amazon Workspaces client application, close the WorkSpaces client window by clicking the close \(X\) button in the upper\-right corner\. In the **End Session** dialog box, choose **Yes**\. Your WorkSpace session ends, but the client application continues running in case you want to log in again\.
-+ You can also log off of the WorkSpace\. In the Amazon Workspaces client application, go to **View**, and then choose **Send Ctrl\+Alt\+Delete**\. Choose **Sign Out**\. Your WorkSpace session ends, but the client application continues running in case you want to log in again\.
++ In the Amazon WorkSpaces client application, go to **Amazon WorkSpaces**, and then choose **Disconnect WorkSpace**\. Your WorkSpace session ends, but the client application continues running in case you want to log in again\.
++ In the Amazon WorkSpaces client application, go to **Amazon WorkSpaces**, and then choose **Quit Amazon WorkSpaces**\. Your WorkSpace session ends, and the client application closes\.
++ In the Amazon WorkSpaces client application, close the WorkSpaces client window by clicking the close \(X\) button in the upper\-right corner\. In the **End Session** dialog box, choose **Yes**\. Your WorkSpace session ends, but the client application continues running in case you want to log in again\.
++ You can also log off of the WorkSpace\. In the Amazon WorkSpaces client application, go to **View**, and then choose **Send Ctrl\+Alt\+Delete**\. Choose **Sign Out**\. Your WorkSpace session ends, but the client application continues running in case you want to log in again\.
 
-## Clipboard Support<a name="windows_clipboard_support"></a>
+## Clipboard support<a name="windows_clipboard_support"></a>
 
 The clipboard supports a maximum uncompressed object size of 20 MB\. For more information, see [I'm having trouble copying and pasting](client_troubleshooting.md#copy_paste)\.
 
 **Note**  
 When copying from a Microsoft Office app, the clipboard only contains the last copied item, and the item is converted into standard format\. If you copy content larger than 890 KB from a Microsoft Office app, the app might become slow or unresponsive for up to 5 seconds\. 
 
-## Managing Hardware Acceleration<a name="windows_hardware_acceleration"></a>
+## Manage hardware acceleration<a name="windows_hardware_acceleration"></a>
 
-Starting with version 3\.1\.4, hardware acceleration is disabled by default when you're using the Amazon Workspaces Windows client application\.
+Starting with version 3\.1\.4, hardware acceleration is disabled by default when you're using the Amazon WorkSpaces Windows client application\.
 
 **Note**  
 If you plan to upgrade to version 3\.1\.4, and if you've disabled hardware acceleration for version 3\.1\.3 or earlier by using the [procedure described later in this section](#hardware_acceleration_313), make sure that you re\-enable hardware acceleration in Windows by setting the **DisableHWAcceleration** registry key to **0**\. Then you can upgrade to version 3\.1\.4 or later of the WorkSpaces Windows client application\.
@@ -351,13 +373,18 @@ If you need to use version 3\.1\.3 or earlier of the Windows client application,
 **Note**  
 If you need to enable hardware acceleration to improve the performance of other Windows applications, set the **DisableHWAcceleration** key to **0**\.
 
-## Release Notes<a name="windows-release-notes"></a>
+## Release notes<a name="windows-release-notes"></a>
 
 The following table describes the changes to each release of the Windows client application\.
 
 
 | Release | Date | Changes | 
 | --- | --- | --- | 
+| 4\.0\.2 | September 1, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
+| 4\.0\.1 | July 30, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
+| 4\.0\.0 | June 30, 2021 | The first 64\-bit release of the Windows client application\. | 
+| 3\.1\.10 | August 5, 2021 | Minor bug fixes and enhancements\. | 
+| 3\.1\.9 | June 29, 2021 | Minor bug fixes and enhancements\. | 
 | 3\.1\.8 | May 28, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
 | 3\.1\.7 | April 29, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
 | 3\.1\.6 | April 8, 2021 |  Fixes for disconnects and crashes resulting from WorkSpaces Streaming Protocol \(WSP\) audio traffic optimization  | 

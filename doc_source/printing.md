@@ -1,17 +1,17 @@
-# Printing from a WorkSpace<a name="printing"></a>
+# Print from a WorkSpace<a name="printing"></a>
 
-The following printing methods are supported by Amazon Workspaces\.
+The following printing methods are supported by Amazon WorkSpaces\.
 
 **Note**  
-The Workspaces clients for iPad, Android, Chromebook, Web Access, and Linux support network printing and cloud printing services\. Local printing is not currently supported for the iPad, Android, Chromebook, Web Access, and Linux clients\.
+The WorkSpaces clients for iPad, Android, Chromebook, Web Access, and Linux support network printing and cloud printing services\. Local printing is not currently supported for the iPad, Android, Chromebook, Web Access, and Linux clients\.
 Local printer redirection is not available for Linux WorkSpaces, regardless of the client being used to access them\.
-If you're using a PCoIP zero client device to connect to your WorkSpace and you're having trouble using a USB printer or other USB peripheral devices, contact your WorkSpaces administrator for assistance\. For more information, see [ USB printers and other USB peripherals aren't working for PCoIP zero clients](https://docs.aws.amazon.com/workspaces/latest/adminguide/amazon-workspaces-troubleshooting.html#pcoip_zero_client_usb) in the *Amazon Workspaces Administration Guide*\.
+If you're using a PCoIP zero client device to connect to your WorkSpace and you're having trouble using a USB printer or other USB peripheral devices, contact your WorkSpaces administrator for assistance\. For more information, see [ USB printers and other USB peripherals aren't working for PCoIP zero clients](https://docs.aws.amazon.com/workspaces/latest/adminguide/amazon-workspaces-troubleshooting.html#pcoip_zero_client_usb) in the *Amazon WorkSpaces Administration Guide*\.
 
 **Topics**
-+ [Local Printers](#local_printers)
-+ [Other Printing Methods](#other_printing)
++ [Local printers](#local_printers)
++ [Other printing methods](#other_printing)
 
-## Local Printers<a name="local_printers"></a>
+## Local printers<a name="local_printers"></a>
 
 Windows WorkSpaces support local printer redirection\. When you print from an application in your WorkSpace, the local printers are contained in your list of available printers\. The local printers have "\(Local – *workspace username*\.*directory name*\.*client computer name*\)" appended to the printer's display name\. Select one of the local printers and your documents are printed on that printer\.
 
@@ -24,7 +24,7 @@ After installing the printer driver, you must [ restart \(reboot\) the WorkSpace
 
 If you cannot print to your local printer from your WorkSpace, make sure that you can print to your local printer from your client computer\. If you cannot print from your client computer, refer to the printer documentation and support to resolve the issue\. If you can print from your client computer, contact [AWS Support](https://console.aws.amazon.com/support/home#/) for further assistance\.
 
-## Other Printing Methods<a name="other_printing"></a>
+## Other printing methods<a name="other_printing"></a>
 
 You can also use one of the following methods to print from a Windows or Linux WorkSpace:
 + If your organization exposes printers through Active Directory, you can connect your WorkSpace to printers on your internal company network\.

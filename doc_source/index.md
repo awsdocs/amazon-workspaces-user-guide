@@ -1,4 +1,4 @@
-# Amazon Workspaces User Guide
+# Amazon WorkSpaces User Guide
 
 -----
 *****Copyright &copy; Amazon Web Services, Inc. and/or its affiliates. All rights reserved.*****
@@ -14,19 +14,20 @@ Amazon's trademarks and trade dress may not be used in
 
 -----
 ## Contents
-+ [Getting Started with Your WorkSpace](workspaces-user-getting-started.md)
-+ [Manage Your WorkSpace from Your Client](manage_workspace_client.md)
-+ [WorkSpaces Client Peripheral Device Support](peripheral_devices.md)
-+ [WorkSpaces High DPI Display Support](high_dpi_support.md)
-+ [WorkSpaces Client Smart Card Support](smart_card_support.md)
-+ [Amazon Workspaces Language and Keyboard Support](language_keyboard.md)
-+ [Workspaces Clients](amazon-workspaces-clients.md)
-   + [Workspaces Android Client Application](amazon-workspaces-android-client.md)
-   + [Workspaces iPad Client Application](amazon-workspaces-ipad-client.md)
-   + [Workspaces Linux Client Application](amazon-workspaces-linux-client.md)
-   + [Workspaces macOS Client Application](amazon-workspaces-osx-client.md)
-   + [PCoIP Zero Client](amazon-workspaces-pcoip-zero-client.md)
-   + [Workspaces Web Access](amazon-workspaces-web-access.md)
-   + [Workspaces Windows Client Application](amazon-workspaces-windows-client.md)
-+ [Printing from a WorkSpace](printing.md)
-+ [Troubleshooting Workspaces Client Issues](client_troubleshooting.md)
++ [Getting started with your WorkSpace](workspaces-user-getting-started.md)
++ [Manage your WorkSpace from your client](manage_workspace_client.md)
++ [WorkSpaces client peripheral device support](peripheral_devices.md)
++ [WorkSpaces high DPI display support](high_dpi_support.md)
++ [WorkSpaces client smart card support](smart_card_support.md)
++ [Amazon WorkSpaces language and keyboard support](language_keyboard.md)
++ [WorkSpaces USB redirection](usb-redirection.md)
++ [WorkSpaces Clients](amazon-workspaces-clients.md)
+   + [WorkSpaces Android client application](amazon-workspaces-android-client.md)
+   + [WorkSpaces iPad client application](amazon-workspaces-ipad-client.md)
+   + [WorkSpaces Linux client application](amazon-workspaces-linux-client.md)
+   + [WorkSpaces macOS client application](amazon-workspaces-osx-client.md)
+   + [PCoIP zero client](amazon-workspaces-pcoip-zero-client.md)
+   + [WorkSpaces Web Access](amazon-workspaces-web-access.md)
+   + [WorkSpaces Windows client application](amazon-workspaces-windows-client.md)
++ [Print from a WorkSpace](printing.md)
++ [Troubleshoot WorkSpaces client issues](client_troubleshooting.md)

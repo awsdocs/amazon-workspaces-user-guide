@@ -1,11 +1,11 @@
-# Amazon Workspaces Language and Keyboard Support<a name="language_keyboard"></a>
+# Amazon WorkSpaces language and keyboard support<a name="language_keyboard"></a>
 
 To use the same language and keyboard settings on your client device and your WorkSpace, use one of the following methods, depending on which protocol your WorkSpace is using: PCoIP or WorkSpaces Streaming Protocol \(WSP\)\. 
 
 **Note**  
 The following procedures might require you to sign out of Windows or disconnect from your WorkSpace\. Be sure to save your work before proceeding\.
 
-## WorkSpaces Using the PCoIP Protocol<a name="lang-keyboard-pcoip"></a>
+## WorkSpaces using the PCoIP protocol<a name="lang-keyboard-pcoip"></a>
 
 If you're using a language\-specific keyboard, use one of the following methods to make your keyboard and your WorkSpace language settings match\.
 + **Method 1** — Change the keyboard and language settings on your device so that they match the language of your WorkSpace\.
@@ -32,7 +32,7 @@ If you're using a language\-specific keyboard, use one of the following methods 
 
   1. If you didn't change the display language, select the new keyboard layout for the language that you installed\. To do so, in the Windows taskbar, choose **ENG** in the lower\-right corner next to the date and time\. A menu appears\. Select the language keyboard that you want to use for input\.
 
-## WorkSpaces Using the WorkSpaces Streaming Protocol \(WSP\)<a name="lang-keyboard-wsp"></a>
+## WorkSpaces using the WorkSpaces Streaming Protocol \(WSP\)<a name="lang-keyboard-wsp"></a>
 
 The following languages require the use of an Input Method Editor \(IME\) to enter characters that aren't found on a QWERTY keyboard:
 + Amharic \(Ethiopia\)

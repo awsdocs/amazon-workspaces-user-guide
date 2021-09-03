@@ -1,17 +1,17 @@
-# Troubleshooting Workspaces Client Issues<a name="client_troubleshooting"></a>
+# Troubleshoot WorkSpaces client issues<a name="client_troubleshooting"></a>
 
 The following are common issues that you might have with your WorkSpaces client\.
 
 **Topics**
-+ [I didn't receive an email with my Amazon Workspaces registration code](#no-welcome-email)
++ [I didn't receive an email with my Amazon WorkSpaces registration code](#no-welcome-email)
 + [The Amazon WorkSpaces Application Manager client application isn't appearing on my Windows WorkSpace desktop](#no-wam-client)
 + [I don't see any applications listed in the Amazon WorkSpaces Application Manager client application](#no-wam-apps)
 + [After logging in, the Windows client application displays only a white page and I cannot connect to my WorkSpace](#windows_white-page)
 + [My WorkSpaces client gives me a network error, but I am able to use other network\-enabled apps on my device](#net_error)
 + [It sometimes takes several minutes to log in to my Windows WorkSpace](#login_delay)
-+ [When I try to log in, the Amazon Workspaces Windows client gets stuck on the "Preparing your login page" screen](#login_stuck_preparing_page)
++ [When I try to log in, the Amazon WorkSpaces Windows client gets stuck on the "Preparing your login page" screen](#login_stuck_preparing_page)
 + [When I try to log in, I get the error message: "No network\. Network connection lost\. Check your network connection or contact your administrator for help\."](#login_proxy_server)
-+ [The Amazon Workspaces Windows client application login page is very tiny](#login_tiny_page)
++ [The Amazon WorkSpaces Windows client application login page is very tiny](#login_tiny_page)
 + [I see the following error message: "WorkSpace Status: Unhealthy\. We were unable to connect you to your WorkSpace\. Please try again in a few minutes\."](#workspace_unhealthy)
 + [Sometimes I am logged off of my Windows WorkSpace, even though I closed the session, but did not log off](#logged_out)
 + [I forgot my password and tried to reset it, but I didn’t receive an email with a reset link](#reset_password)
@@ -31,9 +31,9 @@ The following are common issues that you might have with your WorkSpaces client\
 + [I'm having trouble copying and pasting](#copy_paste)
 + [My screen is flickering or not updating properly, or my mouse isn't clicking in the right place](#screen_artifacts)
 
-## I didn't receive an email with my Amazon Workspaces registration code<a name="no-welcome-email"></a>
+## I didn't receive an email with my Amazon WorkSpaces registration code<a name="no-welcome-email"></a>
 
-Contact your Workspaces administrator for assistance\.
+Contact your WorkSpaces administrator for assistance\.
 
 ## The Amazon WorkSpaces Application Manager client application isn't appearing on my Windows WorkSpace desktop<a name="no-wam-client"></a>
 
@@ -65,7 +65,7 @@ This problem can be caused by expired Verisign/Symantec certificates on your cli
 
 The WorkSpaces client applications rely on access to resources in the AWS Cloud, and require a connection that provides at least 1 Mbps download bandwidth\. If your device has an intermittent connection to the network, the WorkSpaces client application might report an issue with the network\.
 
-Workspaces enforces the use of digital certificates issued by Amazon Trust Services, as of May 2018\. Amazon Trust Services is already a trusted Root certificate authority \(CA\) on the operating systems that are supported by Workspaces\. If the Root CA list for your operating system is not up to date, your device cannot connect to WorkSpaces and the client gives a network error\.
+WorkSpaces enforces the use of digital certificates issued by Amazon Trust Services, as of May 2018\. Amazon Trust Services is already a trusted Root certificate authority \(CA\) on the operating systems that are supported by WorkSpaces\. If the Root CA list for your operating system is not up to date, your device cannot connect to WorkSpaces and the client gives a network error\.
 
 **To recognize connection issues due to certificate failures**
 + PCoIP zero clients — The following error message is displayed:
@@ -80,14 +80,14 @@ Workspaces enforces the use of digital certificates issued by Amazon Trust Servi
 **To resolve certificate failures**
 
 Use one of the following solutions for certificate failures\.
-+ For the Windows client, download and install the latest Windows client application from [Amazon Workspaces Client Downloads](https://clients.amazonworkspaces.com/)\. During installation, the client application ensures that your operating system trusts certificates issued by Amazon Trust Services\. If updating your client does not resolve the issue, contact your Amazon Workspaces administrator\.
-+ For all other clients, contact your Amazon Workspaces administrator\.
++ For the Windows client, download and install the latest Windows client application from [Amazon WorkSpaces Client Downloads](https://clients.amazonworkspaces.com/)\. During installation, the client application ensures that your operating system trusts certificates issued by Amazon Trust Services\. If updating your client does not resolve the issue, contact your Amazon WorkSpaces administrator\.
++ For all other clients, contact your Amazon WorkSpaces administrator\.
 
 ## It sometimes takes several minutes to log in to my Windows WorkSpace<a name="login_delay"></a>
 
 Group Policy settings that are set by your system administrator can cause a delay on login after your Windows WorkSpace has been launched or rebooted\. This delay occurs while the Group Policy settings are being applied to the WorkSpace, and is normal\.
 
-## When I try to log in, the Amazon Workspaces Windows client gets stuck on the "Preparing your login page" screen<a name="login_stuck_preparing_page"></a>
+## When I try to log in, the Amazon WorkSpaces Windows client gets stuck on the "Preparing your login page" screen<a name="login_stuck_preparing_page"></a>
 
 When starting versions 3\.0\.4 and 3\.0\.5 of the WorkSpaces Windows client application on a Windows 10 machine, the client might get stuck on the "Preparing your login page" screen\. To avoid this issue, either upgrade to version 3\.0\.6 of the Windows client application or do not run the Windows client application with administrator \(elevated\) privileges\.
 
@@ -98,7 +98,7 @@ When you try to log in to your WorkSpace using some 3\.0\+ versions of the Windo
 + **macOS client** — To work around this issue, use the proxy server that's specified in the device operating system instead of using a custom proxy server\. For more information about configuring the proxy server settings in the macOS client, see [Proxy Server for macOS Client](amazon-workspaces-osx-client.md#osx_proxy_server)\. 
 + **Linux client** — To avoid this issue with the Linux client, upgrade to version 3\.1\.5 or later\. If you can't upgrade, you can work around this issue by using the proxy server that's specified in the device operating system instead of using a custom proxy server\. For more information about configuring the proxy server settings in the Linux client, see [Proxy Server for Linux Client](amazon-workspaces-linux-client.md#linux_proxy_server)\.
 
-## The Amazon Workspaces Windows client application login page is very tiny<a name="login_tiny_page"></a>
+## The Amazon WorkSpaces Windows client application login page is very tiny<a name="login_tiny_page"></a>
 
 Running the WorkSpaces Windows client with administrator \(elevated\) privileges might result in viewing issues in high DPI environments\. To avoid these issues, run the client in user mode instead\.
 
@@ -107,8 +107,8 @@ Running the WorkSpaces Windows client with administrator \(elevated\) privileges
 If you just started or restarted your WorkSpace, wait a few minutes, and then try to log in again\.
 
 If you continue to receive this error message, you can try the following actions \(if your WorkSpaces administrator has enabled you to do them\):
-+ [Restart Your WorkSpace](manage_workspace_client.md#client-restart-workspace)
-+ [Rebuild Your WorkSpace](manage_workspace_client.md#client-rebuild-workspace)
++ [Restart your WorkSpace](manage_workspace_client.md#client-restart-workspace)
++ [Rebuild your WorkSpace](manage_workspace_client.md#client-rebuild-workspace)
 
 If you are unable to restart or rebuild the WorkSpace yourself, or if you continue to see the error message after doing so, contact your WorkSpaces administrator for assistance\.
 
@@ -118,17 +118,17 @@ Your system administrator applied a new or updated Group Policy setting to your 
 
 ## I forgot my password and tried to reset it, but I didn’t receive an email with a reset link<a name="reset_password"></a>
 
-Contact your Workspaces administrator for assistance\.
+Contact your WorkSpaces administrator for assistance\.
 
 ## I can't connect to the internet from my WorkSpace<a name="internet_access"></a>
 
-WorkSpaces cannot communicate with the internet by default\. Your Amazon Workspaces administrator must explicitly provide internet access\.
+WorkSpaces cannot communicate with the internet by default\. Your Amazon WorkSpaces administrator must explicitly provide internet access\.
 
 ## I installed a third\-party security software package and now I can't connect to my WorkSpace<a name="security_software"></a>
 
-You can install any type of security or firewall software on your WorkSpace, but Workspaces requires that certain inbound and outbound ports are open on the WorkSpace\. If the security or firewall software that you install blocks these ports, the WorkSpace might not function correctly or might become unreachable\. For more information, see [Port Requirements for Workspaces](https://docs.aws.amazon.com/workspaces/latest/adminguide/workspaces-port-requirements.html) in the *Amazon Workspaces Administration Guide*\.
+You can install any type of security or firewall software on your WorkSpace, but WorkSpaces requires that certain inbound and outbound ports are open on the WorkSpace\. If the security or firewall software that you install blocks these ports, the WorkSpace might not function correctly or might become unreachable\. For more information, see [Port Requirements for WorkSpaces](https://docs.aws.amazon.com/workspaces/latest/adminguide/workspaces-port-requirements.html) in the *Amazon WorkSpaces Administration Guide*\.
 
-To restore your WorkSpace, [rebuild your WorkSpace](manage_workspace_client.md#client-rebuild-workspace) if you still have access to it, or ask your Amazon Workspaces administrator to rebuild your WorkSpace\. You then have to reinstall the software and properly configure port access for your WorkSpace\.
+To restore your WorkSpace, [rebuild your WorkSpace](manage_workspace_client.md#client-rebuild-workspace) if you still have access to it, or ask your Amazon WorkSpaces administrator to rebuild your WorkSpace\. You then have to reinstall the software and properly configure port access for your WorkSpace\.
 
 ## I am getting a "network connection is slow" warning when connected to my WorkSpace<a name="latency_warning"></a>
 
@@ -142,26 +142,26 @@ The WorkSpaces client application validates the identity of the WorkSpaces servi
 
 ## I'm having trouble when I try to connect to my Windows WorkSpace using Web Access<a name="webaccess_connection_issues"></a>
 
-Windows WorkSpaces rely on a specific login screen configuration to enable you to log in from your Web Access client\. Your Amazon Workspaces administrator might need to configure Group Policy and Security Policy settings to enable you to log in to your WorkSpace from your Web Access client\. If these settings are not correctly configured, you might experience long login times or black screens when you try to log in to your WorkSpace\. Contact your Amazon Workspaces administrator for assistance\.
+Windows WorkSpaces rely on a specific login screen configuration to enable you to log in from your Web Access client\. Your Amazon WorkSpaces administrator might need to configure Group Policy and Security Policy settings to enable you to log in to your WorkSpace from your Web Access client\. If these settings are not correctly configured, you might experience long login times or black screens when you try to log in to your WorkSpace\. Contact your Amazon WorkSpaces administrator for assistance\.
 
 **Important**  
-Beginning October 1, 2020, customers will no longer be able to use the Amazon Workspaces Web Access client to connect to Windows 7 custom WorkSpaces or to Windows 7 Bring Your Own License \(BYOL\) WorkSpaces\.
+Beginning October 1, 2020, customers will no longer be able to use the Amazon WorkSpaces Web Access client to connect to Windows 7 custom WorkSpaces or to Windows 7 Bring Your Own License \(BYOL\) WorkSpaces\.
 
 ## I see the following error message: "Device can't connect to the registration service\. Check your network settings\."<a name="registration_failure"></a>
 
 When a registration service failure occurs, you might see the following error message on the **Connection Health Check** page: "Your device is not able to connect to the WorkSpaces Registration service\. You will not be able to register your device with WorkSpaces\. Please check your network settings\."
 
-This error occurs when the WorkSpaces client application can't reach the registration service\. Contact your Amazon Workspaces administrator for assistance\.
+This error occurs when the WorkSpaces client application can't reach the registration service\. Contact your Amazon WorkSpaces administrator for assistance\.
 
 ## I skipped an update to my client application and am having trouble updating my client to the latest version<a name="client_update_skipped"></a>
 
-If you've skipped an update to your Amazon Workspaces Windows client application and now want to update to the latest version of the client, see [ Update the WorkSpaces Windows client application to a newer version](amazon-workspaces-windows-client.md#windows_update_client)\.
+If you've skipped an update to your Amazon WorkSpaces Windows client application and now want to update to the latest version of the client, see [ Update the WorkSpaces Windows client application to a newer version](amazon-workspaces-windows-client.md#windows_update_client)\.
 
-If you've skipped an update to your Amazon Workspaces macOS client application and now want to update to the latest version of the client, see [ Update the WorkSpaces macOS client application to a newer version](amazon-workspaces-osx-client.md#osx_update_client)\.
+If you've skipped an update to your Amazon WorkSpaces macOS client application and now want to update to the latest version of the client, see [ Update the WorkSpaces macOS client application to a newer version](amazon-workspaces-osx-client.md#osx_update_client)\.
 
 ## My headset doesn't work in my WorkSpace<a name="headset_problems"></a>
 
-If you're using the Android, iPad, macOS, Linux, or Windows client application for Amazon Workspaces, and you're having trouble using your headset in your WorkSpace, try the following steps: 
+If you're using the Android, iPad, macOS, Linux, or Windows client application for Amazon WorkSpaces, and you're having trouble using your headset in your WorkSpace, try the following steps: 
 
 1. Disconnect from your WorkSpace \(choose **Amazon WorkSpaces**, **Disconnect WorkSpace**\)\.
 
@@ -182,9 +182,9 @@ Audio currently is not supported on Linux WorkSpaces using the WorkSpaces Stream
 
 Version 2\.4\.13 is the final release of the Amazon WorkSpaces Chromebook client application\. Because [ Google is phasing out support for Chrome Apps](https://blog.chromium.org/2020/01/moving-forward-from-chrome-apps.html), there will be no further updates to the WorkSpaces Chromebook client application, and its use is unsupported\.
 
-For [ Chromebooks that support installing Android applications](https://sites.google.com/a/chromium.org/dev/chromium-os/chrome-os-systems-supporting-android-apps), we recommend using the [Workspaces Android Client Application](amazon-workspaces-android-client.md) instead\.
+For [ Chromebooks that support installing Android applications](https://sites.google.com/a/chromium.org/dev/chromium-os/chrome-os-systems-supporting-android-apps), we recommend using the [WorkSpaces Android client application](amazon-workspaces-android-client.md) instead\.
 
-If you are using a Chromebook launched before 2019, see the [ installation steps for Chromebooks launched before 2019](amazon-workspaces-android-client.md#chromebook_install_before_2019) before attempting to install the Amazon Workspaces Android client application\.
+If you are using a Chromebook launched before 2019, see the [ installation steps for Chromebooks launched before 2019](amazon-workspaces-android-client.md#chromebook_install_before_2019) before attempting to install the Amazon WorkSpaces Android client application\.
 
 In some cases, your WorkSpaces administrator might need to enable your Chromebook to install Android applications\. If you are unable to install the Android client application on your Chromebook, contact your WorkSpaces administrator for assistance\.
 
@@ -192,7 +192,7 @@ In some cases, your WorkSpaces administrator might need to enable your Chromeboo
 
 This behavior might occur if your device is not set to the same language as your WorkSpace, or if you're using a language\-specific keyboard, such as a French keyboard\.
 
-To resolve this issue, see [Amazon Workspaces Language and Keyboard Support](language_keyboard.md)\.
+To resolve this issue, see [Amazon WorkSpaces language and keyboard support](language_keyboard.md)\.
 
 ## The WorkSpaces client application won't run on my Mac<a name="older_client_osx"></a>
 
@@ -212,17 +212,17 @@ Versions 2\.5\.11 and earlier of the macOS client can no longer be installed on 
 
 If you are using version 2\.5\.11 or earlier and you upgrade from an older version of macOS to Catalina or later, you will no longer be able to use the 2\.5\.11 or earlier client\. 
 
-To resolve this issue, we recommend that affected users upgrade to the latest version of the macOS client that is available for download at [Amazon Workspaces Client Downloads](https://clients.amazonworkspaces.com/) \.
+To resolve this issue, we recommend that affected users upgrade to the latest version of the macOS client that is available for download at [Amazon WorkSpaces Client Downloads](https://clients.amazonworkspaces.com/) \.
 
-For more information about installing or updating the macOS client, see [Setup and Installation](amazon-workspaces-osx-client.md#osx_setup)\. 
+For more information about installing or updating the macOS client, see [Setup and installation](amazon-workspaces-osx-client.md#osx_setup)\. 
 
 ## I'm having trouble using the Windows logo key in Windows WorkSpaces when working on a Mac<a name="windows_key_osx"></a>
 
-By default, the Windows logo key on a Windows keyboard and the Command key on an Apple keyboard are both mapped to the Ctrl key when you're using the Amazon Workspaces macOS client application\. If you want to change this behavior so that these two keys are mapped to the Windows logo key, see [Remapping the Windows Logo Key or the Command Key](amazon-workspaces-osx-client.md#osx_remap_command_key) for instructions on how to remap these keys\.
+By default, the Windows logo key on a Windows keyboard and the Command key on an Apple keyboard are both mapped to the Ctrl key when you're using the Amazon WorkSpaces macOS client application\. If you want to change this behavior so that these two keys are mapped to the Windows logo key, see [Remap the Windows logo key or the Command key](amazon-workspaces-osx-client.md#osx_remap_command_key) for instructions on how to remap these keys\.
 
 ## My WorkSpace looks blurry on my Mac<a name="screen_blurry_osx"></a>
 
-If your screen resolution in WorkSpaces is low and objects look blurry, you need to turn on high DPI mode and adjust the display scaling settings on your Mac\. For more information, see [WorkSpaces High DPI Display Support](high_dpi_support.md)\.
+If your screen resolution in WorkSpaces is low and objects look blurry, you need to turn on high DPI mode and adjust the display scaling settings on your Mac\. For more information, see [WorkSpaces high DPI display support](high_dpi_support.md)\.
 
 ## I'm having trouble copying and pasting<a name="copy_paste"></a>
 
@@ -235,13 +235,13 @@ Clipboard redirection isn’t supported in the WorkSpaces Linux client applicati
 
 ## My screen is flickering or not updating properly, or my mouse isn't clicking in the right place<a name="screen_artifacts"></a>
 
-If you're using a version of the Amazon Workspaces Windows client application prior to version 3\.1\.4, you might experience the following screen update issues, caused by hardware acceleration:
+If you're using a version of the Amazon WorkSpaces Windows client application prior to version 3\.1\.4, you might experience the following screen update issues, caused by hardware acceleration:
 + The screen might have flickering black boxes in some places\.
 + The screen might not properly update on the WorkSpaces login page, or it might not properly update after you log in to your WorkSpace\. You might see artifacts on the screen\.
 + Your mouse clicks might not be lined up with the cursor position on the screen\.
 
 To address these issues, we recommend upgrading to version 3\.1\.4 or later of the Windows client application\. Starting with version 3\.1\.4, hardware acceleration is turned off by default in the Windows client application\. 
 
-However, if you need to enable hardware acceleration in version 3\.1\.4 or later, for example if you're experiencing slow performance when using the client, see [Managing Hardware Acceleration](amazon-workspaces-windows-client.md#windows_hardware_acceleration)\.
+However, if you need to enable hardware acceleration in version 3\.1\.4 or later, for example if you're experiencing slow performance when using the client, see [Manage hardware acceleration](amazon-workspaces-windows-client.md#windows_hardware_acceleration)\.
 
 If you need to use version 3\.1\.3 or earlier of the Windows client application, you can disable hardware acceleration in Windows\. To disable hardware acceleration for version 3\.1\.3 or earlier, see [Managing Hardware Acceleration](amazon-workspaces-windows-client.md#hardware_acceleration_313)\. Disabling hardware acceleration in Windows might affect the performance of other Windows applications\.

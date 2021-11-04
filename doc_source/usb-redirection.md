@@ -37,7 +37,7 @@ USB device connections do not persist across WorkSpaces streaming sessions\. You
 
 1. Log in to a PCoIP Windows WorkSpace using the WorkSpaces Windows client application\.
 
-1. On the client interface, click the icon to list the locally attached USB devices\.
+1. On the client interface, click the **Devices** icon ![\[Devices icon\]](http://docs.aws.amazon.com/workspaces/latest/userguide/images/devices-icon.png) to list the locally attached USB devices\.
 
 1. Select the USB device and choose **Use with WorkSpaces** from the menu next to the device name\.
 
@@ -45,7 +45,7 @@ USB device connections do not persist across WorkSpaces streaming sessions\. You
 
 **To disconnect your local USB device from your WorkSpace**
 
-1. On the client interface, click the icon to list the locally attached USB devices\.
+1. On the client interface, click the **Devices** icon ![\[Devices icon\]](http://docs.aws.amazon.com/workspaces/latest/userguide/images/devices-icon.png) to list the locally attached USB devices\.
 
 1. Select the USB device and choose **Use with local device** from the menu next to the device name\.
 

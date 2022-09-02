@@ -20,7 +20,7 @@ The following information will help you get started with the WorkSpaces Windows 
 
 ## Requirements<a name="windows-requirements"></a>
 
-The 4\.x client requires 64\-bit Microsoft Windows 8\.1 or Windows 10\.
+The 4\.x client requires 64\-bit Microsoft Windows 8\.1, Windows 10, or Windows 11\.
 
 The 3\.x client requires 32\-bit Microsoft Windows 7, Windows 8, or Windows 10\.
 
@@ -157,7 +157,7 @@ The WorkSpaces client applications support Japanese\. However, Japanese WorkSpac
 
 ## Display support<a name="windows-display-support"></a>
 
-WorkSpaces Value, Standard, Performance, Power, PowerPro, and GraphicsPro bundles support a maximum of four displays and a maximum resolution of 3840x2160 \(ultra\-high definition, or UHD\)\. The maximum supported resolution depends on the number of displays, as shown in the following table\.
+WorkSpaces Value, Standard, Performance, Power, PowerPro, Graphics\.g4dn, GraphicsPro\.g4dn, and GraphicsPro bundles support a maximum of four displays and a maximum resolution of 3840x2160 \(ultra\-high definition, or UHD\)\. The maximum supported resolution depends on the number of displays, as shown in the following table\.
 
 
 | Displays | Resolution | 
@@ -375,16 +375,24 @@ If you need to enable hardware acceleration to improve the performance of other 
 
 ## Release notes<a name="windows-release-notes"></a>
 
-The following table describes the changes to each release of the Windows client application\.
+The following table describes the changes to each release of the Windows client application\. As a general security best practice, we recommend that WorkSpaces customers update client software as relevant patches become available to obtain the latest updates\.
 
 
 | Release | Date | Changes | 
 | --- | --- | --- | 
+| 5\.2\.1 | August 24, 2022 |  Fixed the WorkSpaces login page rendering issues on Windows 8\.1  | 
+| 5\.2\.0 | August 2, 2022 |  Updated PCoIP SDK for the WorkSpaces Windows client  | 
+| 5\.1\.0 | June 30, 2022 |  Updated WSP SDK for Windows  | 
+| 5\.0\.0 | June 2, 2022 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
+| 4\.0\.6 | December 21, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
+| 4\.0\.5 | November 23, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
+| 4\.0\.4 | November 3, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
+| 4\.0\.3 | October 4, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
 | 4\.0\.2 | September 1, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
 | 4\.0\.1 | July 30, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
 | 4\.0\.0 | June 30, 2021 | The first 64\-bit release of the Windows client application\. | 
 | 3\.1\.10 | August 5, 2021 | Minor bug fixes and enhancements\. | 
-| 3\.1\.9 | June 29, 2021 | Minor bug fixes and enhancements\. | 
+| 3\.1\.9 | June 29, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
 | 3\.1\.8 | May 28, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
 | 3\.1\.7 | April 29, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-windows-client.html)  | 
 | 3\.1\.6 | April 8, 2021 |  Fixes for disconnects and crashes resulting from WorkSpaces Streaming Protocol \(WSP\) audio traffic optimization  | 

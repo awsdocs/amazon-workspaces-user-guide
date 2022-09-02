@@ -190,9 +190,10 @@ The following table describes the changes to each release of the Android client 
 
 | Release | Date | Changes | 
 | --- | --- | --- | 
+|  3\.0\.4  | October 14, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
 | 3\.0\.2 | July 13, 2021 |  Minor enhancements and fixes  | 
 | 3\.0\.1 | June 30, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
-| 2\.4\.21 | May 20, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
+| 2\.4\.21 | May 20, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html) Version 2\.4\.21 is the final release of the 32\-bit Amazon WorkSpaces Android client\. Because the 32\-bit PCoIP SDK for Android has reached the end of support, no further updates will be made to the 32\-bit WorkSpaces Android client\. If this release requires fixes, WorkSpaces will schedule the fixes for the next 64\-bit Android client release\. If this happens, you will need to upgrade to the 64\-bit Android client to receive the fix\.  | 
 |  2\.4\.20  | March 25, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 
 |  2\.4\.19  | February 22, 2021 |  Enhanced support for resolution 2560x1440  | 
 |  2\.4\.18  | October 19, 2020 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-android-client.html)  | 

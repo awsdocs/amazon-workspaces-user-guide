@@ -146,7 +146,7 @@ The WorkSpaces Linux client supports the following command shortcuts:
 
 ## Clipboard redirection<a name="linux_clipboard"></a>
 
-Clipboard redirection is not currently supported for the Linux client application\.
+Clipboard supports a maximum uncompressed object size of 20 MB\. For more information, see [ I'm having trouble copying and pasting](https://docs.aws.amazon.com/workspaces/latest/userguide/client_troubleshooting.html)\.
 
 ## Disconnect<a name="linux_disconnect"></a>
 
@@ -162,6 +162,8 @@ The following table describes the changes to each release of the Linux client ap
 
 | Release | Date | Changes | 
 | --- | --- | --- | 
+| 4\.2\.0 | August 24, 2022 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-linux-client.html)  | 
+| 4\.1\.0 | April 14, 2022 | Enabled clipboard redirection on Linux WorkSpaces\. | 
 | 4\.0\.1 | August 12, 2021 | Minor bug fixes and enhancements\. | 
 | 3\.1\.9 | July 1, 2021 | Minor bug fixes and enhancements\. | 
 | 3\.1\.8 | June 3, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-linux-client.html)  | 

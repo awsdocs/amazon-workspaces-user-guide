@@ -80,7 +80,7 @@ WorkSpaces enforces the use of digital certificates issued by Amazon Trust Servi
 **To resolve certificate failures**
 
 Use one of the following solutions for certificate failures\.
-+ For the Windows client, download and install the latest Windows client application from [Amazon WorkSpaces Client Downloads](https://clients.amazonworkspaces.com/)\. During installation, the client application ensures that your operating system trusts certificates issued by Amazon Trust Services\. If updating your client does not resolve the issue, contact your Amazon WorkSpaces administrator\.
++ For the Windows client, download and install the latest Windows client application from [https://clients\.amazonworkspaces\.com/](https://clients.amazonworkspaces.com/) \. During installation, the client application ensures that your operating system trusts certificates issued by Amazon Trust Services\. If updating your client does not resolve the issue, contact your Amazon WorkSpaces administrator\.
 + For all other clients, contact your Amazon WorkSpaces administrator\.
 
 ## It sometimes takes several minutes to log in to my Windows WorkSpace<a name="login_delay"></a>
@@ -212,7 +212,7 @@ Versions 2\.5\.11 and earlier of the macOS client can no longer be installed on 
 
 If you are using version 2\.5\.11 or earlier and you upgrade from an older version of macOS to Catalina or later, you will no longer be able to use the 2\.5\.11 or earlier client\. 
 
-To resolve this issue, we recommend that affected users upgrade to the latest version of the macOS client that is available for download at [Amazon WorkSpaces Client Downloads](https://clients.amazonworkspaces.com/) \.
+To resolve this issue, we recommend that affected users upgrade to the latest version of the macOS client that is available for download at [https://clients\.amazonworkspaces\.com/](https://clients.amazonworkspaces.com/) \.
 
 For more information about installing or updating the macOS client, see [Setup and installation](amazon-workspaces-osx-client.md#osx_setup)\. 
 
@@ -228,8 +228,6 @@ If your screen resolution in WorkSpaces is low and objects look blurry, you need
 
 If you are having trouble copying and pasting, confirm the following to help solve your issue:
 + Your administrator has enabled clipboard redirection for your WorkSpace\.
-**Note**  
-Clipboard redirection isn’t supported in the WorkSpaces Linux client application\.
 + The uncompressed object size is under the maximum of 20 MB\.
 + The data type that you copied is supported for clipboard redirection\. For a list of supported data types, see [Understanding Cloud Access Software Copy/Paste Feature](https://help.teradici.com/s/article/1654) in the Teradici documentation\.
 

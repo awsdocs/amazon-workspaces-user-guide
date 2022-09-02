@@ -4,13 +4,13 @@
 *****Copyright &copy; Amazon Web Services, Inc. and/or its affiliates. All rights reserved.*****
 
 -----
-Amazon's trademarks and trade dress may not be used in 
-     connection with any product or service that is not Amazon's, 
-     in any manner that is likely to cause confusion among customers, 
-     or in any manner that disparages or discredits Amazon. All other 
-     trademarks not owned by Amazon are the property of their respective
-     owners, who may or may not be affiliated with, connected to, or 
-     sponsored by Amazon.
+Amazon's trademarks and trade dress may not be used in
+connection with any product or service that is not Amazon's,
+in any manner that is likely to cause confusion among customers,
+or in any manner that disparages or discredits Amazon. All other
+trademarks not owned by Amazon are the property of their respective
+owners, who may or may not be affiliated with, connected to, or
+sponsored by Amazon.
 
 -----
 ## Contents
@@ -19,6 +19,7 @@ Amazon's trademarks and trade dress may not be used in
 + [WorkSpaces client peripheral device support](peripheral_devices.md)
 + [WorkSpaces high DPI display support](high_dpi_support.md)
 + [WorkSpaces client smart card support](smart_card_support.md)
++ [Amazon Connect audio optimization support](amazon_connect_support.md)
 + [Amazon WorkSpaces language and keyboard support](language_keyboard.md)
 + [WorkSpaces USB redirection](usb-redirection.md)
 + [WorkSpaces Clients](amazon-workspaces-clients.md)

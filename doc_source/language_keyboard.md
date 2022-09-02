@@ -47,14 +47,14 @@ The following languages require the use of an Input Method Editor \(IME\) to ent
 + Korean \(Old Hangul\)
 + Tigrinya \(Ethiopia\)
 
-If you're using a language\-specific keyboard, you might want your local client device and your remote Windows WorkSpace using the WorkSpaces Streaming Protocol \(WSP\) to automatically use the same keyboard layout\. How you do this depends on whether you're using an IME language or a non\-IME language\. 
+If you want to use a specific keyboard language layout while using WorkSpaces Streaming Protocol \(WSP\), you can follow one of the following instructions based on whether you're using an IME language or a non\-IME language\.
 
 **Note**  
 If you want to use the Japanese 106/109 keyboard layout, be sure to use the procedure specific to the Japanese 106/109 layout\.
 
 ### To use a non\-IME language<a name="wsp_non_ime"></a>
 
-If you're using a non\-IME language \(for example, French\), use the following procedure to automatically use the same keyboard layout on your local client device and your remote WorkSpace\.
+If you're using a non\-IME language \(for example, French\), use the following procedure\.
 
 1. Set the local client device to the language\-specific keyboard that you want\.
 
@@ -78,17 +78,11 @@ If you're using a non\-IME language \(for example, French\), use the following p
 
 1. Select the new keyboard layout for the language that you installed\. To do so, in the Windows taskbar, choose **ENG** in the lower\-right corner next to the date and time\. A menu appears\. Select the language keyboard that you want to use for input\. 
 
-1. Start your WorkSpaces client application and log into your WSP WorkSpace\.
-
-1. While in your WorkSpace, press any key\. The keyboard layout for your WorkSpace is automatically set to the same one that you chose for your client device\. 
-
-Whenever you start typing in your WSP WorkSpace, the keyboard layout used in your WorkSpace will now automatically be the same as the keyboard layout that's selected on your client device\.
-
 To change the display language in your WorkSpaces desktop client application, see [Client Language \(Linux\)](amazon-workspaces-linux-client.md#linux_client_lang), [Client Language \(macOS\)](amazon-workspaces-osx-client.md#osx_client_lang), or [Client Language \(Windows\)](amazon-workspaces-windows-client.md#windows_client_lang)\.
 
 ### To use an IME language other than Japanese 106/109<a name="wsp_ime_not_japanese_106"></a>
 
-If you're using an IME language other than the Japanese 106/109 keyboard layout \(for example, Korean\), use the following procedure to automatically use the same keyboard layout on your local client device and your remote WorkSpace\.
+If you're using an IME language other than the Japanese 106/109 keyboard layout \(for example, Korean\), use the following procedure\.
 
 1. Set the local client device's keyboard layout to the IME language that you want\.
 
@@ -136,13 +130,13 @@ If you're using an IME language other than the Japanese 106/109 keyboard layout 
 
 1. Inside the WorkSpace, in the Windows taskbar, choose **ENG** in the lower\-right corner next to the date and time\. A menu appears\. Select the IME language that you installed\. 
 
-You can now use your IME language in your WSP WorkSpace\. Whenever you start typing in your WorkSpace, the keyboard layout used in your WorkSpace will now automatically be the same as the keyboard layout that's selected on your client device\. 
+You can now use your IME language in your WSP WorkSpace\.
 
 To change the display language in your WorkSpaces desktop client application, see [Client Language \(Linux\)](amazon-workspaces-linux-client.md#linux_client_lang), [Client Language \(macOS\)](amazon-workspaces-osx-client.md#osx_client_lang), or [Client Language \(Windows\)](amazon-workspaces-windows-client.md#windows_client_lang)\.
 
 ### To use the Japanese 106/109 keyboard layout<a name="wsp_ime_japanese_106"></a>
 
-If you're using the Japanese 106/109 keyboard layout, use the following procedure to automatically use the same keyboard layout on your local client device and your remote WorkSpace\. 
+If you're using the Japanese 106/109 keyboard layout, use the following procedure\.
 
 1. Set the local client device’s display language to Japanese, and set the keyboard to use the Japanese 106/109 keyboard layout\. 
 
@@ -200,6 +194,6 @@ If you're using the Japanese 106/109 keyboard layout, use the following procedur
 
 1. Inside the WorkSpace, in the Windows taskbar, choose **ENG** in the lower\-right corner next to the date and time\. A menu appears\. Select **Japanese Microsoft IME**\. 
 
-You can now use the Japanese 106/109 keyboard layout in your WSP WorkSpace\. Whenever you start typing in your WorkSpace, the keyboard layout used in your WorkSpace will now automatically be the same as the keyboard layout that's selected on your client device\.
+You can now use the Japanese 106/109 keyboard layout in your WSP WorkSpace\.
 
 To change the display language in your WorkSpaces desktop client application, see [Client Language \(Linux\)](amazon-workspaces-linux-client.md#linux_client_lang), [Client Language \(macOS\)](amazon-workspaces-osx-client.md#osx_client_lang), or [Client Language \(Windows\)](amazon-workspaces-windows-client.md#windows_client_lang)\.

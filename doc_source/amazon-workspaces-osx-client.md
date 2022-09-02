@@ -249,6 +249,14 @@ The following table describes the changes to each release of the client applicat
 
 | Release | Date | Changes | 
 | --- | --- | --- | 
+| 5\.2\.0 | August 24, 2022 |  Fixed WorkSpaces login issue when using Smart Card\.  | 
+| 5\.1\.0 | June 30, 2022 |  Updated PCoIP SDK for MacOS\.  | 
+| 4\.0\.7 | March 3, 2022 | Fixed a WorkSpaces connection error caused by the Proxy settings on MacBook\. | 
+| 4\.0\.6 | December 21, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
+| 4\.0\.5 | November 23, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
+| 4\.0\.4 | November 3, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 
+| 4\.0\.3 | October 4, 2021 | Bug fixes and enhancements\. | 
+| 4\.0\.2 | September 8, 2021 | Minor bug fixes and enhancements\. | 
 | 4\.0\.1 | August 5, 2021 | Minor bug fixes and enhancements\. | 
 | 3\.1\.9 | June 29, 2021 | Minor bug fixes and enhancements\. | 
 | 3\.1\.8 | May 28, 2021 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workspaces/latest/userguide/amazon-workspaces-osx-client.html)  | 

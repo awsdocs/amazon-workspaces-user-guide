@@ -2,21 +2,24 @@
 
 Users can access their Windows WorkSpaces from any location using a web browser\. This is ideal for users who access WorkSpaces from a personally\-owned or locked\-down device, because installing and maintaining a client application can be challenging\. Instead of using a traditional remote access solution and installing the appropriate client application, users can visit the website to access their work resources\.
 
-**Note**  
-Web Access is not available for some Windows 10 WorkSpaces that are using the PCoIP protocol\. If your PCoIP WorkSpace is powered by Windows Server 2019, Web Access is not available\.
-Web Access is currently not available in the Asia Pacific \(Mumbai\) Region\.
-A web browser cannot be used to connect to Amazon Linux WorkSpaces\.
+**Limits**
++ Web Access is not available for some Windows 10 WorkSpaces that use the PCoIP protocol\. If your PCoIP WorkSpace is powered by Windows Server 2019, Web Access is not available\.
++ You can't use a web browser to connect to GPU\-enabled WorkSpaces and Amazon Linux WorkSpaces\.
++ As of October 1, 2020, you can't use the Amazon WorkSpaces Web Access client to connect to Windows 7 custom WorkSpaces or to Windows 7 Bring Your Own License \(BYOL\) WorkSpaces\.
 
-**Important**  
-Beginning October 1, 2020, customers will no longer be able to use the Amazon WorkSpaces Web Access client to connect to Windows 7 custom WorkSpaces or to Windows 7 Bring Your Own License \(BYOL\) WorkSpaces\.
+**Topics**
++ [Website](#web-access-url)
++ [Requirements](#web-access-requirements)
++ [Client views](#web-access-views)
++ [Proxy servers](#web-access-proxy)
 
 ## Website<a name="web-access-url"></a>
 
-Open [WorkSpaces WorkSpaces Web Access](https://clients.amazonworkspaces.com/webclient) to log on to your Windows WorkSpace through your web browser\.
+Open [WorkSpaces Web Access](https://clients.amazonworkspaces.com/webclient) to log on to your Windows WorkSpace through your web browser\.
 
 ## Requirements<a name="web-access-requirements"></a>
 
-You can access a WorkSpace running the Windows 10 desktop experience and one of the following bundles:
+You can access a WorkSpace by running the Windows 10 desktop experience and one of the following bundles:
 + Value
 + Standard
 + Performance

@@ -8,6 +8,7 @@ After your administrator creates your WorkSpace, you receive an invitation email
 + [Determine your client version](#determine-version)
 + [Determine your streaming protocol](#determine-protocol)
 + [Verify networking requirements](#verify-requirements)
++ [\(Optional\) Change your password](#change-workspaces-password)
 + [\(Optional\) Access the applications assigned to you](#access-wam-apps)
 + [\(Optional\) Integrate with WorkDocs](#workdocs-integration)
 
@@ -72,6 +73,10 @@ To ensure a good experience with your WorkSpace, verify that your client device 
 1. Choose **Network** in the lower\-right corner of the client application\. The client application tests the network connection, ports, and round\-trip time, and reports the results of these tests\.
 
 1. Choose **Dismiss** to return to the sign\-in page\.
+
+## \(Optional\) Change your password<a name="change-workspaces-password"></a>
+
+For directions, see [Change your password](manage_workspace_client.md#client-change-password)\.
 
 ## \(Optional\) Access the applications assigned to you<a name="access-wam-apps"></a>
 

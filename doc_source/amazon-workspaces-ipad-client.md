@@ -167,6 +167,7 @@ The following table describes the changes to each release of the iPad client app
 
 | Release | Date | Changes | 
 | --- | --- | --- | 
+|  2\.4\.19  | Oct 20, 2021 |  Resolves the issue of users not being able to close the on\-screen keyboard in iPadOS 15\.  | 
 |  2\.4\.18  | May 9, 2021 |  Addresses the crash on startup issue on iPadOS 14\.5  | 
 |  2\.4\.17  | February 18, 2021 |  Improved Japanese keyboard support  | 
 |  2\.4\.16  | September 27, 2020 |  Minor bug fixes and enhancements  | 

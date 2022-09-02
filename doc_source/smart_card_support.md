@@ -9,7 +9,7 @@ For example, you can use smart cards for in\-session authentication while workin
 **Note**  
 Both [Common Access Card \(CAC\)](https://www.cac.mil/Common-Access-Card) and [Personal Identity Verification \(PIV\)](https://piv.idmanagement.gov/) smart cards are supported\. Other types of hardware or software\-based smart cards might also work, but they haven't been fully tested for use with the WSP protocol\.
 For in\-session authentication and pre\-session authentication on Linux or Windows WorkSpaces, only one smart card is currently allowed at a time\.
-In\-session authentication is available in all Regions where WSP is supported\. Pre\-session authentication is available in the following Regions:  
+In\-session authentication is only available in the AWS GovCloud \(US\-West\) Region\. Pre\-session authentication is available in the following Regions:  
 Asia Pacific \(Sydney\) Region
 Asia Pacific \(Tokyo\) Region
 Europe \(Ireland\) Region

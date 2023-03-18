@@ -4,7 +4,7 @@ Users can access their Windows WorkSpaces from any location using a web browser\
 
 **Limits**
 + Web Access is not available for some Windows 10 WorkSpaces that use the PCoIP protocol\. If your PCoIP WorkSpace is powered by Windows Server 2019, Web Access is not available\.
-+ You can't use a web browser to connect to GPU\-enabled WorkSpaces and Amazon Linux WorkSpaces\.
++ You can't use a web browser to connect to GPU\-enabled WorkSpaces or Amazon Linux 2 WorkSpaces. Ubuntu WorkSpaces are supported.
 + As of October 1, 2020, you can't use the Amazon WorkSpaces Web Access client to connect to Windows 7 custom WorkSpaces or to Windows 7 Bring Your Own License \(BYOL\) WorkSpaces\.
 
 **Topics**
@@ -15,7 +15,7 @@ Users can access their Windows WorkSpaces from any location using a web browser\
 
 ## Website<a name="web-access-url"></a>
 
-Open [WorkSpaces Web Access](https://clients.amazonworkspaces.com/webclient) to log on to your Windows WorkSpace through your web browser\.
+Open [WorkSpaces Web Access](https://clients.amazonworkspaces.com/webclient) to log on to your Windows or Ubuntu WorkSpace through your web browser\.
 
 ## Requirements<a name="web-access-requirements"></a>
 

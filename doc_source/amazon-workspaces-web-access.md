@@ -19,7 +19,7 @@ Open [WorkSpaces Web Access](https://clients.amazonworkspaces.com/webclient) to 
 
 ## Requirements<a name="web-access-requirements"></a>
 
-You can access a WorkSpace by running the Windows 10 desktop experience and one of the following bundles:
+You can access a WorkSpace by running Ubuntu or the Windows 10 desktop experience and one of the following bundles:
 + Value
 + Standard
 + Performance
